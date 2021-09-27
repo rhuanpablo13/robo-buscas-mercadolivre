@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/list-style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <title>Lista</title>
+</head>
+
+
+<body>
+  
+  <div id="snackbar-error"></div>
+  <div id="snackbar-success"></div>
+  <div id="snackbar"><%=msg%></div>
+
+  <!-- <form method="POST" action="/lista/salvar"> -->
+    <div align="center"><h2>Lista de buscas</h2></div>
+    <div class="list-content">
+      <div align="right" class="search">
+        <input id="email" name="email" type="email" class="input-email" placeholder="Informe seu email" value="<%= email %>">
+        <input id="name" name="name" type="text" placeholder="Nome do disco">
+        <button type="reset" class="button" onclick="adicionar();">Adicionar</button>
+        <button id="salvar" class="button button-close" onclick="salvarESair(this);">Salvar e Sair</button>
+      </div>
+      <ul id='items-list'>
+        <% items.forEach((item, i)=>{ %>
+          <li id="<%=item.id%>">
+            <label><%=item.descricao%></label>
+            <input type="hidden" value='{"id": <%=item.id%>, "disco": "<%=item.descricao%>"}' name='discos'/>
+            <button type="reset" class="close" id="<%=item.id%>" onclick="excluir(this);"><i class="fa fa-close"></i></button>
+          </li>
+        <%})%>
+      </ul>
+    </div>
+  <!-- </form> -->
+
+</body>
+
+
+
+<script>
+
+function startSnackbar(id, msg) {
+  var x = document.getElementById(id);
+  x.innerHTML = msg;
+  x.className = "show";  
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function adicionar() {
+  $.ajax({
+    type: 'POST', url: '/lista/adicionar', data: {'termo': $('#name').val()},
+    success: function(result) {
+      $('#items-list').append(result);
+      startSnackbar('snackbar-success', 'Termo adicionado com sucesso')
+    }, 
+    error: function(result) {
+      startSnackbar('snackbar-error', result.responseJSON.error)
+      $('#name').val('')
+    }
+  });
+}
+
+function excluir(e) {
+  let id = e.id;
+  $.ajax({
+      type: 'DELETE', url: '/lista/deletar', data: {'id': id},
+      success: function(result) {
+        $('#'+id).remove();
+        startSnackbar('snackbar-success', 'Termo excluido com sucesso')
+      }, 
+      error: function(result) {
+        startSnackbar('snackbar-error', result.responseJSON.error)
+      }
+  });
+}
+
+function salvarESair(e) {
+
+  var values = $("#items-list li input").map(function() {
+    return this.defaultValue;
+  }).get();
+
+  var email = $('#email').val();
+  if (email == '') {
+    startSnackbar('snackbar-error', 'Informe um email')
+    return;
+  }
+
+  $.ajax({
+      type: 'POST', url: '/lista/salvar', data: {'data': values, 'email': email},
+      success: function(result) {
+        startSnackbar('snackbar-success', 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)')
+      }, 
+      error: function(result) {
+        startSnackbar('snackbar-error', result.responseJSON.error)
+      }
+  });
+}
+
+
+
+
+function teste() {
+  alert()
+}
+
+</script>
+
+
+</html>
