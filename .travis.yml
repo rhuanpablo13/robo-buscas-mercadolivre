@@ -1,3 +1,9 @@
 language: node_js
 node_js:
-  - 7
+ - "12.13.1"
+branches:
+  only:
+  - main
+script:
+- npm install
+- npm start
