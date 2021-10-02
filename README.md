@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/rhuanpablo13/robo-buscas-mercadolivre.svg?branch=B-02)](https://app.travis-ci.com/rhuanpablo13/robo-buscas-mercadolivre)
+
 # nodejs-passport-login
 A simples login example in Node.js web app with Passport
 
