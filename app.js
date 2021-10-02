@@ -5,6 +5,8 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const passport = require('passport');
 const session = require('express-session');
+// const cron = require("node-cron");
+const cron = require("node-schedule");
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -12,13 +14,22 @@ const loginRouter = require('./routes/login');
 const listaRouter = require('./routes/lista');
 
 
-
 function authenticationMiddleware(req, res, next) {
-  if (req.isAuthenticated()) return next();
+  if (req.isAuthenticated()) {
+    return next();
+  }
   res.redirect('/login?fail=true');
 }
 
 const app = express();
+
+
+// cron.schedule("* * * * *", () => {
+//   console.log("Executando a tarefa a cada 1 minuto")
+//   listaRouter.main()
+// });
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -41,6 +52,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+
 app.use('/login', loginRouter);
 app.use('/users', authenticationMiddleware, usersRouter);
 app.use('/', authenticationMiddleware,  indexRouter);
@@ -61,5 +73,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
+
 
 module.exports = app;

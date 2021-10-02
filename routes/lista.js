@@ -7,17 +7,17 @@ const puppeteer = require('puppeteer');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 
-const http = require('http');
-const path = require('path');
+// const cron = require("node-cron");
+const cron = require("node-schedule");
 
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
+    log("\tIniciando...")
+
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
-
-    log(getTime() + "\tIniciando...")
 
     if (todosOsTermos == null) {
         res.render('lista', {
@@ -28,11 +28,12 @@ router.get('/', async (req, res, next) => {
     } else {
         res.render('lista', {
             msg: '',
-            items: await todosTermos(),
-            email: await buscaEmail()
+            items: todosOsTermos,
+            email: email
         });
     }
 });
+
 
 /* POST lista page */
 router.post('/adicionar', async (req, res, next) => {
@@ -52,7 +53,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log(getTime() + "\tNovo termo: " + termo)
+        log("\tNovo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -83,89 +84,125 @@ router.delete('/deletar', async (req, res, next) => {
     res.sendStatus(201).send('')
 });
 
+
 /* POST lista page */
 router.post('/salvar', async (req, res, next) => {
 
-    res.sendStatus(201).send('')
     passport.authenticate('local', {
         failureRedirect: '/login?fail=true'
     });
 
     let email = req.body.email;
-    if (email == null || email == 'undefined') {
+    if (email == null || email == 'undefined' || email == '') {
         res.status(500).send({
-            msg: 'Informe um email'
+            error: 'Informe um email'
         })
+        return;
     }
 
-    log(getTime() + '\tSalvando e saindo...')
+    await salvarEmail(email);
 
-    res.render('lista', {
-        msg: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
-    });
+    log('\tSalvando e saindo...\n\n')
 
-    setTimeout(function() { 
-        req.logout();
-        //res.redirect('/login');
-    }, 4000);
-
-    // await main();
+    res.status(200).send({
+        success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
+    })
+    
 });
 
 
-async function main() {
+function verificaArquivoUrls() {
+    try {
+        let data = fs.readFileSync('./urls.txt', 'utf8')
+        return {'status': true, 'data': data};
+    } catch (err) {}
+    return {'status': false, 'data': []};
+}
 
-    let novosDiscos = [];
-    const url_produto = 'https://produto.mercadolivre.com.br/'
 
-    // recuperar os discos do banco
-    let termos = await todosTermos()
+async function enviarEmails(novosDiscos) {    
+    log('Enviando email com ' + novosDiscos.length + ' discos novos')
+    // novosDiscos.forEach(async (discoUrl) => {
+    await sendMail(
+        "rhuanpablo13saga@gmail.com", 
+        "Fofinho@123", 
+        novosDiscos
+    )
+    // })
+    apagarArquivoUrl();
+}
 
-    // pesquisar os termos no site do mercado livre
-    const url_lista = 'https://lista.mercadolivre.com.br/musica/'
+
+const roboCronEmail = async () => {
+    log('Executando roboCronEmail ...')
+    // Execute a cron job when the minute is 01 (e.g. 19:30, 20:30, etc.)
+    const job = cron.scheduleJob('*/2 * * * *', async () => {
+        let novosDiscos = verificaArquivoUrls();
+        if (novosDiscos.status) {
+            let array = novosDiscos.data.split('#');
+            await enviarEmails(novosDiscos.data)
+        }
+    });
+}
+
+
+const roboCron = async () => {
+    log('Executando roboCron ...')
+    // Execute a cron job when the minute is 01 (e.g. 19:01, 20:01, etc.)
+    const job = cron.scheduleJob('*/1 * * * *', () => 
+        coletarDiscos()
+    );
+    // job.invoke()
+}
+
+
+roboCron();
+roboCronEmail();
+
+async function coletarDiscos() {
+
+    log('Iniciando o robô :)')
     
+    // recuperar os discos do banco
+    let termos = await todosTermos();
+    
+    // pesquisar os termos no site do mercado livre
     if (termos != null) {
-        termos.forEach(async (termo) => {
+        termos.forEach(async (termo) => {           
             
             const id_termo = termo.id;
             const descricao = termo.descricao;
-
+            
             // pegar os códigos e fazer a mágica acontecer
-            let discos = await collectData((url_lista + descricao), true, true)
+            let discos = await collectData(descricao, true, true)
 
             if (typeof discos !== 'undefined' && discos.length > 0) {
                 
                 discos.forEach(async (grupo) => {            
-                    grupo.forEach(async (codigo, i) => {
-                        
+                    await grupo.forEach(async (codigo) => {
                         try {
                             let existe = await existeCodigo(codigo)
                             if (! existe) {
-                                log(getTime() + '\tEnviar email e inserir no banco -> ' + id_termo + " -> " + descricao)
-        
-                                novosDiscos.push(url_produto + codigo.replace('MLB', 'MLB-'))
-
-                                // sendMail(
-                                //     "rhuanpablo13saga@gmail.com", 
-                                //     "Fofinho@123", 
-                                //     'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
-                                // )
-                                await inserirNovoDisco(codigo, id_termo)
+                                let url = await inserirNovoDisco(codigo, id_termo)
+                                log('novo: ' + codigo)
+                                await gravarNovaUrl(descricao + '\t' + url);
+                                
                             } else {
-                                log(getTime() + '\tCódigo já está cadastrado: ' + codigo)
+                                log('já existe: ' + codigo)
                             }
                         } catch (error) {
-                            log(getTime() + '\t' + error)
+                            log(error)
                         }
                     })
                 })
-
+                
             } else {
-                log(getTime() + "\tNenhum disco novo encontrado para o termo: " + termo);
+                log("Nenhum disco novo encontrado para o termo: " + descricao);
             }
         })
-    }    
+    }
 }
+
 
 async function sendMail(user_mail, pass, content) {
     const remetente = nodemailer.createTransport({
@@ -183,42 +220,51 @@ async function sendMail(user_mail, pass, content) {
     var emailASerEnviado = {
         from: user_mail,
         to: user_mail,
-        subject: 'Aqui está um novo disco que encontrei pra vc :) ',
+        subject: 'Aqui estão novos discos que encontrei pra vc :) ',
         text: content,
     };
 
 
     remetente.sendMail(emailASerEnviado, function(error){
         if (error) {
-            console.log(error);
+            log('' + error);
         } else {
-            console.log('Email enviado com sucesso. ' + content);
+            log('Email enviado com sucesso. ' + content);
         }
     });
 }
 
 async function collectData(url, headless = false, closeBrowser = true) {
+    log('Iniciando a coleta de dados...')
     const browser = await puppeteer.launch({ headless: headless, devtools: false });
     const page = await browser.newPage();
+    url = 'https://lista.mercadolivre.com.br/musica/' + url;
+
     await page.goto(url);
     let registros = [];
     
-    log(getTime() + '\tPesquisando em: ' + url)
+    log('Pesquisando em: ' + url)
     let pages = await numberPages(page);
 
-    console.log(getTime() + '\tPáginas encontradas: ' + pages)
+    log('Quantidade de páginas encontradas: ' + pages)
     if (pages == 0) {
         await browser.close();
         return [];
     }
 
-    while (await currentNumberPage(page) < pages) {
+    if (pages == 1) {
         registros.push(await scrap(page));
-        await next(page);
-    }    
-    registros.push(await scrap(page));
+    }
+
+    if (pages > 1) {
+        while (await currentNumberPage(page) < pages) {
+            registros.push(await scrap(page));
+            await next(page);
+        }    
+        registros.push(await scrap(page));
+    }
     
-    log(getTime() + '\tFim pesquisa')
+    log('Encerrando a coleta de dados para ' + url)
     if (closeBrowser || headless == true)
         await browser.close();
     return registros;
@@ -241,7 +287,9 @@ async function next(page) {
 
 async function numberPages(page) {
     return await page.evaluate(() => {
-        return parseInt(document.querySelector('.andes-pagination__page-count').textContent.split('de ')[1]);
+        if (document.querySelector('.andes-pagination__page-count') != null)
+            return parseInt(document.querySelector('.andes-pagination__page-count').textContent.split('de ')[1]);
+        return 1;
     });
 }
 
@@ -251,7 +299,6 @@ async function currentNumberPage(page) {
         return parseInt(document.querySelector('.andes-pagination__button--current').textContent);
     });
 }
-
 
 /**
  * Termo:
@@ -270,7 +317,7 @@ async function todosTermos() {
         return null;
     }
 
-    log(getTime() + '\tBuscando todos os termos cadastrados: ' + retorno[0].length)
+    log('Buscando todos os termos cadastrados => Encontrados: ' + retorno[0].length)
     return retorno[0].map((ret) => {
         return {
             'id' : ret.ID,
@@ -292,7 +339,7 @@ async function inserirNovoTermoDeBusca(termo) {
     let conn = await connect();
     const sql = 'INSERT INTO TERMO(DESCRICAO) VALUES (?);';
     const values = [termo];
-    log(getTime() + "\tInserindo novo termo de busca: " + termo);
+    log("\tInserindo novo termo de busca: " + termo);
     let retorno = await conn.query(sql, values);
     await disconnect(conn);
     return retorno;
@@ -304,8 +351,9 @@ async function inserirNovoTermoDeBusca(termo) {
  * @returns bool
  */
 async function existeCodigo(codigo) {
+    let url_produto = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
     let conn = await connect();
-    let retorno = await conn.query('SELECT COUNT(CODIGO) AS QTD FROM DISCO WHERE CODIGO = "' + codigo + '";');
+    let retorno = await conn.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = "' + url_produto + '";');
     await disconnect(conn);
     return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
 }
@@ -352,16 +400,15 @@ async function existeTermoEmDisco(id_termo) {
  * @returns objeto inserido
  */
 async function inserirNovoDisco(codigo, id_termo) {
-    if (await existeCodigo(codigo)) {
-        return null;
-    }
     let conn = await connect();
-    const sql = 'INSERT INTO DISCO(CODIGO, ID_TERMO) VALUES (?, ?);';
-    const values = [codigo, id_termo];
-    log(getTime() + "\tInserindo novo disco: " + codigo + " - id_termo: " + id_termo);
-    let retorno = await conn.query(sql, values);
+    const sql = 'INSERT INTO DISCO(URL, ID_TERMO) VALUES (?, ?);';
+    let url = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
+
+    const values = [url, id_termo];
+    log("Inserindo nova url: " + url + " - id_termo: " + id_termo);
+    await conn.query(sql, values);
     await disconnect(conn);
-    return retorno;
+    return url;
 }
 
 async function removerTermoDeBusca(id_termo) {
@@ -371,14 +418,14 @@ async function removerTermoDeBusca(id_termo) {
 
     if (await existeTermoEmDisco(id_termo)) {
         const sql = 'DELETE FROM DISCO WHERE ID_TERMO = (?);';
-        log(getTime() + "\tRemovendo discos onde o id_termo é: " + id_termo);
+        log("Removendo discos onde o id_termo é: " + id_termo);
         await conn.query(sql, values);
         excluiu = true;
     }
 
     if (await existeIdTermo(id_termo)) {
         sql = 'DELETE FROM TERMO WHERE ID = (?);';
-        log(getTime() + "\tRemovendo termo id: " + id_termo);
+        log("Removendo termo id: " + id_termo);
         await conn.query(sql, values);
         excluiu = true;
     }
@@ -390,7 +437,7 @@ async function connect() {
     if(global.connection && global.connection.state !== 'disconnected')
         return global.connection;
  
-    const connection = await mysql.createConnection("mysql://root:@localhost:3306/robo");
+    const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
     console.log("Conectou no MySQL!");
     global.connection = connection;
     return connection;
@@ -399,7 +446,6 @@ async function connect() {
 async function disconnect(conn) {
     await conn.close
     global.connection.close
-    console.log('Desconectando...')
 }
 
 async function buscaEmail() {
@@ -410,28 +456,45 @@ async function buscaEmail() {
 }
 
 async function salvarEmail(email) {
+    log('Salvando email: ' + email)
     let conn = await connect();
     let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM EMAIL;');
     if (retorno[0] == '' || retorno[0][0].QTD == 0) {
         const sql = 'INSERT INTO EMAIL(EMAIL) VALUES (?);';
         const values = [email];
+        log('Inserindo email: ' + email)
         await conn.query(sql, values);
     } else {
         const sql = 'UPDATE EMAIL SET EMAIL = ?;';
         const values = [email];
+        log('Atualizando email para: ' + email)
         await conn.query(sql, values);
     } 
     await disconnect(conn);
-    log(getTime() + '\tSalvando email: ' + email)
-    return true;
 }
 
-async function log(data) {
-    fs.appendFile('log.txt', (data + "\n"), (err) => {
+async function log(data, time = true) {
+    if (time) {
+        data = getTime() + '\t' + data + "\n";
+    }
+    fs.appendFile('log.txt', data + "\n", (err) => {
+        if (err) throw err;
+        console.log(data)
+    });
+}
+
+async function gravarNovaUrl(data) {
+    fs.appendFile('urls.txt', (data + "\n"), (err) => {
         if (err) throw err;
     });
 }
 
+async function apagarArquivoUrl() {
+    try {
+        log('Apagando arquivo de urls')
+        fs.unlinkSync('urls.txt')
+    } catch(err) { }
+}
 
 function getTime() {
     var dataAtual = new Date();

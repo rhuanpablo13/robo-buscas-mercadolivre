@@ -88,15 +88,15 @@ function salvarESair(e) {
   }).get();
 
   var email = $('#email').val();
-  if (email == '') {
-    startSnackbar('snackbar-error', 'Informe um email')
-    return;
-  }
 
   $.ajax({
       type: 'POST', url: '/lista/salvar', data: {'data': values, 'email': email},
       success: function(result) {
-        startSnackbar('snackbar-success', 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)')
+        console.log(result)
+        startSnackbar('snackbar-success', result.success)
+        // setTimeout(function() {
+        //   window.location.href = '/login'
+        // }, 3000)
       }, 
       error: function(result) {
         startSnackbar('snackbar-error', result.responseJSON.error)
