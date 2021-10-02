@@ -437,7 +437,7 @@ async function connect() {
     if(global.connection && global.connection.state !== 'disconnected')
         return global.connection;
  
-    const connection = await mysql.createConnection("mysql://us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
+    const connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
     console.log("Conectou no MySQL!");
     global.connection = connection;
     return connection;
