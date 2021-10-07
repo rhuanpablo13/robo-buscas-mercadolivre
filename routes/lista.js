@@ -191,7 +191,7 @@ async function enviarEmailTeste(dest_email) {
         await sendMail(
             "noreply.envioemail@gmail.com", 
             "EnvioEmail@123", 
-            'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) 2',
+            'Testando envio de emails do seu Robô de Buscas do Mercado Livre :)',
             dest_email,
             'Um Oi do seu Robozinho de Buscas!! :) '
         ).
