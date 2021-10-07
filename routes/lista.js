@@ -126,24 +126,20 @@ router.post('/testeEmail', async (req, res, next) => {
         return;
     }
 
-    let ret = await enviarEmailTeste(email)
+    await enviarEmailTeste(email)
     .then(response => {
         if (response) {
-            return response;
+            res.status(200).send({
+                success: 'Email de teste enviado com sucesso! :)'
+            })
+            return;
         }
+        res.status(500).send({
+            error: 'Houve uma falha ao enviar para este email... :('
+        })
     })
     .catch(err => console.log(err))
     
-    if (ret) {
-        res.status(200).send({
-            success: 'Email de teste enviado com sucesso! :)'
-        })
-        return;
-    }
-    
-    res.status(500).send({
-        error: 'Houve uma falha ao enviar para este email... :('
-    })
 });
 
 
@@ -170,27 +166,42 @@ async function verificaArquivoUrls() {
 async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
     if (qtd_discos > 0) log('Enviando email com ' + qtd_discos + ' discos novos')        
 
-    await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        novosDiscos,
-        dest_email,
-        'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
-    ).
-    then(() => {return true} )
+    return new Promise(async (resolve, reject) => {
+        await sendMail(
+            "noreply.envioemail@gmail.com", 
+            "EnvioEmail@123", 
+            novosDiscos,
+            dest_email,
+            'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
+        ).
+        then((res, rej) => {
+            if (res)
+                resolve (true)
+            else
+                reject (true)
+        })
+    })
 }
 
 
 async function enviarEmailTeste(dest_email) {    
     log('Enviando email de teste para: ' + dest_email)
 
-    return await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
-        dest_email,
-        'Um Oi do seu Robozinho de Buscas!! :) '
-    );
+    return new Promise(async (resolve, reject) => {
+        await sendMail(
+            "noreply.envioemail@gmail.com", 
+            "EnvioEmail@123", 
+            'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) 2',
+            dest_email,
+            'Um Oi do seu Robozinho de Buscas!! :) '
+        ).
+        then((res, rej) => {
+            if (res)
+                resolve (true)
+            else
+                reject (true)
+        })
+    })
 }
 
 
@@ -279,8 +290,6 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
         text: content + '',
     };
     
-    console.log(emailASerEnviado)
-
     return new Promise((resolve, reject) => {
         remetente.sendMail(emailASerEnviado, response => {
             if (response) {
@@ -296,35 +305,6 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
 
 
 
-async function sendMail(user_mail, pass, content) {
-    const remetente = nodemailer.createTransport({
-        service: 'gmail',
-        host: 'smtp.gmail.com',
-        port: 25,
-        secure: false, // true for 465, false for other ports
-        auth: {
-            user: user_mail,
-            pass: pass
-        },
-        tls: { rejectUnauthorized: false }
-    });
-
-    var emailASerEnviado = {
-        from: user_mail,
-        to: user_mail,
-        subject: 'Aqui estão novos discos que encontrei pra vc :) ',
-        text: content,
-    };
-
-
-    remetente.sendMail(emailASerEnviado, function(error){
-        if (error) {
-            log('' + error);
-        } else {
-            log('Email enviado com sucesso. ' + content);
-        }
-    });
-}
 
 async function collectData(url, headless = false, closeBrowser = true) {
     return new Promise(async function (resolve, reject) {
