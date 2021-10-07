@@ -115,6 +115,19 @@ router.post('/salvar', async (req, res, next) => {
 });
 
 
+async function enviarEmailTeste(dest_email) {    
+    log('Enviando email de teste para: ' + dest_email)
+
+    return await sendMail(
+        "noreply.envioemail@gmail.com", 
+        "EnvioEmail@123", 
+        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
+        dest_email,
+        'Um Oi do seu Robozinho de Buscas!! :) '
+    );
+}
+
+
 /* POST lista page */
 router.post('/testeEmail', async (req, res, next) => {
 
