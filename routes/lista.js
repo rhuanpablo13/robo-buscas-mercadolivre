@@ -386,7 +386,7 @@ async function currentNumberPage(page) {
 async function todosTermos() {
     let conn = await connect();
     let retorno = await conn.query('SELECT ID, DESCRICAO FROM TERMO;');
-    await disconnect(conn);
+    // await disconnect(conn);
 
     if (retorno[0] == '') {
         return null;
@@ -416,7 +416,7 @@ async function inserirNovoTermoDeBusca(termo) {
     const values = [termo];
     log("\tInserindo novo termo de busca: " + termo);
     let retorno = await conn.query(sql, values);
-    await disconnect(conn);
+    // await disconnect(conn);
     return retorno;
 }
 
@@ -430,7 +430,7 @@ async function inserirNovoTermoDeBusca(termo) {
         let url_produto = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
         let conn = await connect();
         let retorno = await conn.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = "' + url_produto + '";');
-        await disconnect(conn);
+        // await disconnect(conn);
         if (retorno[0] == '' || retorno[0][0].QTD == 0) {
             resolve(false)
         } else {
@@ -448,7 +448,7 @@ async function inserirNovoTermoDeBusca(termo) {
 async function existeTermo(termo) {
     let conn = await connect();
     let retorno = await conn.query('SELECT COUNT(DESCRICAO) AS QTD FROM TERMO WHERE DESCRICAO = "' + termo + '";');
-    await disconnect(conn);
+    // await disconnect(conn);
     return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
 }
 
@@ -460,7 +460,7 @@ async function existeTermo(termo) {
 async function existeIdTermo(id) {
     let conn = await connect();
     let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM TERMO WHERE ID = ' + id + ';');
-    await disconnect(conn);
+    // await disconnect(conn);
     return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
 }
 
@@ -472,7 +472,7 @@ async function existeIdTermo(id) {
 async function existeTermoEmDisco(id_termo) {
     let conn = await connect();
     let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM DISCO WHERE ID_TERMO = "' + id_termo + '";');
-    await disconnect(conn);
+    // await disconnect(conn);
     return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
 }
 
@@ -489,7 +489,7 @@ async function inserirNovoDisco(codigo, id_termo) {
     const values = [url, id_termo];
     log("Inserindo nova url: " + url + " - id_termo: " + id_termo);
     await conn.query(sql, values);
-    await disconnect(conn);
+    // await disconnect(conn);
     return url;
 }
 
@@ -511,7 +511,7 @@ async function removerTermoDeBusca(id_termo) {
         await conn.query(sql, values);
         excluiu = true;
     }
-    await disconnect(conn);    
+    // await disconnect(conn);    
     return excluiu;
 }
 
@@ -534,7 +534,7 @@ async function disconnect(conn) {
 async function buscaEmail() {
     let conn = await connect();
     let retorno = await conn.query('SELECT EMAIL AS EMAIL FROM EMAIL;');
-    await disconnect(conn);
+    // await disconnect(conn);
     return (retorno[0] == '' || retorno[0][0].EMAIL == 0) ? null : retorno[0][0].EMAIL
 }
 
@@ -553,7 +553,7 @@ async function salvarEmail(email) {
         log('Atualizando email para: ' + email)
         await conn.query(sql, values);
     } 
-    await disconnect(conn);
+    // await disconnect(conn);
 }
 
 function log(data, time = true, quebraLinha = false) {
