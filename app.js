@@ -24,13 +24,6 @@ function authenticationMiddleware(req, res, next) {
 const app = express();
 
 
-// cron.schedule("* * * * *", () => {
-//   console.log("Executando a tarefa a cada 1 minuto")
-//   listaRouter.main()
-// });
-
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

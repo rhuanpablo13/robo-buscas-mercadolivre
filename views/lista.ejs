@@ -23,6 +23,7 @@
     <div align="center"><h2>Lista de buscas</h2></div>
     <div class="list-content">
       <div align="right" class="search">
+        <button class="button" onclick="testeEmail();">Testar</button>
         <input id="email" name="email" type="email" class="input-email" placeholder="Informe seu email" value="<%= email %>">
         <input id="name" name="name" type="text" placeholder="Nome do disco">
         <button type="reset" class="button" onclick="adicionar();">Adicionar</button>
@@ -94,9 +95,9 @@ function salvarESair(e) {
       success: function(result) {
         console.log(result)
         startSnackbar('snackbar-success', result.success)
-        // setTimeout(function() {
-        //   window.location.href = '/login'
-        // }, 3000)
+        setTimeout(function() {
+          window.location.href = '/login'
+        }, 3000)
       }, 
       error: function(result) {
         startSnackbar('snackbar-error', result.responseJSON.error)
@@ -105,10 +106,20 @@ function salvarESair(e) {
 }
 
 
+function testeEmail(e) {
 
+var email = $('#email').val();
 
-function teste() {
-  alert()
+$.ajax({
+    type: 'POST', url: '/lista/testeEmail', data: {'email': email},
+    success: function(result) {
+      console.log(result)
+      startSnackbar('snackbar-success', result.success)
+    }, 
+    error: function(result) {
+      startSnackbar('snackbar-error', result.responseJSON.error)
+    }
+});
 }
 
 </script>
