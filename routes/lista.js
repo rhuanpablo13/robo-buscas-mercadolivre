@@ -20,7 +20,7 @@ const QUEBRA = '\n--------------------------------------------------------------
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("Iniciando...")
+    log("\tIniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
