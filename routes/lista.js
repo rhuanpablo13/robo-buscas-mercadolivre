@@ -9,12 +9,16 @@ const fs = require('fs');
 
 // const cron = require("node-cron");
 const cron = require("node-schedule");
+const { resolve } = require('path');
+const { response } = require('express');
+const { rejects } = require('assert');
+const lineReader = require('line-reader');
 
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("\tIniciando...")
+    log("Iniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
@@ -53,7 +57,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log("\tNovo termo: " + termo)
+        log("Novo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -95,14 +99,14 @@ router.post('/salvar', async (req, res, next) => {
     let email = req.body.email;
     if (email == null || email == 'undefined' || email == '') {
         res.status(500).send({
-            error: 'Informe um email'
+            error: 'Informe seu email'
         })
         return;
     }
 
     await salvarEmail(email);
 
-    log('\tSalvando e saindo...\n\n')
+    log('Salvando e saindo...')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -111,26 +115,87 @@ router.post('/salvar', async (req, res, next) => {
 });
 
 
-function verificaArquivoUrls() {
-    try {
-        let data = fs.readFileSync('./urls.txt', 'utf8')
-        return {'status': true, 'data': data};
-    } catch (err) {}
-    return {'status': false, 'data': []};
+/* POST lista page */
+router.post('/testeEmail', async (req, res, next) => {
+
+    passport.authenticate('local', () => {
+        res.redirect ('/login?fail=true')
+    });
+
+    let email = req.body.email;
+    if (email == null || email == 'undefined' || email == '') {
+        res.status(500).send({
+            error: 'Informe seu email para teste'
+        })
+        return;
+    }
+
+    let ret = await enviarEmailTeste(email)
+    .then(response => {
+        if (response) {
+            return response;
+        }
+    })
+    .catch(err => console.log(err))
+    
+    if (ret) {
+        res.status(200).send({
+            success: 'Email de teste enviado com sucesso! :)'
+        })
+        return;
+    }
+    
+    res.status(500).send({
+        error: 'Houve uma falha ao enviar para este email... :('
+    })
+});
+
+
+async function verificaArquivoUrls() {
+    
+    return new Promise(async (resolve, reject) => {
+        try {
+            let urls = []
+            lineReader.open('./urls.txt', async function(err, reader) {
+                while (reader.hasNextLine()) {
+                    reader.nextLine(async function(err2, line) {
+                        urls.push(line)
+                    });
+                }
+            });
+            resolve ({'status': true, 'data': urls});
+    
+        } catch (err) {console.log(err)}
+    })
 }
 
 
-async function enviarEmails(novosDiscos) {    
-    log('Enviando email com ' + novosDiscos.length + ' discos novos')
-    // novosDiscos.forEach(async (discoUrl) => {
+async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
+    if (qtd_discos > 0) log('Enviando email com ' + qtd_discos + ' discos novos')        
+
     await sendMail(
-        "rhuanpablo13saga@gmail.com", 
-        "Fofinho@123", 
-        novosDiscos
-    )
-    // })
-    apagarArquivoUrl();
+        "noreply.envioemail@gmail.com", 
+        "EnvioEmail@123", 
+        novosDiscos,
+        dest_email,
+        'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
+    ).
+    then(() => {return true} )
 }
+
+
+async function enviarEmailTeste(dest_email) {    
+    log('Enviando email de teste para: ' + dest_email)
+
+    return await sendMail(
+        "noreply.envioemail@gmail.com", 
+        "EnvioEmail@123", 
+        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
+        dest_email,
+        'Um Oi do seu Robozinho de Buscas!! :) '
+    );
+}
+
 
 
 const roboCronEmail = async () => {
