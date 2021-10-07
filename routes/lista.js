@@ -115,53 +115,53 @@ router.post('/salvar', async (req, res, next) => {
 });
 
 
-async function enviarEmailTeste(dest_email) {    
-    log('Enviando email de teste para: ' + dest_email)
+// async function enviarEmailTeste(dest_email) {    
+//     log('Enviando email de teste para: ' + dest_email)
 
-    return await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
-        dest_email,
-        'Um Oi do seu Robozinho de Buscas!! :) '
-    );
-}
+//     return await sendMail(
+//         "noreply.envioemail@gmail.com", 
+//         "EnvioEmail@123", 
+//         'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
+//         dest_email,
+//         'Um Oi do seu Robozinho de Buscas!! :) '
+//     );
+// }
 
 
 /* POST lista page */
-router.post('/testeEmail', async (req, res, next) => {
+// router.post('/testeEmail', async (req, res, next) => {
 
-    passport.authenticate('local', () => {
-        res.redirect ('/login?fail=true')
-    });
+//     passport.authenticate('local', () => {
+//         res.redirect ('/login?fail=true')
+//     });
 
-    let email = req.body.email;
-    if (email == null || email == 'undefined' || email == '') {
-        res.status(500).send({
-            error: 'Informe seu email para teste'
-        })
-        return;
-    }
+//     let email = req.body.email;
+//     if (email == null || email == 'undefined' || email == '') {
+//         res.status(500).send({
+//             error: 'Informe seu email para teste'
+//         })
+//         return;
+//     }
 
-    let ret = await enviarEmailTeste(email)
-    .then(response => {
-        if (response) {
-            return response;
-        }
-    })
-    .catch(err => console.log(err))
+//     let ret = await enviarEmailTeste(email)
+//     .then(response => {
+//         if (response) {
+//             return response;
+//         }
+//     })
+//     .catch(err => console.log(err))
     
-    if (ret) {
-        res.status(200).send({
-            success: 'Email de teste enviado com sucesso! :)'
-        })
-        return;
-    }
+//     if (ret) {
+//         res.status(200).send({
+//             success: 'Email de teste enviado com sucesso! :)'
+//         })
+//         return;
+//     }
     
-    res.status(500).send({
-        error: 'Houve uma falha ao enviar para este email... :('
-    })
-});
+//     res.status(500).send({
+//         error: 'Houve uma falha ao enviar para este email... :('
+//     })
+// });
 
 function verificaArquivoUrls() {
     try {
