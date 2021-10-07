@@ -9,12 +9,18 @@ const fs = require('fs');
 
 // const cron = require("node-cron");
 const cron = require("node-schedule");
+const { resolve } = require('path');
+const { response } = require('express');
+const { rejects } = require('assert');
+const lineReader = require('line-reader');
+
+const QUEBRA = '\n------------------------------------------------------------------------------------------------------------------- \n'
 
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("\tIniciando...")
+    log("Iniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
