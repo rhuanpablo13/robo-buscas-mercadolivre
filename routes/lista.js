@@ -18,7 +18,7 @@ const lineReader = require('line-reader');
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("Iniciando...")
+    log("\tIniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
@@ -57,7 +57,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log("Novo termo: " + termo)
+        log("\tNovo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -99,14 +99,14 @@ router.post('/salvar', async (req, res, next) => {
     let email = req.body.email;
     if (email == null || email == 'undefined' || email == '') {
         res.status(500).send({
-            error: 'Informe seu email'
+            error: 'Informe um email'
         })
         return;
     }
 
     await salvarEmail(email);
 
-    log('Salvando e saindo...')
+    log('\tSalvando e saindo...\n\n')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -150,52 +150,26 @@ router.post('/testeEmail', async (req, res, next) => {
     })
 });
 
-
-async function verificaArquivoUrls() {
-    
-    return new Promise(async (resolve, reject) => {
-        try {
-            let urls = []
-            lineReader.open('./urls.txt', async function(err, reader) {
-                while (reader.hasNextLine()) {
-                    reader.nextLine(async function(err2, line) {
-                        urls.push(line)
-                    });
-                }
-            });
-            resolve ({'status': true, 'data': urls});
-    
-        } catch (err) {console.log(err)}
-    })
+function verificaArquivoUrls() {
+    try {
+        let data = fs.readFileSync('./urls.txt', 'utf8')
+        return {'status': true, 'data': data};
+    } catch (err) {}
+    return {'status': false, 'data': []};
 }
 
 
-async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
-    if (qtd_discos > 0) log('Enviando email com ' + qtd_discos + ' discos novos')        
-
+async function enviarEmails(novosDiscos) {    
+    log('Enviando email com ' + novosDiscos.length + ' discos novos')
+    // novosDiscos.forEach(async (discoUrl) => {
     await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        novosDiscos,
-        dest_email,
-        'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
-    ).
-    then(() => {return true} )
+        "rhuanpablo13saga@gmail.com", 
+        "Fofinho@123", 
+        novosDiscos
+    )
+    // })
+    apagarArquivoUrl();
 }
-
-
-async function enviarEmailTeste(dest_email) {    
-    log('Enviando email de teste para: ' + dest_email)
-
-    return await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
-        dest_email,
-        'Um Oi do seu Robozinho de Buscas!! :) '
-    );
-}
-
 
 
 const roboCronEmail = async () => {
