@@ -9,19 +9,12 @@ const fs = require('fs');
 
 // const cron = require("node-cron");
 const cron = require("node-schedule");
-const { resolve } = require('path');
-const { response } = require('express');
-const { rejects } = require('assert');
-const lineReader = require('line-reader');
-
-const QUEBRA = '\n------------------------------------------------------------------------------------------------------------------- \n'
-
 
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("Iniciando...")
+    log("\tIniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
@@ -60,7 +53,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log("Novo termo: " + termo)
+        log("\tNovo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -102,14 +95,14 @@ router.post('/salvar', async (req, res, next) => {
     let email = req.body.email;
     if (email == null || email == 'undefined' || email == '') {
         res.status(500).send({
-            error: 'Informe seu email'
+            error: 'Informe um email'
         })
         return;
     }
 
     await salvarEmail(email);
 
-    log('Salvando e saindo...')
+    log('\tSalvando e saindo...\n\n')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -118,155 +111,100 @@ router.post('/salvar', async (req, res, next) => {
 });
 
 
-/* POST lista page */
-router.post('/testeEmail', async (req, res, next) => {
-
-    passport.authenticate('local', () => {
-        res.redirect ('/login?fail=true')
-    });
-
-    let email = req.body.email;
-    if (email == null || email == 'undefined' || email == '') {
-        res.status(500).send({
-            error: 'Informe seu email para teste'
-        })
-        return;
-    }
-
-    let ret = await enviarEmailTeste(email)
-    .then(response => {
-        if (response) {
-            return response;
-        }
-    })
-    .catch(err => console.log(err))
-    
-    if (ret) {
-        res.status(200).send({
-            success: 'Email de teste enviado com sucesso! :)'
-        })
-        return;
-    }
-    
-    res.status(500).send({
-        error: 'Houve uma falha ao enviar para este email... :('
-    })
-});
-
-
-async function verificaArquivoUrls() {
-    
-    return new Promise(async (resolve, reject) => {
-        try {
-            let urls = []
-            lineReader.open('./urls.txt', async function(err, reader) {
-                while (reader.hasNextLine()) {
-                    reader.nextLine(async function(err2, line) {
-                        urls.push(line)
-                    });
-                }
-            });
-            resolve ({'status': true, 'data': urls});
-    
-        } catch (err) {console.log(err)}
-    })
+function verificaArquivoUrls() {
+    try {
+        let data = fs.readFileSync('./urls.txt', 'utf8')
+        return {'status': true, 'data': data};
+    } catch (err) {}
+    return {'status': false, 'data': []};
 }
 
 
-async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
-    if (qtd_discos > 0) log('Enviando email com ' + qtd_discos + ' discos novos')        
-
+async function enviarEmails(novosDiscos) {    
+    log('Enviando email com ' + novosDiscos.length + ' discos novos')
+    // novosDiscos.forEach(async (discoUrl) => {
     await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        novosDiscos,
-        dest_email,
-        'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
-    ).
-    then(() => {return true} )
+        "rhuanpablo13saga@gmail.com", 
+        "Fofinho@123", 
+        novosDiscos
+    )
+    // })
+    apagarArquivoUrl();
 }
 
 
-async function enviarEmailTeste(dest_email) {    
-    log('Enviando email de teste para: ' + dest_email)
+const roboCronEmail = async () => {
+    log('Executando roboCronEmail ...')
+    // Execute a cron job when the minute is 01 (e.g. 19:30, 20:30, etc.)
+    const job = cron.scheduleJob('*/2 * * * *', async () => {
+        let novosDiscos = verificaArquivoUrls();
+        if (novosDiscos.status) {
+            let array = novosDiscos.data.split('#');
+            await enviarEmails(novosDiscos.data)
+        }
+    });
+}
 
-    return await sendMail(
-        "noreply.envioemail@gmail.com", 
-        "EnvioEmail@123", 
-        'Testando envio de emails do seu Robô de Buscas do Mercado Livre :) ',
-        dest_email,
-        'Um Oi do seu Robozinho de Buscas!! :) '
+
+const roboCron = async () => {
+    log('Executando roboCron ...')
+    // Execute a cron job when the minute is 01 (e.g. 19:01, 20:01, etc.)
+    const job = cron.scheduleJob('*/1 * * * *', () => 
+        coletarDiscos()
     );
+    // job.invoke()
 }
 
 
+roboCron();
+roboCronEmail();
 
-async function pesquisarTermosDeBusca(termos) {
+async function coletarDiscos() {
+
+    log('Iniciando o robô :)')
     
-    return new Promise(async (resolve, reject) => {
-        await termos.forEach(async (termo, i) => {
+    // recuperar os discos do banco
+    let termos = await todosTermos();
+    
+    // pesquisar os termos no site do mercado livre
+    if (termos != null) {
+        termos.forEach(async (termo) => {           
             
             const id_termo = termo.id;
             const descricao = termo.descricao;
-
-            log('termo = ' + descricao)
             
-            return await collectData(descricao, true, true).then(async (discos) => {
-                return await pesquisarDiscos(discos, id_termo, descricao).then(async (res, rej) => {
-                    if (rej) reject('Nenhum disco novo encontrado para o termo: ' + descricao)
-                    resolve(res)
+            // pegar os códigos e fazer a mágica acontecer
+            let discos = await collectData(descricao, true, true)
+
+            if (typeof discos !== 'undefined' && discos.length > 0) {
+                
+                discos.forEach(async (grupo) => {            
+                    await grupo.forEach(async (codigo) => {
+                        try {
+                            let existe = await existeCodigo(codigo)
+                            if (! existe) {
+                                let url = await inserirNovoDisco(codigo, id_termo)
+                                log('novo: ' + codigo)
+                                await gravarNovaUrl(descricao + '\t' + url);
+                                
+                            } else {
+                                log('já existe: ' + codigo)
+                            }
+                        } catch (error) {
+                            log(error)
+                        }
+                    })
                 })
-            })            
+                
+            } else {
+                log("Nenhum disco novo encontrado para o termo: " + descricao);
+            }
         })
-        // resolve(true)
-    })
+    }
 }
 
-async function pesquisarDiscos(discos, id_termo, descricao) {
-    return new Promise(async (resolve, reject) => {
-        discos.forEach( async (disco) => {
-            await coletania(disco, id_termo, descricao).then(async (res, rej) => {
-                if (rej) reject(rej)
-                resolve(res)
-            })
-        })
-    });
-}
 
-async function coletania(disco, id_termo, descricao) {
-    return new Promise(async (resolve, reject) => {
-        disco.forEach(async (codigoDisco) => {
-            await tratarCodigo(codigoDisco, id_termo, descricao).then(async (res, rej) => {
-                if (rej) reject(rej)
-                resolve(res)
-            })
-        })
-    });
-}
-
-async function tratarCodigo(codigoDisco, id_termo, descricao) {
-
-    return new Promise(async (resolve, reject) => {
-        try {
-                await existeCodigo(codigoDisco).then(async (res, rej) => {
-                if (false == res) {
-                    let url = await inserirNovoDisco(codigoDisco, id_termo)
-                    gravarNovaUrl(descricao + '\t' + url);
-                    resolve(true)
-                } else {
-                    log("Nenhum disco encontrado para o termo: " + descricao)
-                    resolve(false)
-                }
-            })
-        } catch (error) {
-            log(error)
-            reject(error)
-        }
-    });
-}
-
-async function sendMail(user_mail, pass, content, dest_email, subject) {
-
+async function sendMail(user_mail, pass, content) {
     const remetente = nodemailer.createTransport({
         service: 'gmail',
         host: 'smtp.gmail.com',
@@ -278,67 +216,58 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
         },
         tls: { rejectUnauthorized: false }
     });
-    
+
     var emailASerEnviado = {
         from: user_mail,
-        to: dest_email,
-        subject: subject,
-        text: content + '',
+        to: user_mail,
+        subject: 'Aqui estão novos discos que encontrei pra vc :) ',
+        text: content,
     };
-    
-    console.log(emailASerEnviado)
 
-    return new Promise((resolve, reject) => {
-        remetente.sendMail(emailASerEnviado, response => {
-            if (response) {
-                log('Falha. ' + response);
-                reject(false);
-            } else {
-                log('Email enviado com sucesso. ' + content);
-                resolve(true);
-            }
-        })
+
+    remetente.sendMail(emailASerEnviado, function(error){
+        if (error) {
+            log('' + error);
+        } else {
+            log('Email enviado com sucesso. ' + content);
+        }
     });
 }
 
 async function collectData(url, headless = false, closeBrowser = true) {
-    return new Promise(async function (resolve, reject) {
-        log('Iniciando a coleta de dados...')
-        const browser = await puppeteer.launch()
-        // const browser = await puppeteer.launch({ headless: headless, devtools: false })
-        const page = await browser.newPage();
-        url = 'https://lista.mercadolivre.com.br/musica/' + url;
-    
-        await page.goto(url);
-        let registros = [];
-        
-        log('Pesquisando em: ' + url)
-        let pages = await numberPages(page);
-    
-        log('Quantidade de páginas encontradas: ' + pages)
-        if (pages == 0) {
-            await browser.close();
-            resolve([]);
-        }
-    
-        if (pages == 1) {
-            registros.push(await scrap(page));
-        }
-    
-        if (pages > 1) {
-            while (await currentNumberPage(page) < pages) {
-                registros.push(await scrap(page));
-                await next(page);
-            }    
-            registros.push(await scrap(page));
-        }
-        
-        log('Encerrando a coleta de dados para ' + url)
-        if (closeBrowser || headless == true)
-            await browser.close();
-        resolve(registros);
-    });
+    log('Iniciando a coleta de dados...')
+    const browser = await puppeteer.launch({ headless: headless, devtools: false });
+    const page = await browser.newPage();
+    url = 'https://lista.mercadolivre.com.br/musica/' + url;
 
+    await page.goto(url);
+    let registros = [];
+    
+    log('Pesquisando em: ' + url)
+    let pages = await numberPages(page);
+
+    log('Quantidade de páginas encontradas: ' + pages)
+    if (pages == 0) {
+        await browser.close();
+        return [];
+    }
+
+    if (pages == 1) {
+        registros.push(await scrap(page));
+    }
+
+    if (pages > 1) {
+        while (await currentNumberPage(page) < pages) {
+            registros.push(await scrap(page));
+            await next(page);
+        }    
+        registros.push(await scrap(page));
+    }
+    
+    log('Encerrando a coleta de dados para ' + url)
+    if (closeBrowser || headless == true)
+        await browser.close();
+    return registros;
 }
 
 async function scrap(page) {
@@ -389,7 +318,6 @@ async function todosTermos() {
     }
 
     log('Buscando todos os termos cadastrados => Encontrados: ' + retorno[0].length)
-    
     return retorno[0].map((ret) => {
         return {
             'id' : ret.ID,
@@ -411,7 +339,7 @@ async function inserirNovoTermoDeBusca(termo) {
     let conn = await connect();
     const sql = 'INSERT INTO TERMO(DESCRICAO) VALUES (?);';
     const values = [termo];
-    log("Inserindo novo termo de busca: " + termo);
+    log("\tInserindo novo termo de busca: " + termo);
     let retorno = await conn.query(sql, values);
     await disconnect(conn);
     return retorno;
@@ -423,18 +351,11 @@ async function inserirNovoTermoDeBusca(termo) {
  * @returns bool
  */
 async function existeCodigo(codigo) {
-    return new Promise(async function (resolve, reject){
-        let url_produto = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
-        let conn = await connect();
-        let retorno = await conn.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = "' + url_produto + '";');
-        await disconnect(conn);
-        if (retorno[0] == '' || retorno[0][0].QTD == 0) {
-            resolve(false)
-        } else {
-            resolve(true);
-        }
-    });
-
+    let url_produto = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
+    let conn = await connect();
+    let retorno = await conn.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = "' + url_produto + '";');
+    await disconnect(conn);
+    return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
 }
 
 /**
@@ -516,8 +437,7 @@ async function connect() {
     if(global.connection && global.connection.state !== 'disconnected')
         return global.connection;
  
-    const connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
-    // const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
+    const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
     console.log("Conectou no MySQL!");
     global.connection = connection;
     return connection;
@@ -553,30 +473,23 @@ async function salvarEmail(email) {
     await disconnect(conn);
 }
 
-function log(data, time = true, quebraLinha = false) {
-    let line = '';
-
+async function log(data, time = true) {
     if (time) {
-        line = getTime() + '\t' + data + "\n";
+        data = getTime() + '\t' + data + "\n";
     }
-
-    if (quebraLinha) {
-        line = "\n" + line + "\n";
-    }
-
-    fs.appendFileSync('log.txt', line, (err) => {
+    fs.appendFile('log.txt', data + "\n", (err) => {
         if (err) throw err;
+        console.log(data)
     });
-    console.log(line)
 }
 
-function gravarNovaUrl(data) {
-    fs.appendFileSync('urls.txt', (data + "\n"), (err) => {
+async function gravarNovaUrl(data) {
+    fs.appendFile('urls.txt', (data + "\n"), (err) => {
         if (err) throw err;
     });
 }
 
-function apagarArquivoUrl() {
+async function apagarArquivoUrl() {
     try {
         log('Apagando arquivo de urls')
         fs.unlinkSync('urls.txt')
@@ -585,80 +498,12 @@ function apagarArquivoUrl() {
 
 function getTime() {
     var dataAtual = new Date();
-    var dia = dataAtual.getDay();
+    var dia = dataAtual.getDate();
     var mes = (dataAtual.getMonth() + 1);
     var ano = dataAtual.getFullYear();
     var horas = dataAtual.getHours();
     var minutos = dataAtual.getMinutes();
-    var segundos = dataAtual.getSeconds();
-    return dia + "-" + mes + "-" + ano + " " + horas + ":" + minutos + ":" + segundos;
+    return dia + "-" + mes + "-" + ano + " " + horas + ":" + minutos;
 }
-
-
-
-const roboCronEmail = async () => {
-    log('Executando roboCronEmail ...')
-
-    // Execute a cron job when the minute is 01 (e.g. 19:30, 20:30, etc.)
-    let novosDiscos = await verificaArquivoUrls();
-    if (novosDiscos.status) {
-        let emailDest = await buscaEmail();
-        if (emailDest) {
-            try {
-                let content = '';
-                novosDiscos.data.forEach(e => {
-                    content += e + '\n'
-                })
-                await enviarEmails(content, emailDest, novosDiscos.data.length-1);
-            } catch (error) {
-                console.log(error)
-            }
-        }
-    }
-}
-
-
-const roboCron = async () => {
-    log('Executando roboCron ...')
-    
-    cron.scheduleJob('0 * * * *', async () => { // a cada hora
-        let retorno = await executarRobo()
-
-        // se retornar true, foi cadastrado um novo disco, sendo assim pode se enviar um email
-        if (retorno) {
-            let retornoEmail = await roboCronEmail()
-            if (retornoEmail) {
-                log('Email enviado com sucesso!')
-                apagarArquivoUrl();
-            }
-        }
-        log(data = QUEBRA, time=true, quebraLinha=true);
-    });
-
-}
-
-
-async function executarRobo() {
-
-    log('Iniciando o robô :)')
-
-    // recuperar os discos do banco
-    let termos = await todosTermos()
-    
-    return new Promise(async (resolve, reject) => {
-        // pesquisar os termos no site do mercado livre
-        if (termos != null) {                    
-            await pesquisarTermosDeBusca(termos).then(async (response, reject2) => {
-                if (reject2) reject(reject2)
-                resolve(response)
-            })             
-        }
-    })
-}
-
-
-roboCron();
-// roboCronEmail();
-
 
 module.exports = router;
