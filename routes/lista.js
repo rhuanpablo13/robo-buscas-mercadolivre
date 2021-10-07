@@ -111,6 +111,43 @@ router.post('/salvar', async (req, res, next) => {
 });
 
 
+/* POST lista page */
+router.post('/testeEmail', async (req, res, next) => {
+
+    passport.authenticate('local', () => {
+        res.redirect ('/login?fail=true')
+    });
+
+    let email = req.body.email;
+    if (email == null || email == 'undefined' || email == '') {
+        res.status(500).send({
+            error: 'Informe seu email para teste'
+        })
+        return;
+    }
+
+    let ret = await enviarEmailTeste(email)
+    .then(response => {
+        if (response) {
+            return response;
+        }
+    })
+    .catch(err => console.log(err))
+    
+    if (ret) {
+        res.status(200).send({
+            success: 'Email de teste enviado com sucesso! :)'
+        })
+        return;
+    }
+    
+    res.status(500).send({
+        error: 'Houve uma falha ao enviar para este email... :('
+    })
+});
+
+
+
 async function verificaArquivoUrls() {
     
     return new Promise(async (resolve, reject) => {
