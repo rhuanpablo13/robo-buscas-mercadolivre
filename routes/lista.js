@@ -14,7 +14,7 @@ const cron = require("node-schedule");
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("\tIniciando...")
+    log("Iniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
@@ -53,7 +53,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log("\tNovo termo: " + termo)
+        log("Novo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -95,14 +95,14 @@ router.post('/salvar', async (req, res, next) => {
     let email = req.body.email;
     if (email == null || email == 'undefined' || email == '') {
         res.status(500).send({
-            error: 'Informe um email'
+            error: 'Informe seu email'
         })
         return;
     }
 
     await salvarEmail(email);
 
-    log('\tSalvando e saindo...\n\n')
+    log('Salvando e saindo...')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -473,14 +473,21 @@ async function salvarEmail(email) {
     await disconnect(conn);
 }
 
-async function log(data, time = true) {
+function log(data, time = true, quebraLinha = false) {
+    let line = '';
+
     if (time) {
-        data = getTime() + '\t' + data + "\n";
+        line = getTime() + '\t' + data + "\n";
     }
-    fs.appendFile('log.txt', data + "\n", (err) => {
+
+    if (quebraLinha) {
+        line = "\n" + line + "\n";
+    }
+
+    fs.appendFileSync('log.txt', line, (err) => {
         if (err) throw err;
-        console.log(data)
     });
+    console.log(line)
 }
 
 async function gravarNovaUrl(data) {
