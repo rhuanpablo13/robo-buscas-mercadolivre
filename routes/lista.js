@@ -9,10 +9,6 @@ const fs = require('fs');
 
 // const cron = require("node-cron");
 const cron = require("node-schedule");
-const { resolve } = require('path');
-const { response } = require('express');
-const { rejects } = require('assert');
-const lineReader = require('line-reader');
 
 
 /* GET lista page. */
