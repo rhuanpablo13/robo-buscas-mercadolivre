@@ -581,7 +581,7 @@ async function salvarEmail(email) {
 }
 
 function log(data, time = true, quebraLinha = false) {
-    console.log(line)
+    console.log(data)
 
     let line = '';
 
@@ -647,7 +647,7 @@ const roboCronEmail = async () => {
 const roboCron = async () => {
     log('Executando roboCron ...')
     
-    cron.scheduleJob('/59 * * * *', async () => { // a cada hora
+    cron.scheduleJob('*/5 * * * *', async () => { 
         let retorno = await executarRobo()
 
         // se retornar true, foi cadastrado um novo disco, sendo assim pode se enviar um email
