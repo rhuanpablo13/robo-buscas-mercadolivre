@@ -681,6 +681,6 @@ async function executarRobo() {
 }
 
 
-// roboCron();
+roboCron();
 
 module.exports = router;
