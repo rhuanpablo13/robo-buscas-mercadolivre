@@ -32,7 +32,26 @@ router.get('/', async (req, res, next) => {
             email: email
         });
     }
+
+    // testeConexao();
+
 });
+
+
+async function connect() {
+    let connection = null
+    try {
+        
+        connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
+        // const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
+        if (connection == null) console.log("NÃO Conectou no MySQL!");
+        else console.log("Conectou no MySQL!");
+        
+    } catch (error) {
+        console.log(error)
+    }
+    return connection;
+}
 
 
 /* POST lista page */
@@ -515,14 +534,19 @@ async function removerTermoDeBusca(id_termo) {
     return excluiu;
 }
 
-async function connect() {
+async function connect2() {
     if(global.connection && global.connection.state !== 'disconnected')
         return global.connection;
  
-        const connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
+    const connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true")
+    .then(connection => {
+        if (connection) {
+            global.connection = connection;
+            return connection
+        }
+    })
     // const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
     console.log("Conectou no MySQL!");
-    global.connection = connection;
     return connection;
 }
 
@@ -657,6 +681,6 @@ async function executarRobo() {
 }
 
 
-roboCron();
+// roboCron();
 
 module.exports = router;
