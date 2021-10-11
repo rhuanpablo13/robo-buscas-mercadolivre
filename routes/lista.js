@@ -1,19 +1,40 @@
 const QUEBRA = '\n------------------------------------------------------------------------------------------------------------------- \n'
+let URL_PRODUTO = 'https://produto.mercadolivre.com.br/'
 
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
-const mysql = require("mysql2/promise");
-
+const mysql = require("mysql");
 const puppeteer = require('puppeteer');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
-
-// const cron = require("node-cron");
 const cron = require("node-schedule");
 const lineReader = require('line-reader');
+const util = require( 'util' );
 
-let connection = null
+
+
+var db_config = {
+    max_user_connections : 100,
+    host: 'us-cdbr-east-04.cleardb.com', //?reconnect=true
+    user: 'bc08f50273d49b',
+    password: 'dc99c304',
+    database: 'heroku_4943b17354a4347'
+};
+
+function makeDb( config ) {
+    const connection = mysql.createConnection( config );
+    return {
+        query( sql, args ) {
+            return util.promisify( connection.query )
+            .call( connection, sql, args );
+        },
+        close() {
+            return util.promisify( connection.end ).call( connection );
+        }
+    };
+}
+
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
@@ -40,21 +61,6 @@ router.get('/', async (req, res, next) => {
     // testeConexao();
 
 });
-
-
-async function connect() {
-    try {
-        if (connection == null)        
-            connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true");
-        // const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
-        if (connection == null) console.log("NÃO Conectou no MySQL!");
-        else console.log("Conectou no MySQL!");
-        
-    } catch (error) {
-        await log(error)
-    }
-    return connection;
-}
 
 
 /* POST lista page */
@@ -166,22 +172,28 @@ router.post('/testeEmail', async (req, res, next) => {
 
 
 
+
+
+
+Promise = require('bluebird');
+
 async function verificaArquivoUrls() {
-    
-    return new Promise(async (resolve, reject) => {
-        try {
-            let urls = []
-            lineReader.open('./urls.txt', async function(err, reader) {
-                while (reader.hasNextLine()) {
-                    reader.nextLine(async function(err2, line) {
-                        urls.push(line)
-                    });
-                }
+
+    try {
+        let discos = [];
+
+        var eachLine = Promise.promisify(lineReader.eachLine);
+        return new Promise(function(resolve, reject) {
+            eachLine('./urls.txt', function(line) {
+                discos.push(line)
+            }).then(function() {
+                resolve ({'status': true, 'data': discos})
+            }).catch(function(err) {
+                console.error(err);
             });
-            resolve ({'status': true, 'data': urls});
-    
-        } catch (err) {log(err)}
-    })
+        })
+
+    } catch (err) {log(err)}
 }
 
 
@@ -227,68 +239,6 @@ async function enviarEmailTeste(dest_email) {
 }
 
 
-async function pesquisarTermosDeBusca(termos) {
-    
-    return new Promise(async (resolve, reject) => {
-
-        for (const termo of termos) {
-            const id_termo = termo.id;
-            const descricao = termo.descricao;
-    
-            await log('termo = ' + descricao)
-            
-            let discos = await collectData(descricao, true, true)
-            if (discos != []) {                
-                // await pesquisarDiscos(discos, id_termo, descricao); 
-                await pesquisarDiscos(discos, id_termo, descricao).then((res, rej) => {
-                    if (rej) reject('Nenhum disco novo encontrado para o termo: ' + descricao)
-                    else resolve(res)
-                })
-            }
-        }
-        // resolve(true)
-    })
-}
-
-async function pesquisarDiscos(discos, id_termo, descricao) {
-    return new Promise(async (resolve, reject) => {
-        for (const disco of discos) {
-            await coletania(disco, id_termo, descricao).then(async (res, rej) => {
-                if (rej) reject(rej)
-                else resolve(res)
-            })
-        }
-    });
-}
-
-async function coletania(disco, id_termo, descricao) {
-    return new Promise(async (resolve, reject) => {
-        for (const codigoDisco of disco) {
-            await tratarCodigo(codigoDisco, id_termo, descricao).then(async (res, rej) => {
-                if (rej) reject(rej)
-                else resolve(res)
-            })
-        }
-    });
-}
-
-async function tratarCodigo(codigoDisco, id_termo, descricao) {
-
-    return new Promise(async (resolve, reject) => {
-        try {
-                if (false === await existeCodigo(codigoDisco)) {
-                    let url = await inserirNovoDisco(codigoDisco, id_termo)
-                    await gravarNovaUrl(descricao + '\t' + url);
-                } else {
-                    await log("Nenhum disco novo encontrado para o termo: " + descricao)
-                }
-                resolve(true)
-        } catch (error) {
-            await log(error)
-            reject(error)
-        }
-    });
-}
 
 async function sendMail(user_mail, pass, content, dest_email, subject) {
 
@@ -324,17 +274,14 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
     });
 }
 
-
-
-
 async function collectData(url, headless = false, closeBrowser = true) {
     return new Promise(async function (resolve, reject) {
         await log('Iniciando a coleta de dados...')
-        const browser = await puppeteer.launch()
-        // const browser = await puppeteer.launch({ headless: headless, devtools: false })
+        // const browser = await puppeteer.launch()
+        const browser = await puppeteer.launch({ headless: headless, devtools: false })
         const page = await browser.newPage();
         url = 'https://lista.mercadolivre.com.br/musica/' + url;
-    
+        
         await page.goto(url);
         let registros = [];
         
@@ -347,16 +294,16 @@ async function collectData(url, headless = false, closeBrowser = true) {
             resolve([]);
         }
     
-        if (pages == 1) {
-            registros.push(await scrap(page));
+        if (pages == 1) {            
+            registros.push(await scrap(page))
         }
     
         if (pages > 1) {
-            while (await currentNumberPage(page) < pages) {
-                registros.push(await scrap(page));
+            while (await currentNumberPage(page) < pages) {                
+                registros.push(await scrap(page))
                 await next(page);
-            }    
-            registros.push(await scrap(page));
+            }
+            registros.push(await scrap(page))
         }
         
         await log('Encerrando a coleta de dados para ' + url)
@@ -405,21 +352,25 @@ async function currentNumberPage(page) {
  * @returns Object
  */
 async function todosTermos() {
-    let conn = await connect();
-    let retorno = await conn.query('SELECT ID, DESCRICAO FROM TERMO;');
-    // await disconnect(conn);
-
-    if (retorno[0] == '') {
-        return null;
-    }
-
-    await log('Buscando todos os termos cadastrados => Encontrados: ' + retorno[0].length)
-    return retorno[0].map((ret) => {
-        return {
-            'id' : ret.ID,
-            'descricao' : ret.DESCRICAO
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT ID, DESCRICAO FROM TERMO')
+        console.log(results)
+        if (results == '') {
+            return null;
         }
-    })
+        log('Buscando todos os termos cadastrados => Encontrados: ' + results.length)
+        return results.map((ret) => {
+            return {
+                'id' : ret.ID,
+                'descricao' : ret.DESCRICAO
+            }
+        }) 
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 /**
@@ -428,17 +379,44 @@ async function todosTermos() {
  * @param string termo 
  * @returns null | objeto inserido
  */
-async function inserirNovoTermoDeBusca(termo) {
-    if (await existeTermo(termo)) {
+function inserirNovoTermoDeBusca(termo) {
+
+    if (existeTermo(termo)) {
         return null;
     }
-    let conn = await connect();
-    const sql = 'INSERT INTO TERMO(DESCRICAO) VALUES (?);';
-    const values = [termo];
-    await log("\tInserindo novo termo de busca: " + termo);
-    let retorno = await conn.query(sql, values);
-    // await disconnect(conn);
-    return retorno;
+
+    pool.getConnection(function(err, connection) {
+        if (err) throw err; // not connected!
+      
+        // Use the connection
+        connection.query('INSERT INTO TERMO(DESCRICAO) VALUES (?)', [termo], function (error, results, fields) {
+            // When done with the connection, release it.
+            connection.release();
+            
+            // Handle error after the release.
+            if (error) throw error;
+            // Don't use the connection here, it has been returned to the pool.
+      
+            if (results == '') {
+                return null;
+            }
+
+            log("Inserindo novo termo de busca: " + termo);
+
+            return results
+        });
+    });
+
+    // if (await existeTermo(termo)) {
+    //     return null;
+    // }
+    
+    // const sql = 'INSERT INTO TERMO(DESCRICAO) VALUES (?);';
+    // const values = [termo];
+    // await log("\tInserindo novo termo de busca: " + termo);
+    // let retorno = connection.query(sql, values, [], function (err, user) { connection.release() });
+    // // await disconnect(conn);
+    // return retorno;
 }
 
 /**
@@ -447,18 +425,19 @@ async function inserirNovoTermoDeBusca(termo) {
  * @returns bool
  */
  async function existeCodigo(codigo) {
-    return new Promise(async function (resolve, reject){
-        let url_produto = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
-        let conn = await connect();
-        let retorno = await conn.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = "' + url_produto + '";');
-        // await disconnect(conn);
-        if (retorno[0] == '' || retorno[0][0].QTD == 0) {
-            resolve(false)
-        } else {
-            resolve(true);
-        }
-    });
-
+    let url_produto = URL_PRODUTO + codigo.replace('MLB', 'MLB-')
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = ?', [url_produto])
+        console.log(results)
+        if (results == '' || results[0].QTD == 0)
+            return false
+        return true
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 /**
@@ -467,10 +446,18 @@ async function inserirNovoTermoDeBusca(termo) {
  * @returns bool
  */
 async function existeTermo(termo) {
-    let conn = await connect();
-    let retorno = await conn.query('SELECT COUNT(DESCRICAO) AS QTD FROM TERMO WHERE DESCRICAO = "' + termo + '";');
-    // await disconnect(conn);
-    return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT COUNT(DESCRICAO) AS QTD FROM TERMO WHERE DESCRICAO = ?', [termo])
+        console.log(results)
+        if (results == '' || results[0].QTD == 0)
+            return false
+        return true
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 /**
@@ -479,10 +466,18 @@ async function existeTermo(termo) {
  * @returns bool
  */
 async function existeIdTermo(id) {
-    let conn = await connect();
-    let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM TERMO WHERE ID = ' + id + ';');
-    // await disconnect(conn);
-    return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT COUNT(*) AS QTD FROM TERMO WHERE ID = ?', [id])
+        console.log(results)
+        if (results == '' || results[0].QTD == 0)
+            return false
+        return true
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 /**
@@ -491,10 +486,18 @@ async function existeIdTermo(id) {
  * @returns bool
  */
 async function existeTermoEmDisco(id_termo) {
-    let conn = await connect();
-    let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM DISCO WHERE ID_TERMO = "' + id_termo + '";');
-    // await disconnect(conn);
-    return (retorno[0] == '' || retorno[0][0].QTD == 0) ? false : true
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT COUNT(*) AS QTD FROM DISCO WHERE ID_TERMO = ?', [id_termo])
+        console.log(results)
+        if (results == '' || results[0].QTD == 0)
+            return false
+        return true
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 /**
@@ -503,83 +506,82 @@ async function existeTermoEmDisco(id_termo) {
  * @returns objeto inserido
  */
 async function inserirNovoDisco(codigo, id_termo) {
-    let conn = await connect();
-    const sql = 'INSERT INTO DISCO(URL, ID_TERMO) VALUES (?, ?);';
     let url = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
 
-    const values = [url, id_termo];
-    await log("Inserindo nova url: " + url + " - id_termo: " + id_termo);
-    await conn.query(sql, values);
-    // await disconnect(conn);
-    return url;
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('INSERT INTO DISCO(URL, ID_TERMO) VALUES (?, ?)', [url, id_termo])
+        console.log(results)
+        return url
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 async function removerTermoDeBusca(id_termo) {
-    let conn = await connect();
-    const values = [id_termo];
     let excluiu = false;
-
-    if (await existeTermoEmDisco(id_termo)) {
-        const sql = 'DELETE FROM DISCO WHERE ID_TERMO = (?);';
-        await log("Removendo discos onde o id_termo é: " + id_termo);
-        await conn.query(sql, values);
-        excluiu = true;
-    }
-
-    if (await existeIdTermo(id_termo)) {
-        sql = 'DELETE FROM TERMO WHERE ID = (?);';
-        await log("Removendo termo id: " + id_termo);
-        await conn.query(sql, values);
-        excluiu = true;
-    }
-    // await disconnect(conn);    
-    return excluiu;
-}
-
-async function connect2() {
-    if(global.connection && global.connection.state !== 'disconnected')
-        return global.connection;
- 
-    const connection = await mysql.createConnection("mysql://bc08f50273d49b:dc99c304@us-cdbr-east-04.cleardb.com/heroku_4943b17354a4347?reconnect=true")
-    .then(connection => {
-        if (connection) {
-            global.connection = connection;
-            return connection
+    const connection = makeDb( db_config );
+    try {
+        if (await existeTermoEmDisco(id_termo)) {
+            log("Removendo discos onde o id_termo é: " + id_termo);
+            let results = await connection.query('DELETE FROM DISCO WHERE ID_TERMO = (?)', [id_termo])
+            console.log(results)
+            excluiu = true;
         }
-    })
-    // const connection = await mysql.createConnection("mysql://root:root@localhost:3306/robo");
-    console.log("Conectou no MySQL!");
-    return connection;
-}
 
-async function disconnect(conn) {
-    await conn.close
-    global.connection.close
+        if (existeIdTermo(id_termo)) {
+            log("Removendo termo id: " + id_termo)
+            let results = await connection.query('DELETE FROM TERMO WHERE ID = (?)', [id_termo])
+            console.log(results)
+            excluiu = true;
+        }
+        return excluiu
+
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 async function buscaEmail() {
-    let conn = await connect();
-    let retorno = await conn.query('SELECT EMAIL AS EMAIL FROM EMAIL;');
-    // await disconnect(conn);
-    return (retorno[0] == '' || retorno[0][0].EMAIL == 0) ? null : retorno[0][0].EMAIL
+    const connection = makeDb( db_config );
+    try {
+        let results = await connection.query('SELECT EMAIL AS EMAIL FROM EMAIL')
+        console.log('buscando email')
+        console.log(results)
+        return (results[0] == '' || results[0].EMAIL == 0) ? null : results[0].EMAIL
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 async function salvarEmail(email) {
-    await log('Salvando email: ' + email)
-    let conn = await connect();
-    let retorno = await conn.query('SELECT COUNT(*) AS QTD FROM EMAIL;');
-    if (retorno[0] == '' || retorno[0][0].QTD == 0) {
-        const sql = 'INSERT INTO EMAIL(EMAIL) VALUES (?);';
-        const values = [email];
-        await log('Inserindo email: ' + email)
-        await conn.query(sql, values);
-    } else {
-        const sql = 'UPDATE EMAIL SET EMAIL = ?;';
-        const values = [email];
-        await log('Atualizando email para: ' + email)
-        await conn.query(sql, values);
-    } 
-    // await disconnect(conn);
+    const connection = makeDb( db_config );
+    try {
+        log('Salvando email: ' + email)
+        let results = await connection.query('SELECT COUNT(*) AS QTD FROM EMAIL')
+        console.log(results)
+        if (results[0] == '' || results[0].QTD == 0) {
+            await connection.query('INSERT INTO EMAIL(EMAIL) VALUES (?)', [email], function (error, results, fields) {
+                if (error) throw error;
+                log('Inserindo email: ' + email)
+            })
+        } else {
+            await connection.query('UPDATE EMAIL SET EMAIL = ?', [email], function (error, results, fields) {
+                if (error) throw error;
+                log('Atualizando email para: ' + email)
+            })
+        }
+    } catch ( err ) {
+        console.log(err)
+    } finally {
+        await connection.close();
+    }
 }
 
 async function log(data, time = true, quebraLinha = false) {
@@ -628,23 +630,34 @@ function getTime() {
 }
 
 const roboCronEmail = async () => {
-    await log('Executando roboCronEmail ...')
+    log('Executando roboCronEmail ...')
 
     // Execute a cron job when the minute is 01 (e.g. 19:30, 20:30, etc.)
     let novosDiscos = await verificaArquivoUrls();
+    
     if (novosDiscos.status) {
         let emailDest = await buscaEmail();
+
         if (emailDest) {
             try {
                 let content = '';
-                for (const e of novosDiscos) {
+                for (const e of novosDiscos.data) {
                     content += e + '\n'
                 }
-                await enviarEmails(content, emailDest, novosDiscos.data.length-1);
+                
+                await enviarEmails(content, emailDest, novosDiscos.data.length-1)
+                .then((res, rej) => {
+                    if (res) log('Email enviado com sucesso')
+                    else log('Erro ao enviar email')
+                });
             } catch (error) {
-                await log(error)
+                log(error)
             }
+        } else {
+            log('Nenhum email cadastrado')    
         }
+    } else {
+        log('Nenhum disco encontrado para enviar emails')
     }
 }
 
@@ -652,21 +665,25 @@ const roboCronEmail = async () => {
 const roboCron = async () => {
     await log('Executando roboCron ...')
     
-    cron.scheduleJob('* */1 * * *', async () => { 
-        let retorno = await executarRobo()
-
-        // se retornar true, foi cadastrado um novo disco, sendo assim pode se enviar um email
-        if (retorno) {
-            await log('Robô executado com sucesso!')
-            let retornoEmail = await roboCronEmail()
-            if (retornoEmail) {
-                await log('Email enviado com sucesso!')
-                apagarArquivoUrl();
-            }
-        }
-        await log(data = QUEBRA, time=true, quebraLinha=true);
+    cron.scheduleJob('* */1 * * *', async () => { // a cada hora
+        await executarRobo()
+        log(data = QUEBRA, time=true, quebraLinha=true);
     });
 
+}
+
+
+async function tratarCodigo(codigoDisco, id_termo, descricao) {
+    try {
+        if (false === await existeCodigo(codigoDisco)) {
+            let url = await inserirNovoDisco(codigoDisco, id_termo)
+            await gravarNovaUrl(descricao + '\t' + url);
+        } else {
+            await log("Nenhum disco novo encontrado para o termo: " + descricao)
+        }
+    } catch (error) {
+        await log(error)
+    }
 }
 
 
@@ -676,19 +693,36 @@ async function executarRobo() {
 
     // recuperar os discos do banco
     let termos = await todosTermos()
-    
-    return new Promise(async (resolve, reject) => {
-        // pesquisar os termos no site do mercado livre
-        if (termos != null) {                    
-            await pesquisarTermosDeBusca(termos).then(async (response, reject2) => {
-                await log('aqui ****************')
-                if (reject2) reject(reject2)
-                else resolve(response)
-            })             
-        }
-    })
-}
+    let discos = [];
 
+    // pesquisar os termos no site do mercado livre
+    if (termos != null) {                    
+        for (const termo of termos) {
+            const id_termo = termo.id;
+            const descricao = termo.descricao;        
+            await log('termo = ' + descricao)
+            let retorno = {
+                'id_termo': id_termo,
+                'termo': descricao,
+                'data': await collectData(descricao, true, true)
+            }
+            discos.push(retorno)
+        }
+
+        if (discos != null) {
+            for (const disco of discos) {
+                console.log(disco)
+                for (const codigos of disco.data) {
+                    for (const codigo of codigos) {
+                        await tratarCodigo(codigo, disco.id_termo, disco.termo)
+                        // console.log('tratando codigo: ' + codigo)
+                    }
+                }
+            }
+        }
+        await roboCronEmail()
+    }
+}
 
 roboCron();
 

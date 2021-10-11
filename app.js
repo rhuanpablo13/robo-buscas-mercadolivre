@@ -54,11 +54,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
+app.use('/log', logRouter);
 app.use('/login', loginRouter);
 app.use('/users', authenticationMiddleware, usersRouter);
 app.use('/', authenticationMiddleware,  indexRouter);
 app.use('/lista', authenticationMiddleware, listaRouter);
-app.use('/log', logRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -6,7 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async-line-reader": "^1.0.0",
     "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -20,6 +22,7 @@
     "jquery": "^3.6.0",
     "line-reader": "^0.4.0",
     "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.0",
     "node-cron": "^3.0.0",
     "node-schedule": "^2.0.0",
