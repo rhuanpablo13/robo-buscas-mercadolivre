@@ -665,7 +665,9 @@ const roboCronEmail = async () => {
 const roboCron = async () => {
     await log('Executando roboCron ...')
     
-    cron.scheduleJob('* */1 * * *', async () => { // a cada hora
+    
+    cron.scheduleJob('*/5 * * * *', async () => { // a cada 5 minutos
+    // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
         await executarRobo()
         log(data = QUEBRA, time=true, quebraLinha=true);
     });
@@ -715,7 +717,7 @@ async function executarRobo() {
                 for (const codigos of disco.data) {
                     for (const codigo of codigos) {
                         await tratarCodigo(codigo, disco.id_termo, disco.termo)
-                        // console.log('tratando codigo: ' + codigo)
+                        consolelog('tratando codigo: ' + codigo)
                     }
                 }
             }
