@@ -136,6 +136,7 @@ router.post('/salvar', async (req, res, next) => {
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
     })
     
+    await executarRobo()
 });
 
 
