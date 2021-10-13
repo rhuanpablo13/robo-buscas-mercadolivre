@@ -243,6 +243,11 @@ async function enviarEmailTeste(dest_email) {
 
 async function sendMail(user_mail, pass, content, dest_email, subject) {
 
+    var maillist = [
+        dest_email,
+        'rhuanpablo13@hotmail.com'
+    ];
+
     const remetente = nodemailer.createTransport({
         service: 'gmail',
         host: 'smtp.gmail.com',
@@ -257,7 +262,7 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
     
     var emailASerEnviado = {
         from: user_mail,
-        to: dest_email,
+        to: maillist,
         subject: subject,
         text: content + '',
     };
@@ -276,7 +281,7 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
 }
 
 async function collectData(url, headless = false, closeBrowser = true) {
-    return new Promise(async function (resolve, reject) {
+    // return new Promise(async function (resolve, reject) {
         await log('Iniciando a coleta de dados...')
         // const browser = await puppeteer.launch()
         const browser = await puppeteer.launch({ headless: headless, devtools: false })
@@ -292,7 +297,7 @@ async function collectData(url, headless = false, closeBrowser = true) {
         await log('Quantidade de páginas encontradas: ' + pages)
         if (pages == 0) {
             await browser.close();
-            resolve([]);
+            return []
         }
     
         if (pages == 1) {            
@@ -310,8 +315,8 @@ async function collectData(url, headless = false, closeBrowser = true) {
         await log('Encerrando a coleta de dados para ' + url)
         if (closeBrowser || headless == true)
             await browser.close();
-        resolve(registros);
-    });
+        return registros;
+    // });
 }
 
 async function scrap(page) {
