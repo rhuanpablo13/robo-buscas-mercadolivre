@@ -718,7 +718,7 @@ async function executarRobo() {
                 for (const codigos of disco.data) {
                     for (const codigo of codigos) {
                         await tratarCodigo(codigo, disco.id_termo, disco.termo)
-                        consolelog('tratando codigo: ' + codigo)
+                        console.log('tratando codigo: ' + codigo)
                     }
                 }
             }
