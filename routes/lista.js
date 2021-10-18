@@ -39,7 +39,7 @@ function makeDb( config ) {
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    await log("Iniciando...")
+    log("Iniciando...")
 
     let todosOsTermos = await todosTermos();
     let email = await buscaEmail();
@@ -81,7 +81,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        await log("Novo termo: " + termo)
+        log("Novo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -130,7 +130,7 @@ router.post('/salvar', async (req, res, next) => {
 
     await salvarEmail(email);
 
-    await log('Salvando e saindo...')
+    log('Salvando e saindo...')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -220,7 +220,7 @@ async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
 
 
 async function enviarEmailTeste(dest_email) {    
-    await log('Enviando email de teste para: ' + dest_email)
+    log('Enviando email de teste para: ' + dest_email)
 
     return new Promise(async (resolve, reject) => {
         await sendMail(
@@ -282,7 +282,7 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
 
 async function collectData(url, headless = false, closeBrowser = true) {
     // return new Promise(async function (resolve, reject) {
-        await log('Iniciando a coleta de dados...')
+        log('Iniciando a coleta de dados...')
         // const browser = await puppeteer.launch()
         const browser = await puppeteer.launch({ headless: headless, devtools: false })
         const page = await browser.newPage();
@@ -291,10 +291,10 @@ async function collectData(url, headless = false, closeBrowser = true) {
         await page.goto(url);
         let registros = [];
         
-        await log('Pesquisando em: ' + url)
+        log('Pesquisando em: ' + url)
         let pages = await numberPages(page);
     
-        await log('Quantidade de páginas encontradas: ' + pages)
+        log('Quantidade de páginas encontradas: ' + pages)
         if (pages == 0) {
             await browser.close();
             return []
@@ -312,7 +312,7 @@ async function collectData(url, headless = false, closeBrowser = true) {
             registros.push(await scrap(page))
         }
         
-        await log('Encerrando a coleta de dados para ' + url)
+        log('Encerrando a coleta de dados para ' + url)
         if (closeBrowser || headless == true)
             await browser.close();
         return registros;
@@ -419,7 +419,7 @@ function inserirNovoTermoDeBusca(termo) {
     
     // const sql = 'INSERT INTO TERMO(DESCRICAO) VALUES (?);';
     // const values = [termo];
-    // await log("\tInserindo novo termo de busca: " + termo);
+    // log("\tInserindo novo termo de busca: " + termo);
     // let retorno = connection.query(sql, values, [], function (err, user) { connection.release() });
     // // await disconnect(conn);
     // return retorno;
@@ -590,26 +590,24 @@ async function salvarEmail(email) {
     }
 }
 
-async function log(data, time = true, quebraLinha = false) {
-    return new Promise(async (resolve, reject) => {
-        console.log(data)
+function log(data, time = true, quebraLinha = false) {
+    let line = '';
     
-        let line = '';
-    
-        if (time) {
-            line = getTime() + '\t' + data + "\n";
-        }
-    
-        if (quebraLinha) {
-            line = "\n" + line + "\n";
-        }
-    
-        fs.appendFile('log.txt', line, (err) => {
-            if (err) console.log(err)
-            else resolve(true)
-        });
+    if (time) {
+        line = getTime() + '\t' + data + "\n";
+    }
+
+    console.log(line)
+
+    if (quebraLinha) {
+        line = "\n" + line + "\n";
+    }
+
+    fs.appendFile('log.txt', line, (err) => {
+        if (err) console.log(err)
+        else resolve(true)
+    });
         
-    })
 }
 
 async function gravarNovaUrl(data) {
@@ -620,7 +618,7 @@ async function gravarNovaUrl(data) {
 
 async function apagarArquivoUrl() {
     try {
-        await log('Apagando arquivo de urls')
+        log('Apagando arquivo de urls')
         fs.unlinkSync('urls.txt')
     } catch(err) { log(err) }
 }
@@ -637,6 +635,7 @@ function getTime() {
 
 const roboCronEmail = async () => {
     log('Executando roboCronEmail ...')
+    log(getTime())
 
     // Execute a cron job when the minute is 01 (e.g. 19:30, 20:30, etc.)
     let novosDiscos = await verificaArquivoUrls();
@@ -669,10 +668,10 @@ const roboCronEmail = async () => {
 
 
 const roboCron = async () => {
-    await log('Executando roboCron ...')
+    log('Executando roboCron ...')
     
     
-    cron.scheduleJob('*/5 * * * *', async () => { // a cada 5 minutos
+    cron.scheduleJob('*/1 * * * *', async () => { // a cada 5 minutos
     // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
         await executarRobo()
         log(data = QUEBRA, time=true, quebraLinha=true);
@@ -687,17 +686,17 @@ async function tratarCodigo(codigoDisco, id_termo, descricao) {
             let url = await inserirNovoDisco(codigoDisco, id_termo)
             await gravarNovaUrl(descricao + '\t' + url);
         } else {
-            await log("Nenhum disco novo encontrado para o termo: " + descricao)
+            log("Nenhum disco novo encontrado para o termo: " + descricao)
         }
     } catch (error) {
-        await log(error)
+        log(error)
     }
 }
 
 
 async function executarRobo() {
 
-    await log('Iniciando o robô :)')
+    log('Iniciando o robô :)')
 
     // recuperar os discos do banco
     let termos = await todosTermos()
@@ -708,7 +707,7 @@ async function executarRobo() {
         for (const termo of termos) {
             const id_termo = termo.id;
             const descricao = termo.descricao;        
-            await log('termo = ' + descricao)
+            log('termo = ' + descricao)
             let retorno = {
                 'id_termo': id_termo,
                 'termo': descricao,
