@@ -604,8 +604,7 @@ function log(data, time = true, quebraLinha = false) {
     }
 
     fs.appendFile('log.txt', line, (err) => {
-        if (err) console.log(err)
-        else resolve(true)
+        if (err) console.log(err)        
     });
         
 }
