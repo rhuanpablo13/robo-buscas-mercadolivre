@@ -651,7 +651,10 @@ const roboCronEmail = async () => {
                 
                 await enviarEmails(content, emailDest, novosDiscos.data.length-1)
                 .then((res, rej) => {
-                    if (res) log('Email enviado com sucesso')
+                    if (res) {
+                        log('Email enviado com sucesso')
+                        await apagarArquivoUrl()
+                    }
                     else log('Erro ao enviar email')
                 });
             } catch (error) {
