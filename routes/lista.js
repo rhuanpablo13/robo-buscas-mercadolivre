@@ -615,10 +615,10 @@ async function gravarNovaUrl(data) {
     });
 }
 
-async function apagarArquivoUrl() {
+function apagarArquivoUrl() {
     try {
         log('Apagando arquivo de urls')
-        fs.unlinkSync('urls.txt')
+        fs.unlink('urls.txt')
     } catch(err) { log(err) }
 }
 
@@ -653,7 +653,7 @@ const roboCronEmail = async () => {
                 .then((res, rej) => {
                     if (res) {
                         log('Email enviado com sucesso')
-                        await apagarArquivoUrl()
+                        apagarArquivoUrl()
                     }
                     else log('Erro ao enviar email')
                 });
