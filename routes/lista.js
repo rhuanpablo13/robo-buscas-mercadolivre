@@ -284,7 +284,7 @@ async function collectData(url, headless = false, closeBrowser = true) {
     // return new Promise(async function (resolve, reject) {
         log('Iniciando a coleta de dados...')
         // const browser = await puppeteer.launch()
-        const browser = await puppeteer.launch({ headless: headless, devtools: false })
+        const browser = await puppeteer.launch({ headless: headless, devtools: false, args: ['--no-sandbox']})
         const page = await browser.newPage();
         url = 'https://lista.mercadolivre.com.br/musica/' + url;
         
