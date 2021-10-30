@@ -73,7 +73,7 @@ const connection = require('./resources/connections');
   let con = connection.getConnection()
   if (con != null) {
     resources.setConnection(con)
-    await resources.executarRobo()
+    await resources.roboCron()
   }
 })();
 
