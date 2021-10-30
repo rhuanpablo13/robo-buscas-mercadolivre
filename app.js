@@ -5,8 +5,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const passport = require('passport');
 const session = require('express-session');
-// const cron = require("node-cron");
-const cron = require("node-schedule");
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -23,14 +21,6 @@ function authenticationMiddleware(req, res, next) {
 }
 
 const app = express();
-
-
-// cron.schedule("* * * * *", () => {
-//   console.log("Executando a tarefa a cada 1 minuto")
-//   listaRouter.main()
-// });
-
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -70,13 +60,21 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
+  
   // render the error page
   res.status(err.status || 500);
   res.render('error');
 });
 
+const resources = require('./resources/resources');
+const connection = require('./resources/connections');
 
-
+(async () => {
+  let con = connection.getConnection()
+  if (con != null) {
+    resources.setConnection(con)
+    await resources.executarRobo()
+  }
+})();
 
 module.exports = app;
