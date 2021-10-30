@@ -3,12 +3,13 @@ const router = express.Router();
 const passport = require('passport');
 
 const resources = require('../resources/resources');
+const log = require('../resources/log');
 
 
 /* GET lista page. */
 router.get('/', async (req, res, next) => {
     
-    log("Iniciando...")
+    log.print("Iniciando...")
 
     let todosOsTermos = await resources.todosTermos();
     let email = await resources.buscaEmail();
@@ -48,7 +49,7 @@ router.post('/adicionar', async (req, res, next) => {
         }
         let id = retorno[0].insertId;
         
-        log("Novo termo: " + termo)
+        log.print("Novo termo: " + termo)
 
         res.status(200).send(
             `<li id="${id}">
@@ -71,7 +72,7 @@ router.delete('/deletar', async (req, res, next) => {
     let id = parseInt(req.body.id);
     let retorno = await removerTermoDeBusca(id)
     if (retorno == -1) {
-        console.log('erro ao excluir')
+        console.log.print('erro ao excluir')
         res.status(401).send({
             error: 'Erro ao excluir termo'
         })
@@ -97,7 +98,7 @@ router.post('/salvar', async (req, res, next) => {
 
     await salvarEmail(email);
 
-    log('Salvando e saindo...')
+    log.print('Salvando e saindo...')
 
     res.status(200).send({
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
@@ -134,7 +135,7 @@ router.post('/testeEmail', async (req, res, next) => {
             error: 'Houve uma falha ao enviar para este email... :('
         })
     })
-    .catch(err => console.log(err))
+    .catch(err => console.log.print(err))
     
 });
 
