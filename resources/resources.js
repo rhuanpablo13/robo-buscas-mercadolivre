@@ -32,13 +32,15 @@ async function verificaArquivoUrls() {
 
     try {
         let discos = [];
+        let status = false
 
         var eachLine = Promise.promisify(lineReader.eachLine);
         return new Promise(function(resolve, reject) {
             eachLine('./urls.txt', function(line) {
-                discos.push(line)
+                if (line != null && line !== '')
+                    discos.push(line)
             }).then(function() {
-                resolve ({'status': true, 'data': discos})
+                resolve ({'status': status, 'data': discos})
             }).catch(function(err) {
                 console.error(err);
             });
