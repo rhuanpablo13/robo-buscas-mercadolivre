@@ -421,6 +421,7 @@ module.exports = {
     existeIdTermo,
     existeTermoEmDisco,
     inserirNovoDisco,
+    inserirNovoTermoDeBusca,
     removerTermoDeBusca,
     buscaEmail,
     salvarEmail,

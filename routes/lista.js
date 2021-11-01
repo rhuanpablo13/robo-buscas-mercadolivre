@@ -40,7 +40,7 @@ router.post('/adicionar', async (req, res, next) => {
 
     let termo = req.body.termo;
     if (termo !== '') {
-        let retorno = await inserirNovoTermoDeBusca(termo)
+        let retorno = await resources.inserirNovoTermoDeBusca(termo)
         if (retorno == null) {
             res.status(401).send({
                 error: 'Termo já está cadastrado'
@@ -70,7 +70,7 @@ router.delete('/deletar', async (req, res, next) => {
     });
 
     let id = parseInt(req.body.id);
-    let retorno = await removerTermoDeBusca(id)
+    let retorno = await resources.removerTermoDeBusca(id)
     if (retorno == -1) {
         console.log.print('erro ao excluir')
         res.status(401).send({
@@ -96,7 +96,7 @@ router.post('/salvar', async (req, res, next) => {
         return;
     }
 
-    await salvarEmail(email);
+    await resources.salvarEmail(email);
 
     log.print('Salvando e saindo...')
 
@@ -104,7 +104,7 @@ router.post('/salvar', async (req, res, next) => {
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
     })
     
-    await executarRobo()
+    await resources.executarRobo()
 });
 
 
@@ -135,7 +135,7 @@ router.post('/testeEmail', async (req, res, next) => {
             error: 'Houve uma falha ao enviar para este email... :('
         })
     })
-    .catch(err => console.log.print(err))
+    .catch(err => log.print(err))
     
 });
 
