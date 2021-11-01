@@ -19,11 +19,11 @@ function setConnection(conParam) {
 }
 
 async function roboCron () {
-    log('Executando roboCron ...')
+    log.print('Executando roboCron ...')
     // cron.scheduleJob('*/1 * * * *', async () => { // a cada 5 minutos
     cron.scheduleJob('* */1 * * *', async () => { // a cada hora
         await executarRobo()
-        log(data = QUEBRA, time=true, quebraLinha=true);
+        log.print(data = QUEBRA, time=true, quebraLinha=true);
     });
 }
 
@@ -44,7 +44,7 @@ async function verificaArquivoUrls() {
             });
         })
 
-    } catch (err) {log(err)}
+    } catch (err) {log.print(err)}
 }
 
 
