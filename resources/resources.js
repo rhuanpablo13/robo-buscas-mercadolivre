@@ -21,8 +21,9 @@ function setConnection(conParam) {
 
 async function roboCron () {
     log.print('Executando roboCron ...')
-    cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
+    // cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
     // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
+    cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
         await executarRobo()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
@@ -343,8 +344,7 @@ async function roboCronEmail () {
             try {
                 let content = novosDiscos.data
 
-                if (content.length > 0) {
-                    
+                if (content.length > 0) {                    
                     await enviarEmails(content, emailDest, 0)
                     .then((res, rej) => {
                         if (res) {                            
@@ -369,8 +369,8 @@ async function roboCronEmail () {
 async function tratarRegistro(disco) {
 
     try {
-        let data = disco.data[0]
-        if (typeof(data.length) != "undefined") {
+        if (typeof(data) != "undefined" && typeof(data.length) != "undefined") {
+            let data = disco.data[0]
             for (var i = 0; i < data.length; i++) {
                 let reg = data[i]
                 if (false === await existeCodigo(reg.id)) {
@@ -413,7 +413,7 @@ async function executarRobo() {
                 await tratarRegistro(disco)
             }
             
-            let urls = await carregarArquivoUrls();
+            
             if (await temDadosNoArquivoUrl()) {                
                 await gravarNoArquivoEmail(emailMaker.getInicio())
                 let urls = await carregarArquivoUrls();

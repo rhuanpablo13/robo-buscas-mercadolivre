@@ -1,591 +1,1322 @@
-17-11-2021 1:27	Iniciando o robô :)
-17-11-2021 1:27	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:27	termo = discos antigos queens
-17-11-2021 1:27	Iniciando a coleta de dados...
-17-11-2021 1:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:27	Quantidade de páginas encontradas: 1
-17-11-2021 1:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:27	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Iniciando a coleta de dados...
-17-11-2021 1:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Quantidade de páginas encontradas: 2
-17-11-2021 1:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:27	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Iniciando o robô :)
-17-11-2021 1:31	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:31	termo = discos antigos queens
-17-11-2021 1:31	Iniciando a coleta de dados...
-17-11-2021 1:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:31	Quantidade de páginas encontradas: 1
-17-11-2021 1:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:31	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Iniciando a coleta de dados...
-17-11-2021 1:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Quantidade de páginas encontradas: 2
-17-11-2021 1:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:31	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Iniciando o robô :)
-17-11-2021 1:34	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:34	Iniciando a coleta de dados...
-17-11-2021 1:34	termo = discos antigos queens
-17-11-2021 1:34	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:34	Quantidade de páginas encontradas: 1
-17-11-2021 1:34	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:34	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Iniciando a coleta de dados...
-17-11-2021 1:34	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Quantidade de páginas encontradas: 2
-17-11-2021 1:34	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:34	erro ao abrir arquivo de urls
-17-11-2021 1:40	Iniciando o robô :)
-17-11-2021 1:40	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:40	Iniciando a coleta de dados...
-17-11-2021 1:40	termo = discos antigos queens
-17-11-2021 1:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:40	Quantidade de páginas encontradas: 1
-17-11-2021 1:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:40	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Iniciando a coleta de dados...
-17-11-2021 1:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Quantidade de páginas encontradas: 2
-17-11-2021 1:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:40	Executando roboCronEmail ...
-17-11-2021 1:40	Email enviado com sucesso. 
-17-11-2021 1:40	Apagando arquivo de email
-17-11-2021 1:40	Apagando arquivo de urls
-17-11-2021 1:40	
-------------------------------------------------------------------------------------------------------------------- 
-
-17-11-2021 1:48	Iniciando o robô :)
-17-11-2021 1:48	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:48	termo = discos antigos queens
-17-11-2021 1:48	Iniciando a coleta de dados...
-17-11-2021 1:48	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:48	Quantidade de páginas encontradas: 1
-17-11-2021 1:48	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:48	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Iniciando a coleta de dados...
-17-11-2021 1:48	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Quantidade de páginas encontradas: 2
-17-11-2021 1:48	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:48	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Error: ENOENT: no such file or directory, open 'C:\Users\rhuan\OneDrive\Área de Trabalho\projeto-mercadolivre\robo-buscas-mercadolivre\urls.txt'
-17-11-2021 1:49	
-------------------------------------------------------------------------------------------------------------------- 
-
-17-11-2021 1:49	Iniciando o robô :)
-17-11-2021 1:49	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:49	termo = discos antigos queens
-17-11-2021 1:49	Iniciando a coleta de dados...
-17-11-2021 1:49	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:49	Quantidade de páginas encontradas: 1
-17-11-2021 1:49	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:49	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Iniciando a coleta de dados...
-17-11-2021 1:49	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:49	Quantidade de páginas encontradas: 2
-17-11-2021 1:49	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:50	Executando roboCronEmail ...
-17-11-2021 1:50	Email enviado com sucesso. 
-17-11-2021 1:50	
-------------------------------------------------------------------------------------------------------------------- 
-
-17-11-2021 1:50	Apagando arquivo de email
-17-11-2021 1:50	Apagando arquivo de urls
-17-11-2021 1:53	Iniciando o robô :)
-17-11-2021 1:53	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 1:53	termo = discos antigos queens
-17-11-2021 1:53	Iniciando a coleta de dados...
-17-11-2021 1:53	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:53	Quantidade de páginas encontradas: 1
-17-11-2021 1:53	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 1:53	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:53	Iniciando a coleta de dados...
-17-11-2021 1:53	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:53	Quantidade de páginas encontradas: 2
-17-11-2021 1:53	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:53	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 1:54	Executando roboCronEmail ...
-17-11-2021 1:54	Email enviado com sucesso. 
-17-11-2021 1:54	
-------------------------------------------------------------------------------------------------------------------- 
-
-17-11-2021 1:59	Executando roboCron ...
-17-11-2021 2:0	Iniciando o robô :)
-17-11-2021 2:0	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 2:0	termo = discos antigos queens
-17-11-2021 2:0	Iniciando a coleta de dados...
-17-11-2021 2:0	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:0	Quantidade de páginas encontradas: 1
-17-11-2021 2:0	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:0	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Iniciando a coleta de dados...
-17-11-2021 2:0	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Quantidade de páginas encontradas: 2
-17-11-2021 2:0	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:0	Executando roboCronEmail ...
-17-11-2021 2:0	Email enviado com sucesso. 
-17-11-2021 2:0	Apagando arquivo de urls
-17-11-2021 2:0	Apagando arquivo de email
-
-17-11-2021 2:0	Fim de execução do Robô
-
-17-11-2021 2:0	
-------------------------------------------------------------------------------------------------------------------- 
-
-17-11-2021 2:1	Iniciando o robô :)
-17-11-2021 2:1	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 2:1	Iniciando a coleta de dados...
-17-11-2021 2:1	termo = discos antigos queens
-17-11-2021 2:1	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:1	Quantidade de páginas encontradas: 1
-17-11-2021 2:1	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:1	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Iniciando a coleta de dados...
-17-11-2021 2:1	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Quantidade de páginas encontradas: 2
-17-11-2021 2:1	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:1	Error: ENOENT: no such file or directory, open 'C:\Users\rhuan\OneDrive\Área de Trabalho\projeto-mercadolivre\robo-buscas-mercadolivre\urls.txt'
-17-11-2021 2:1	
+17-11-2021 15:13	Executando roboCron ...
+17-11-2021 15:17	Executando roboCron ...
+17-11-2021 15:18	Iniciando o robô :)
+17-11-2021 15:18	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:18	termo = Lula cortes
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:18	Quantidade de páginas encontradas: 2
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:18	termo = Marconi Notaro
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:18	Quantidade de páginas encontradas: 2
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:18	termo = Tribo Massahi
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:18	Quantidade de páginas encontradas: 3
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:18	termo = Irmãs Ibejy
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:18	Quantidade de páginas encontradas: 3
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:18	termo = Piry
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:18	Quantidade de páginas encontradas: 1
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:18	termo = Spectrum Bendita
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:18	Quantidade de páginas encontradas: 3
+17-11-2021 15:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:18	termo = Brasil Copa Mundo 1958
+17-11-2021 15:18	Iniciando a coleta de dados...
+17-11-2021 15:19	Iniciando o robô :)
+17-11-2021 15:19	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:19	termo = Lula cortes
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:19	Quantidade de páginas encontradas: 1
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:19	termo = Minas Num Dia Azul
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:19	Quantidade de páginas encontradas: 2
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:19	Quantidade de páginas encontradas: 1
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:19	termo = Ton Sergio Cativeiro
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:19	termo = Marconi Notaro
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:19	Quantidade de páginas encontradas: 2
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:19	termo = Loyce Gnomos
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:19	termo = Tribo Massahi
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:19	Quantidade de páginas encontradas: 2
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:19	termo = Carlos Lee Capoeira
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:19	termo = Irmãs Ibejy
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:19	termo = Carlos Lee Pequeno
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:19	termo = Piry
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:19	Quantidade de páginas encontradas: 2
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:19	Quantidade de páginas encontradas: 1
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:19	termo = Spectrum Bendita
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:19	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:19	termo = Brasil Copa Mundo 1958
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	termo = Rubinho Mauro Assumpção
+17-11-2021 15:19	Iniciando a coleta de dados...
+17-11-2021 15:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:19	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Iniciando o robô :)
+17-11-2021 15:20	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	termo = Lula cortes
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:20	Quantidade de páginas encontradas: 1
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:20	termo = Minas Num Dia Azul
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:20	Quantidade de páginas encontradas: 2
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	termo = Marconi Notaro
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:20	Quantidade de páginas encontradas: 1
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	termo = Ton Sergio Cativeiro
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:20	Quantidade de páginas encontradas: 2
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:20	termo = Tribo Massahi
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	termo = Loyce Gnomos
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:20	Quantidade de páginas encontradas: 2
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	tratarRegistro
+17-11-2021 15:20	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:20	Executando roboCronEmail ...
+17-11-2021 15:20	Apagando arquivo de urls
+17-11-2021 15:20	Apagando arquivo de email
+17-11-2021 15:20	Email enviado com sucesso. 
+17-11-2021 15:20	
 ------------------------------------------------------------------------------------------------------------------- 
 
 
-17-11-2021 2:1	Fim de execução do Robô
+17-11-2021 15:20	Fim de execução do Robô
 
-17-11-2021 2:2	Iniciando o robô :)
-17-11-2021 2:2	Buscando todos os termos cadastrados => Encontrados: 2
-17-11-2021 2:2	termo = discos antigos queens
-17-11-2021 2:2	Iniciando a coleta de dados...
-17-11-2021 2:2	Pesquisando em: https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:2	Quantidade de páginas encontradas: 1
-17-11-2021 2:2	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/discos antigos queens
-17-11-2021 2:2	termo = 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Iniciando a coleta de dados...
-17-11-2021 2:2	Pesquisando em: https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Quantidade de páginas encontradas: 2
-17-11-2021 2:2	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: discos antigos queens
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Nenhum disco novo encontrado para o termo: 1000 Plásticos Internos. Proteção Para Lp Disco Vinil
-17-11-2021 2:2	Error: ENOENT: no such file or directory, open 'C:\Users\rhuan\OneDrive\Área de Trabalho\projeto-mercadolivre\robo-buscas-mercadolivre\urls.txt'
-17-11-2021 2:2	
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:20	termo = Irmãs Ibejy
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:20	termo = Carlos Lee Capoeira
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:20	termo = Piry
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:20	termo = Carlos Lee Pequeno
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:20	Quantidade de páginas encontradas: 1
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:20	termo = Spectrum Bendita
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:20	Quantidade de páginas encontradas: 2
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:20	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:20	termo = Brasil Copa Mundo 1958
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:20	Quantidade de páginas encontradas: 3
+17-11-2021 15:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:20	Quantidade de páginas encontradas: 1
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:20	termo = Minas Num Dia Azul
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:20	termo = Rubinho Mauro Assumpção
+17-11-2021 15:20	Iniciando a coleta de dados...
+17-11-2021 15:21	Iniciando o robô :)
+17-11-2021 15:21	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:21	termo = Lula cortes
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:21	Quantidade de páginas encontradas: 1
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:21	termo = Ton Sergio Cativeiro
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:21	Quantidade de páginas encontradas: 2
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:21	termo = Marconi Notaro
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:21	termo = Loyce Gnomos
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:21	Quantidade de páginas encontradas: 2
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Quantidade de páginas encontradas: 2
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	termo = Tribo Massahi
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	termo = Carlos Lee Capoeira
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:21	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	tratarRegistro
+17-11-2021 15:21	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:21	Error: ENOENT: no such file or directory, open 'C:\Users\rhuan\OneDrive\Área de Trabalho\projeto-mercadolivre\robo-buscas-mercadolivre\urls.txt'
+17-11-2021 15:21	
 ------------------------------------------------------------------------------------------------------------------- 
 
 
-17-11-2021 2:2	Fim de execução do Robô
+17-11-2021 15:21	Fim de execução do Robô
 
-17-11-2021 11:23	Iniciando...
-17-11-2021 11:23	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:36	Iniciando...
-17-11-2021 11:36	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:39	Iniciando...
-17-11-2021 11:39	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:39	Iniciando...
-17-11-2021 11:39	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:43	Iniciando...
-17-11-2021 11:43	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:44	Iniciando...
-17-11-2021 11:44	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:45	Iniciando...
-17-11-2021 11:45	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:46	Iniciando...
-17-11-2021 11:46	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:47	Iniciando...
-17-11-2021 11:47	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:48	Iniciando...
-17-11-2021 11:48	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:48	Iniciando...
-17-11-2021 11:48	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:49	Iniciando...
-17-11-2021 11:49	Buscando todos os termos cadastrados => Encontrados: 14
-17-11-2021 11:50	Enviando email de teste para: ailton.staniasky@gmail.com
-17-11-2021 11:50	Email enviado com sucesso. 
-17-11-2021 11:50	Salvando email: ailton.staniasky@gmail.com
-17-11-2021 11:50	Atualizando email para: ailton.staniasky@gmail.com
-17-11-2021 11:50	Salvando e saindo...
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:21	termo = Irmãs Ibejy
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:21	termo = Carlos Lee Pequeno
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:21	termo = Piry
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:21	Quantidade de páginas encontradas: 2
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:21	Quantidade de páginas encontradas: 1
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:21	termo = Spectrum Bendita
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:21	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:21	termo = Rubinho Mauro Assumpção
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:21	termo = Brasil Copa Mundo 1958
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:21	Quantidade de páginas encontradas: 3
+17-11-2021 15:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:21	Quantidade de páginas encontradas: 1
+17-11-2021 15:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:21	termo = Minas Num Dia Azul
+17-11-2021 15:21	Iniciando a coleta de dados...
+17-11-2021 15:22	Iniciando o robô :)
+17-11-2021 15:22	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:22	termo = Lula cortes
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:22	Quantidade de páginas encontradas: 1
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:22	termo = Ton Sergio Cativeiro
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:22	Quantidade de páginas encontradas: 2
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	termo = Marconi Notaro
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:22	Quantidade de páginas encontradas: 3
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	termo = Loyce Gnomos
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:22	Quantidade de páginas encontradas: 2
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	termo = Tribo Massahi
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Quantidade de páginas encontradas: 2
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:22	Quantidade de páginas encontradas: 3
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:22	termo = Carlos Lee Capoeira
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	termo = Irmãs Ibejy
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	tratarRegistro
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:22	Executando roboCronEmail ...
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:22	Quantidade de páginas encontradas: 3
+17-11-2021 15:22	Email enviado com sucesso. 
+17-11-2021 15:22	Apagando arquivo de urls
+17-11-2021 15:22	Apagando arquivo de email
+17-11-2021 15:22	
+------------------------------------------------------------------------------------------------------------------- 
+
+
+17-11-2021 15:22	Fim de execução do Robô
+
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:22	Quantidade de páginas encontradas: 3
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:22	termo = Carlos Lee Pequeno
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:22	Quantidade de páginas encontradas: 2
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:22	termo = Piry
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:22	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:22	Iniciando a coleta de dados...
+17-11-2021 15:30	Executando roboCron ...
+17-11-2021 15:31	Iniciando o robô :)
+17-11-2021 15:31	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:31	termo = Lula cortes
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:31	Quantidade de páginas encontradas: 2
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:31	termo = Marconi Notaro
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:31	Quantidade de páginas encontradas: 2
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:31	termo = Tribo Massahi
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:31	Quantidade de páginas encontradas: 3
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:31	termo = Irmãs Ibejy
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:31	Quantidade de páginas encontradas: 3
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:31	termo = Piry
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:31	Quantidade de páginas encontradas: 1
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:31	termo = Spectrum Bendita
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:31	Quantidade de páginas encontradas: 3
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:31	termo = Brasil Copa Mundo 1958
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:31	Quantidade de páginas encontradas: 1
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:31	termo = Minas Num Dia Azul
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:31	Quantidade de páginas encontradas: 1
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:31	termo = Ton Sergio Cativeiro
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:31	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:31	Quantidade de páginas encontradas: 3
+17-11-2021 15:31	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:31	termo = Loyce Gnomos
+17-11-2021 15:31	Iniciando a coleta de dados...
+17-11-2021 15:32	Iniciando o robô :)
+17-11-2021 15:32	termo = Lula cortes
+17-11-2021 15:32	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:32	Quantidade de páginas encontradas: 2
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:32	termo = Carlos Lee Capoeira
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:32	Quantidade de páginas encontradas: 2
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:32	termo = Marconi Notaro
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:32	Quantidade de páginas encontradas: 2
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:32	termo = Tribo Massahi
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	termo = Carlos Lee Pequeno
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:32	Quantidade de páginas encontradas: 2
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:32	termo = Irmãs Ibejy
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:32	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:32	termo = Piry
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	termo = Rubinho Mauro Assumpção
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:32	Quantidade de páginas encontradas: 1
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:32	termo = Spectrum Bendita
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:32	Quantidade de páginas encontradas: 3
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	termo = Brasil Copa Mundo 1958
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:32	tratarRegistro
+17-11-2021 15:32	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:32	tratarRegistro
+17-11-2021 15:32	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:32	Quantidade de páginas encontradas: 1
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	termo = Minas Num Dia Azul
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:32	Quantidade de páginas encontradas: 1
+17-11-2021 15:32	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	termo = Ton Sergio Cativeiro
+17-11-2021 15:32	Iniciando a coleta de dados...
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:32	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Iniciando o robô :)
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	termo = Lula cortes
+17-11-2021 15:33	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:33	Iniciando a coleta de dados...
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:33	Quantidade de páginas encontradas: 3
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:33	Quantidade de páginas encontradas: 2
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	termo = Marconi Notaro
+17-11-2021 15:33	Iniciando a coleta de dados...
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	
+------------------------------------------------------------------------------------------------------------------- 
+
+
+17-11-2021 15:33	Fim de execução do Robô
+
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:33	tratarRegistro
+17-11-2021 15:33	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:33	termo = Loyce Gnomos
+17-11-2021 15:33	Iniciando a coleta de dados...
+17-11-2021 15:33	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:33	Quantidade de páginas encontradas: 2
+17-11-2021 15:33	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:33	Quantidade de páginas encontradas: 2
+17-11-2021 15:33	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:33	termo = Tribo Massahi
+17-11-2021 15:33	Iniciando a coleta de dados...
+17-11-2021 15:34	Executando roboCron ...
+17-11-2021 15:35	Iniciando o robô :)
+17-11-2021 15:35	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:35	termo = Lula cortes
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:35	Quantidade de páginas encontradas: 2
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:35	termo = Marconi Notaro
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:35	Quantidade de páginas encontradas: 2
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:35	termo = Tribo Massahi
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:35	Quantidade de páginas encontradas: 3
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:35	termo = Irmãs Ibejy
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:35	Quantidade de páginas encontradas: 3
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:35	termo = Piry
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:35	Quantidade de páginas encontradas: 1
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:35	termo = Spectrum Bendita
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:35	Quantidade de páginas encontradas: 3
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:35	termo = Brasil Copa Mundo 1958
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:35	Quantidade de páginas encontradas: 1
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:35	termo = Minas Num Dia Azul
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:35	Quantidade de páginas encontradas: 1
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:35	termo = Ton Sergio Cativeiro
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:35	Quantidade de páginas encontradas: 3
+17-11-2021 15:35	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:35	termo = Loyce Gnomos
+17-11-2021 15:35	Iniciando a coleta de dados...
+17-11-2021 15:35	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:35	Quantidade de páginas encontradas: 2
+17-11-2021 15:36	Iniciando o robô :)
+17-11-2021 15:36	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:36	termo = Lula cortes
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+17-11-2021 15:36	termo = Carlos Lee Capoeira
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:36	Quantidade de páginas encontradas: 2
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:36	termo = Marconi Notaro
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:36	Quantidade de páginas encontradas: 2
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	termo = Carlos Lee Pequeno
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+17-11-2021 15:36	termo = Tribo Massahi
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:36	Quantidade de páginas encontradas: 2
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+17-11-2021 15:36	termo = Carlos Lee Bossa Maximus
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+17-11-2021 15:36	termo = Irmãs Ibejy
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+17-11-2021 15:36	termo = Rubinho Mauro Assumpção
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+17-11-2021 15:36	termo = Piry
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:36	Quantidade de páginas encontradas: 1
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	termo = Spectrum Bendita
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:36	Quantidade de páginas encontradas: 3
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	termo = Brasil Copa Mundo 1958
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Lula cortes
+17-11-2021 15:36	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:36	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:36	tratarRegistro
+17-11-2021 15:36	tratarRegistro
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:36	Quantidade de páginas encontradas: 1
+17-11-2021 15:36	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	termo = Minas Num Dia Azul
+17-11-2021 15:36	Iniciando a coleta de dados...
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:36	tratarRegistro
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Piry
+17-11-2021 15:36	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:36	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Iniciando o robô :)
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	termo = Lula cortes
+17-11-2021 15:37	Buscando todos os termos cadastrados => Encontrados: 14
+17-11-2021 15:37	Iniciando a coleta de dados...
+17-11-2021 15:37	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:37	Quantidade de páginas encontradas: 1
+17-11-2021 15:37	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	termo = Ton Sergio Cativeiro
+17-11-2021 15:37	Iniciando a coleta de dados...
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	Nenhum disco novo encontrado para o termo: Brasil Copa Mundo 1958
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	tratarRegistro
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+17-11-2021 15:37	
+------------------------------------------------------------------------------------------------------------------- 
+
+17-11-2021 15:37	TypeError: Cannot read properties of undefined (reading 'length')
+
+17-11-2021 15:37	Fim de execução do Robô
+
+17-11-2021 15:37	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:37	Quantidade de páginas encontradas: 2
+17-11-2021 15:37	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+17-11-2021 15:37	Quantidade de páginas encontradas: 3
+17-11-2021 15:37	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+17-11-2021 15:37	termo = Marconi Notaro
+17-11-2021 15:37	Iniciando a coleta de dados...
