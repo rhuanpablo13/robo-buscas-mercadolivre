@@ -40,14 +40,14 @@ router.post('/adicionar', async (req, res, next) => {
 
     let termo = req.body.termo;
     if (termo !== '') {
-        let retorno = await resources.inserirNovoTermoDeBusca(termo)
+        let retorno = await resources.inserirNovoTermoDeBusca(termo)        
         if (retorno == null) {
             res.status(401).send({
                 error: 'Termo já está cadastrado'
             })
             return;
         }
-        let id = retorno[0].insertId;
+        let id = retorno.insertId;
         
         log.print("Novo termo: " + termo)
 

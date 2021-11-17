@@ -12,6 +12,7 @@ const lineReader = require('line-reader');
 const util = require( 'util' );
 const mypuppeteer = require('../resources/puppeteer');
 const log = require('../resources/log');
+const emailMaker = require('../resources/email-maker');
 
 let con = null
 function setConnection(conParam) {
@@ -20,38 +21,40 @@ function setConnection(conParam) {
 
 async function roboCron () {
     log.print('Executando roboCron ...')
-    // cron.scheduleJob('*/1 * * * *', async () => { // a cada 5 minutos
-    cron.scheduleJob('* */1 * * *', async () => { // a cada hora
+    cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
+    // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
         await executarRobo()
-        log.print(data = QUEBRA, time=true, quebraLinha=true);
+        log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
 }
 
 
-async function verificaArquivoUrls() {
-
-    try {
-        let discos = [];
-        let status = false
-
-        var eachLine = Promise.promisify(lineReader.eachLine);
-        return new Promise(function(resolve, reject) {
-            eachLine('./urls.txt', function(line) {
-                if (line != null && line !== '')
-                    discos.push(line)
-            }).then(function() {
-                resolve ({'status': status, 'data': discos})
-            }).catch(function(err) {
-                console.error(err);
-            });
+async function carregarArquivoUrls() {
+    return new Promise(async (resolve, reject) => {
+        fs.readFile('./urls.txt', 'utf8' , (err, data) => {
+            if (err) { 
+                log.print(err); 
+                resolve ({'status': false, 'data': []})
+            }            
+            resolve ({'status': true, 'data': data})
         })
-
-    } catch (err) {log.print(err)}
+    })
 }
 
+async function carregarArquivoEmail() {
+    return new Promise(async (resolve, reject) => {
+        fs.readFile('./email.txt', 'utf8' , (err, data) => {
+            if (err) { 
+                log.print(err); 
+                resolve ({'status': false, 'data': []})
+            }            
+            resolve ({'status': true, 'data': data})
+        })
+    })
+}
 
 async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
-    if (qtd_discos > 0) await log.print('Enviando email com ' + qtd_discos + ' discos novos')        
+    if (qtd_discos > 0) await log.print('Enviando email com discos novos')
 
     return new Promise(async (resolve, reject) => {
         await sendMail(
@@ -59,7 +62,7 @@ async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
             "EnvioEmail@123", 
             novosDiscos,
             dest_email,
-            'Aqui estão ' + qtd_discos + ' novos discos que encontrei pra vc :) '
+            'Aqui estão novos discos que encontrei pra vc :) '
         ).
         then((res, rej) => {
             if (res)
@@ -116,7 +119,7 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
         from: user_mail,
         to: maillist,
         subject: subject,
-        text: content + '',
+        html: content + '',
     };
     
     return new Promise((resolve, reject) => {
@@ -125,7 +128,7 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
                 log.print('Falha. ' + response);
                 reject(false);
             } else {
-                log.print('Email enviado com sucesso. ' + content);
+                log.print('Email enviado com sucesso. ');
                 resolve(true);
             }
         })
@@ -147,9 +150,7 @@ async function todosTermos() {
     let results = await con.awaitQuery(sql)
     
     await log.print('Buscando todos os termos cadastrados => Encontrados: ' + results.length)
-    console.log(results)
-    
-    // con.destroy()
+
     return results.map((ret) => {                
         return {
             'id' : ret.ID,
@@ -166,29 +167,18 @@ async function todosTermos() {
  * @param string termo 
  * @returns null | objeto inserido
  */
-function inserirNovoTermoDeBusca(termo) {
+async function inserirNovoTermoDeBusca(termo) {
 
-    if (existeTermo(termo)) {
+    if (await existeTermo(termo) == true) {
         return null;
     }
 
-    con.connect(async function(err) {
-        if (err) throw err;
-        
-        var sql = "INSERT INTO TERMO(DESCRICAO) VALUES (?)";
-        con.query(sql, [termo], async function (err, results) {
-            if (err) throw err;
-            if (results == '') {
-                // con.destroy()
-                return null;
-            }
+    var sql = "INSERT INTO TERMO(DESCRICAO) VALUES (?)";
+    let results = await con.awaitQuery(sql, [termo])
 
-            await log.print("Inserindo novo termo de busca: " + termo);
-            
-            // con.destroy()
-            return results
-        });
-    });
+    console.log(results)
+    await log.print("Inserindo novo termo de busca: " + termo)
+    return results
 }
 
 /**
@@ -215,8 +205,9 @@ async function existeTermo(termo) {
     var sql = "SELECT COUNT(DESCRICAO) AS QTD FROM TERMO WHERE DESCRICAO = ?";
     let results = await con.awaitQuery(sql, [termo])
     
-    if (results == '' || results[0].QTD == 0)
+    if (results == '' || results[0].QTD == 0) {
         return false
+    }
     return true
 }
 
@@ -253,10 +244,10 @@ async function existeTermoEmDisco(id_termo) {
  * @param string codigo, int id termo 
  * @returns objeto inserido
  */
-async function inserirNovoDisco(codigo, id_termo) {
+async function inserirNovoDisco(codigo, id_termo, thumb, title, price) {
     let url = 'https://produto.mercadolivre.com.br/' + codigo.replace('MLB', 'MLB-')
-    var sql = "INSERT INTO DISCO(URL, ID_TERMO) VALUES (?, ?)";
-    let results = await con.awaitQuery(sql, [url, id_termo])
+    var sql = "INSERT INTO DISCO(URL, ID_TERMO, THUMB, TITLE, PRICE) VALUES (?, ?, ?, ?, ?)";
+    let results = await con.awaitQuery(sql, [url, id_termo, thumb, title, price])
     return url
 }
 
@@ -283,7 +274,8 @@ async function removerTermoDeBusca(id_termo) {
 async function buscaEmail() {
     var sql = "SELECT EMAIL AS EMAIL FROM EMAIL";
     let results = await con.awaitQuery(sql)
-    return (results[0] == '' || results[0].EMAIL == 0) ? null : results[0].EMAIL
+    console.log(results)
+    return (results == '' || results == 'undefined' ) ? null : results.EMAIL
 }
 
 async function salvarEmail(email) {
@@ -304,8 +296,23 @@ async function salvarEmail(email) {
 
 
 
-async function gravarNovaUrl(data) {
-    fs.appendFile('urls.txt', (data + "\n"), (err) => {
+async function temDadosNoArquivoUrl() {
+    try {
+        let content = fs.readFileSync('./urls.txt');
+        if (content == null || content == '') 
+            return false
+        return true
+    } catch (err) {return false}
+}
+
+async function gravarNoArquivoEmail(data) {
+    fs.appendFile('./email.txt', (data + "\n"), (err) => {
+        if (err)  {log.print(err)};
+    });
+}
+
+async function gravarNoArquivoNovaUrl(data) {
+    fs.appendFile('./urls.txt', (data + "\n"), (err) => {
         if (err)  {log.print(err)};
     });
 }
@@ -313,33 +320,37 @@ async function gravarNovaUrl(data) {
 function apagarArquivoUrl() {
     try {
         log.print('Apagando arquivo de urls')
-        fs.unlink('urls.txt')
+        fs.unlinkSync('./urls.txt')
     } catch(err) { log.print(err) }
 }
 
+function apagarArquivoEmail() {
+    try {
+        log.print('Apagando arquivo de email')
+        fs.unlinkSync('./email.txt')
+    } catch(err) { log.print(err) }
+}
 
 
 async function roboCronEmail () {
     await log.print('Executando roboCronEmail ...')
     
-    let novosDiscos = await verificaArquivoUrls();
+    let novosDiscos = await carregarArquivoEmail()
     
     if (novosDiscos.status) {
-        let emailDest = await buscaEmail();
-
+        // let emailDest = await buscaEmail();
+        let emailDest = 'rhuanpablo13@hotmail.com'
         if (emailDest) {
             try {
-                let content = '';
-                for (const e of novosDiscos.data) {
-                    content += e + '\n'
-                }
-                
+                let content = novosDiscos.data
+
                 if (content.length > 0) {
-                    await enviarEmails(content, emailDest, novosDiscos.data.length-1)
+                    
+                    await enviarEmails(content, emailDest, 0)
                     .then((res, rej) => {
-                        if (res) {
-                            log.print('Email enviado com sucesso')
+                        if (res) {                            
                             apagarArquivoUrl()
+                            apagarArquivoEmail()
                         }
                         else log.print('Erro ao enviar email')
                     });
@@ -356,64 +367,76 @@ async function roboCronEmail () {
 }
 
 
-async function tratarCodigo(codigoDisco, id_termo, descricao) {
+async function tratarRegistro(disco) {
+
     try {
-        if (false === await existeCodigo(codigoDisco)) {
-            let url = await inserirNovoDisco(codigoDisco, id_termo)
-            await gravarNovaUrl(descricao + '\t' + url);
-        } else {
-            await log.print("Nenhum disco novo encontrado para o termo: " + descricao)
+        let data = disco.data[0]
+        if (typeof(data.length) != "undefined") {
+            for (var i = 0; i < data.length; i++) {
+                let reg = data[i]
+                if (false === await existeCodigo(reg.id)) {
+                    let url = await inserirNovoDisco(reg.id, disco.id_termo, reg.thumb, reg.title, reg.price)
+                    await gravarNoArquivoNovaUrl(
+                        emailMaker.montarAmostraDisco (reg.id, reg.thumb, reg.title, reg.price, url)
+                    );
+                } else {
+                    await log.print("Nenhum disco novo encontrado para o termo: " + disco.termo)
+                }
+            }
         }
     } catch (error) {
+        await log.print('tratarRegistro')
         await log.print(error)
     }
 }
 
 
 async function executarRobo() {
-        await log.print('Iniciando o robô :)')
-        let termos = await todosTermos()
-        let discos = [];
+    await log.print('Iniciando o robô :)')
+    let termos = await todosTermos()
+    let discos = [];
 
-        if (termos != null) {
-            for (const termo of termos) {
-                const id_termo = termo.id;
-                const descricao = termo.descricao;        
-                await log.print('termo = ' + descricao)
-                let retorno = {
-                    'id_termo': id_termo,
-                    'termo': descricao,
-                    'data': await mypuppeteer.collectData(descricao, true, true)
-                }
-                discos.push(retorno)
+    if (termos != null) {
+        for (const termo of termos) {
+            await log.print('termo = ' + termo.descricao)
+            let teste = await mypuppeteer.collectData(termo.descricao, true, true)
+            let retorno = {
+                'id_termo': termo.id,
+                'termo': termo.descricao,
+                'data': teste
+            }
+            discos.push(retorno)
+        }
+        
+        if (discos != null) {                
+            
+            for (const disco of discos) {
+                await tratarRegistro(disco)
             }
             
-            if (discos != null) {
-                console.log(discos)
-
-                for (const disco of discos) {
-                    console.log(disco)
-                    for (const codigos of disco.data) {
-                        for (const codigo of codigos) {
-                            await tratarCodigo(codigo, disco.id_termo, disco.termo)
-                            console.log('tratando codigo: ' + codigo)
-                        }
-                    }
-                }
-            } else {
-                console.log('não achou os discos')
+            let urls = await carregarArquivoUrls();
+            if (await temDadosNoArquivoUrl()) {                
+                await gravarNoArquivoEmail(emailMaker.getInicio())
+                let urls = await carregarArquivoUrls();
+                await gravarNoArquivoEmail(urls.data)
+                await gravarNoArquivoNovaUrl(emailMaker.getFim())
+                await roboCronEmail()
             }
-
-            await roboCronEmail()
-
         } else {
-            console.log('não achou os dados')
-        }
+            console.log('não achou os discos')
+        }       
+
+    } else {
+        console.log('não achou os dados')
+    }
+
+    log.print(QUEBRA)
+    console.log("fim")
 }
 
 
 module.exports = {
-    verificaArquivoUrls,
+    carregarArquivoUrls,
     enviarEmails,
     enviarEmailTeste,
     sendMail,    
@@ -427,10 +450,11 @@ module.exports = {
     removerTermoDeBusca,
     buscaEmail,
     salvarEmail,
-    gravarNovaUrl,
-    tratarCodigo,
+    gravarNoArquivoNovaUrl,
+    tratarRegistro,
     executarRobo,
     roboCron,
     setConnection,
-    roboCronEmail
+    roboCronEmail,
+    apagarArquivoUrl
 }

@@ -72,7 +72,7 @@ const connection = require('./resources/connections');
 (async () => {
   let con = connection.getConnection()
   if (con != null) {
-    resources.setConnection(con)
+    resources.setConnection(con)    
     await resources.roboCron()
   }
 })();
