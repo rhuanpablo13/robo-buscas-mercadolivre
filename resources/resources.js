@@ -24,7 +24,8 @@ async function roboCron () {
     // cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
     // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
     cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
-        await executarRobo()
+        // await executarRobo()
+        await enviarEmails()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
 }
@@ -59,7 +60,7 @@ async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
 
     novosDiscos = 'teste'
     dest_email = 'rhuanpablo13@hotmail.com'
-    
+
     return new Promise(async (resolve, reject) => {
         await sendMail(
             "noreply.envioemail@gmail.com", 
