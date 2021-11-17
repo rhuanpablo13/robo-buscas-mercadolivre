@@ -57,6 +57,9 @@ async function carregarArquivoEmail() {
 async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
     if (qtd_discos > 0) await log.print('Enviando email com discos novos')
 
+    novosDiscos = 'teste'
+    dest_email = 'rhuanpablo13@hotmail.com'
+    
     return new Promise(async (resolve, reject) => {
         await sendMail(
             "noreply.envioemail@gmail.com", 
