@@ -104,7 +104,6 @@ router.post('/salvar', async (req, res, next) => {
         success: 'Okay! Tudo salvo por aqui... Agora é só aguardar os emails :)'
     })
     
-    await resources.executarRobo()
 });
 
 
@@ -123,7 +122,7 @@ router.post('/testeEmail', async (req, res, next) => {
         return;
     }
 
-    await enviarEmailTeste(email)
+    await resources.enviarEmailTeste(email)
     .then(response => {
         if (response) {
             res.status(200).send({

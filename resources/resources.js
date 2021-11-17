@@ -274,8 +274,7 @@ async function removerTermoDeBusca(id_termo) {
 async function buscaEmail() {
     var sql = "SELECT EMAIL AS EMAIL FROM EMAIL";
     let results = await con.awaitQuery(sql)
-    console.log(results)
-    return (results == '' || results == 'undefined' ) ? null : results.EMAIL
+    return (results == '' || results == 'undefined' ) ? null : results[0].EMAIL
 }
 
 async function salvarEmail(email) {
