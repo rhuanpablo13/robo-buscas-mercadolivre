@@ -25,7 +25,7 @@ async function roboCron () {
     // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
     cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
         // await executarRobo()
-        await enviarEmails()
+        // await enviarEmails()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
 }

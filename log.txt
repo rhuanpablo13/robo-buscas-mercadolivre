@@ -1,0 +1,9 @@
+18-11-2021 19:15	Executando roboCron ...
+18-11-2021 19:16	Email enviado com sucesso. 
+
+18-11-2021 19:16	Fim de execução do Robô
+
+18-11-2021 19:17	Email enviado com sucesso. 
+
+18-11-2021 19:17	Fim de execução do Robô
+
