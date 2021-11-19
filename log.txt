@@ -7,3 +7,13 @@
 
 18-11-2021 19:17	Fim de execução do Robô
 
+18-11-2021 19:37	Iniciando o robô :)
+18-11-2021 19:37	Buscando todos os termos cadastrados => Encontrados: 17
+18-11-2021 19:37	termo = Lula cortes
+18-11-2021 19:37	Iniciando a coleta de dados...
+18-11-2021 19:37	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+18-11-2021 19:37	Quantidade de páginas encontradas: 2
+18-11-2021 19:37	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+18-11-2021 19:37	termo = Marconi Notaro
+18-11-2021 19:37	Iniciando a coleta de dados...
+18-11-2021 19:40	Email enviado com sucesso. 

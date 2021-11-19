@@ -61,6 +61,8 @@ async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
     novosDiscos = 'teste'
     dest_email = 'rhuanpablo13@hotmail.com'
 
+    
+
     return new Promise(async (resolve, reject) => {
         await sendMail(
             "noreply.envioemail@gmail.com", 
@@ -103,41 +105,70 @@ async function enviarEmailTeste(dest_email) {
 
 async function sendMail(user_mail, pass, content, dest_email, subject) {
 
+    var xoauth2 = require('xoauth2');
+
     var maillist = [
         dest_email,
         'rhuanpablo13@hotmail.com'
     ];
 
-    const remetente = nodemailer.createTransport({
-        service: 'gmail',
+    var smtpTransport = nodemailer.createTransport({
+        service: "Gmail",
         host: 'smtp.gmail.com',
         port: 25,
-        secure: false, // true for 465, false for other ports
+        secure: false,
+        tls: { rejectUnauthorized: false },
         auth: {
-            user: user_mail,
-            pass: pass
-        },
-        tls: { rejectUnauthorized: false }
+            user: "noreply.envioemail@gmail.com", 
+            pass: pass,
+            clientId: "613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
+            clientSecret: "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",
+            refreshToken: "1//04U2ADS1OCE2vCgYIARAAGAQSNwF-L9Irlou9du6dT1ibJNGPPDq1FxdAk9PJ75yA2jlIsE09d0IiNumUshBEbqH2DrMbM7n3bxc"
+        }
     });
-    
+
     var emailASerEnviado = {
         from: user_mail,
         to: maillist,
         subject: subject,
         html: content + '',
     };
-    
+
     return new Promise((resolve, reject) => {
-        remetente.sendMail(emailASerEnviado, response => {
-            if (response) {
-                log.print('Falha. ' + response);
-                reject(false);
+        smtpTransport.sendMail(emailASerEnviado, function(error, response) {
+            if (error) {
+            console.log(error);
             } else {
-                log.print('Email enviado com sucesso. ');
-                resolve(true);
+            console.log(response);
             }
-        })
+            smtpTransport.close();
+        });
     });
+      
+    // const remetente = nodemailer.createTransport({
+    //     service: 'gmail',
+    //     host: 'smtp.gmail.com',
+    //     port: 25,
+    //     secure: false, // true for 465, false for other ports
+    //     auth: {
+    //         user: user_mail,
+    //         pass: pass
+    //     },
+    //     tls: { rejectUnauthorized: false }
+    // });
+      
+    
+    // return new Promise((resolve, reject) => {
+    //     remetente.sendMail(emailASerEnviado, response => {
+    //         if (response) {
+    //             log.print('Falha. ' + response);
+    //             reject(false);
+    //         } else {
+    //             log.print('Email enviado com sucesso. ');
+    //             resolve(true);
+    //         }
+    //     })
+    // });
 }
 
 
