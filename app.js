@@ -66,8 +66,11 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+const main = require('./resources/main');
 const resources = require('./resources/resources');
+const servidorEmails = require('./resources/servidorEmails');
 const connection = require('./resources/connections');
+
 
 (async () => {
   let con = connection.getConnection()
@@ -76,7 +79,7 @@ const connection = require('./resources/connections');
     // await resources.roboCron()
     // await resources.executarRobo()
     
-    await resources.enviarEmails()
+    await servidorEmails.enviarEmailTeste('rhuanpablo13@hotmail.com')
   }
 })();
 

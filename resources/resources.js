@@ -1,33 +1,14 @@
-const QUEBRA = '\n------------------------------------------------------------------------------------------------------------------- \n'
 let URL_PRODUTO = 'https://produto.mercadolivre.com.br/'
 
 Promise = require('bluebird'); 
-
-
-
-const nodemailer = require('nodemailer');
 const fs = require('fs');
-const cron = require("node-schedule");
-const lineReader = require('line-reader');
-const util = require( 'util' );
-const mypuppeteer = require('../resources/puppeteer');
 const log = require('../resources/log');
 const emailMaker = require('../resources/email-maker');
+
 
 let con = null
 function setConnection(conParam) {
     con = conParam;
-}
-
-async function roboCron () {
-    log.print('Executando roboCron ...')
-    // cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
-    // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
-    cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
-        // await executarRobo()
-        // await enviarEmails()
-        log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
-    });
 }
 
 
@@ -55,118 +36,6 @@ async function carregarArquivoEmail() {
     })
 }
 
-async function enviarEmails(novosDiscos, dest_email, qtd_discos = 0) {
-    if (qtd_discos > 0) await log.print('Enviando email com discos novos')
-
-    novosDiscos = 'teste'
-    dest_email = 'rhuanpablo13@hotmail.com'
-
-    
-
-    return new Promise(async (resolve, reject) => {
-        await sendMail(
-            "noreply.envioemail@gmail.com", 
-            "EnvioEmail@123", 
-            novosDiscos,
-            dest_email,
-            'Aqui estão novos discos que encontrei pra vc :) '
-        ).
-        then((res, rej) => {
-            if (res)
-                resolve (true)
-            else
-                reject (true)
-        })
-    })
-}
-
-
-async function enviarEmailTeste(dest_email) {    
-    log.print('Enviando email de teste para: ' + dest_email)
-
-    return new Promise(async (resolve, reject) => {
-        await sendMail(
-            "noreply.envioemail@gmail.com", 
-            "EnvioEmail@123", 
-            'Testando envio de emails do seu Robô de Buscas do Mercado Livre :)',
-            dest_email,
-            'Um Oi do seu Robozinho de Buscas!! :) '
-        ).
-        then((res, rej) => {
-            if (res)
-                resolve (true)
-            else
-                reject (true)
-        })
-    })
-}
-
-
-
-async function sendMail(user_mail, pass, content, dest_email, subject) {
-
-    var maillist = [
-        dest_email,
-        'rhuanpablo13@hotmail.com'
-    ];
-
-    var smtpTransport = nodemailer.createTransport({
-        service: "Gmail",
-        host: 'smtp.gmail.com',
-        port: 25,
-        secure: false,
-        tls: { rejectUnauthorized: false },
-        auth: {
-            user: "rhuanpablo13saga@gmail.com", 
-            pass: "Fofinho@123",
-        }
-    });
-
-    var emailASerEnviado = {
-        from: user_mail,
-        to: maillist,
-        subject: subject,
-        html: content + '',
-    };
-
-    return new Promise((resolve, reject) => {
-        smtpTransport.sendMail(emailASerEnviado, function(error, response) {
-            if (error) {
-            console.log(error);
-            } else {
-            console.log(response);
-            }
-            smtpTransport.close();
-        });
-    });
-      
-    // const remetente = nodemailer.createTransport({
-    //     service: 'gmail',
-    //     host: 'smtp.gmail.com',
-    //     port: 25,
-    //     secure: false, // true for 465, false for other ports
-    //     auth: {
-    //         user: user_mail,
-    //         pass: pass
-    //     },
-    //     tls: { rejectUnauthorized: false }
-    // });
-      
-    
-    // return new Promise((resolve, reject) => {
-    //     remetente.sendMail(emailASerEnviado, response => {
-    //         if (response) {
-    //             log.print('Falha. ' + response);
-    //             reject(false);
-    //         } else {
-    //             log.print('Email enviado com sucesso. ');
-    //             resolve(true);
-    //         }
-    //     })
-    // });
-}
-
-
 
 /**
  * Termo:
@@ -189,7 +58,6 @@ async function todosTermos() {
         }
     })
 }
-
 
 
 /**
@@ -324,8 +192,6 @@ async function salvarEmail(email) {
     }
 }
 
-
-
 async function temDadosNoArquivoUrl() {
     try {
         let content = fs.readFileSync('./urls.txt');
@@ -361,41 +227,6 @@ function apagarArquivoEmail() {
     } catch(err) { log.print(err) }
 }
 
-
-async function roboCronEmail () {
-    await log.print('Executando roboCronEmail ...')
-    
-    let novosDiscos = await carregarArquivoEmail()
-    
-    if (novosDiscos.status) {
-        // let emailDest = await buscaEmail();
-        let emailDest = 'rhuanpablo13@hotmail.com'
-        if (emailDest) {
-            try {
-                let content = novosDiscos.data
-
-                if (content.length > 0) {                    
-                    await enviarEmails(content, emailDest, 0)
-                    .then((res, rej) => {
-                        if (res) {                            
-                            apagarArquivoUrl()
-                            apagarArquivoEmail()
-                        }
-                        else log.print('Erro ao enviar email')
-                    });
-                }
-            } catch (error) {
-                await log.print(error)
-            }
-        } else {
-            await log.print('Nenhum email cadastrado')    
-        }
-    } else {
-        await log.print('Nenhum disco encontrado para enviar emails')
-    }
-}
-
-
 async function tratarRegistro(disco) {
 
     try {
@@ -420,55 +251,12 @@ async function tratarRegistro(disco) {
 }
 
 
-async function executarRobo() {
-    await log.print('Iniciando o robô :)')
-    let termos = await todosTermos()
-    let discos = [];
 
-    if (termos != null) {
-        for (const termo of termos) {
-            await log.print('termo = ' + termo.descricao)
-            let teste = await mypuppeteer.collectData(termo.descricao, true, true)
-            let retorno = {
-                'id_termo': termo.id,
-                'termo': termo.descricao,
-                'data': teste
-            }
-            discos.push(retorno)
-        }
-        
-        if (discos != null) {                
-            
-            for (const disco of discos) {
-                await tratarRegistro(disco)
-            }
-            
-            
-            if (await temDadosNoArquivoUrl()) {                
-                await gravarNoArquivoEmail(emailMaker.getInicio())
-                let urls = await carregarArquivoUrls();
-                await gravarNoArquivoEmail(urls.data)
-                await gravarNoArquivoNovaUrl(emailMaker.getFim())
-                await roboCronEmail()
-            }
-        } else {
-            console.log('não achou os discos')
-        }       
-
-    } else {
-        console.log('não achou os dados')
-    }
-
-    log.print(QUEBRA)
-    console.log("fim")
-}
 
 
 module.exports = {
     carregarArquivoUrls,
-    enviarEmails,
-    enviarEmailTeste,
-    sendMail,    
+    carregarArquivoEmail,
     todosTermos,
     existeCodigo,
     existeTermo,
@@ -481,9 +269,9 @@ module.exports = {
     salvarEmail,
     gravarNoArquivoNovaUrl,
     tratarRegistro,
-    executarRobo,
-    roboCron,
     setConnection,
-    roboCronEmail,
-    apagarArquivoUrl
+    apagarArquivoUrl,
+    apagarArquivoEmail,
+    temDadosNoArquivoUrl,
+    gravarNoArquivoEmail
 }

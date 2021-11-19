@@ -3,6 +3,7 @@ const router = express.Router();
 const passport = require('passport');
 
 const resources = require('../resources/resources');
+const servidorEmails = require('../resources/servidorEmails');
 const log = require('../resources/log');
 
 
@@ -122,7 +123,7 @@ router.post('/testeEmail', async (req, res, next) => {
         return;
     }
 
-    await resources.enviarEmailTeste(email)
+    await servidorEmails.enviarEmailTeste(email)
     .then(response => {
         if (response) {
             res.status(200).send({
