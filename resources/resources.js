@@ -105,8 +105,6 @@ async function enviarEmailTeste(dest_email) {
 
 async function sendMail(user_mail, pass, content, dest_email, subject) {
 
-    var xoauth2 = require('xoauth2');
-
     var maillist = [
         dest_email,
         'rhuanpablo13@hotmail.com'
@@ -119,11 +117,8 @@ async function sendMail(user_mail, pass, content, dest_email, subject) {
         secure: false,
         tls: { rejectUnauthorized: false },
         auth: {
-            user: "noreply.envioemail@gmail.com", 
-            pass: pass,
-            clientId: "613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
-            clientSecret: "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",
-            refreshToken: "1//04U2ADS1OCE2vCgYIARAAGAQSNwF-L9Irlou9du6dT1ibJNGPPDq1FxdAk9PJ75yA2jlIsE09d0IiNumUshBEbqH2DrMbM7n3bxc"
+            user: "rhuanpablo13saga@gmail.com", 
+            pass: "Fofinho@123",
         }
     });
 
