@@ -4,6 +4,7 @@ const log = require('./log');
 const resources = require('./resources');
 const mypuppeteer = require('./puppeteer');
 const cron = require('./cron');
+const emailMaker = require('./email-maker');
 
 
 async function executarRobo() {
@@ -22,14 +23,14 @@ async function executarRobo() {
             }
             discos.push(retorno)
         }
+
         
         if (discos != null) {                
-            
             for (const disco of discos) {
                 await resources.tratarRegistro(disco)
             }
-                        
-            if (await resources.temDadosNoArquivoUrl()) {                
+
+            if (await resources.temDadosNoArquivoUrl()) {
                 await resources.gravarNoArquivoEmail(emailMaker.getInicio())
                 let urls = await resources.carregarArquivoUrls();
                 await resources.gravarNoArquivoEmail(urls.data)

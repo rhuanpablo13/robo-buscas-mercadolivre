@@ -13,6 +13,7 @@ function setConnection(conParam) {
 
 
 async function carregarArquivoUrls() {
+    log.print('Carregando arquivo url')
     return new Promise(async (resolve, reject) => {
         fs.readFile('./urls.txt', 'utf8' , (err, data) => {
             if (err) { 
@@ -25,6 +26,7 @@ async function carregarArquivoUrls() {
 }
 
 async function carregarArquivoEmail() {
+    log.print('Carregando arquivo email')
     return new Promise(async (resolve, reject) => {
         fs.readFile('./email.txt', 'utf8' , (err, data) => {
             if (err) { 
@@ -230,7 +232,7 @@ function apagarArquivoEmail() {
 async function tratarRegistro(disco) {
 
     try {
-        if (typeof(data) != "undefined" && typeof(data.length) != "undefined") {
+        if (typeof(disco) != "undefined" && typeof(disco.data.length) != "undefined") {
             let data = disco.data[0]
             for (var i = 0; i < data.length; i++) {
                 let reg = data[i]

@@ -77,9 +77,9 @@ const connection = require('./resources/connections');
   if (con != null) {
     resources.setConnection(con)    
     // await resources.roboCron()
-    // await resources.executarRobo()
+    await main.executarRobo()
     
-    await servidorEmails.enviarEmailTeste('rhuanpablo13@hotmail.com')
+    // await servidorEmails.enviarEmailTeste('rhuanpablo13@hotmail.com')
   }
 })();
 
