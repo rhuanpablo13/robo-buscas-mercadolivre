@@ -711,13 +711,17 @@ function montarAmostraDisco(id, thumb, title, price, url) {
                                             <tbody>
                                                 <tr>
                                                     <td align="right" class="esd-block-text">
-                                                        <h2 style="line-height: 150%;" class="p_name">${title}</h2>
+                                                        <a target="_blank" href="${url}">
+                                                            <h2 style="line-height: 150%;" class="p_name">${title}</h2>
+                                                        </a>
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <td align="right" class="esd-block-text es-p5t es-m-txt-c">
-                                                        <p style="font-size: 20px;"><strong class="p_price">${price}</strong></p>
+                                                        <a target="_blank" href="${url}">
+                                                            <p style="font-size: 20px;"><strong class="p_price">${price}</strong></p>
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             </tbody>
