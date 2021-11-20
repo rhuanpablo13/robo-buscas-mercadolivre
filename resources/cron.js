@@ -2,14 +2,15 @@ require('dotenv').config();
 const cron = require("node-schedule");
 const resources = require('./resources');
 const servidorEmails = require('./servidorEmails');
+const main = require('./main');
 const log = require('./log');
 
 async function roboCron () {
     log.print('Executando roboCron ...')
     // cron.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
-    // cron.scheduleJob('* */1 * * *', async () => { // a cada hora
-    cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
-        await executarRobo()
+    cron.scheduleJob('* */1 * * *', async () => { // a cada hora
+    // cron.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
+        await main.executarRobo()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
 }
