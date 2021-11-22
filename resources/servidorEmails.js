@@ -1,4 +1,4 @@
-require('dotenv').config();
+require().config();
 const sendMail = require('./sendMail')
 const log = require('./log');
 
@@ -7,7 +7,7 @@ async function enviarEmailTeste(to) {
     log.print('Enviando email de teste')
 
     var emailASerEnviado = {
-        from: process.env.EMAIL,
+        from: "noreply.envioemail@gmail.com",
         to: to,
         subject: 'Testando envio de emails do seu Robô de Buscas do Mercado Livre :)',
         text: 'Um Oi do seu Robozinho de Buscas!! :) ',
