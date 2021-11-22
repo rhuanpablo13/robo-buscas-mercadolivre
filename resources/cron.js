@@ -1,4 +1,3 @@
-require().config();
 const cron = require("node-schedule");
 const resources = require('./resources');
 const servidorEmails = require('./servidorEmails');
@@ -30,7 +29,7 @@ async function roboEmails () {
                 if (content.length > 0) {
                   
                     await servidorEmails.enviarEmail(
-                        process.env."noreply.envioemail@gmail.com", 
+                        "noreply.envioemail@gmail.com", 
                         [emailDest, 'rhuanpablo13@hotmail.com'],
                         'Aqui estão novos discos que encontrei pra vc :)',
                         content

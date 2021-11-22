@@ -1,4 +1,3 @@
-require().config();
 const sendMail = require('./sendMail')
 const log = require('./log');
 

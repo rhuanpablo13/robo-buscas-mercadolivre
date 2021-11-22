@@ -16,13 +16,13 @@ const log = require('../resources/log');
 async function sendMail(emailASerEnviado) {
 
     const oauth2Client = new OAuth2(
-        process.env."613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
-        process.env."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",
+        "613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
+        "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",
         "https://developers.google.com/oauthplayground"
     );
     
     oauth2Client.setCredentials({
-        refresh_token: process.env."1//04qHOdBGI5GmOCgYIARAAGAQSNwF-L9Iraqaw55ZNoQ1_ATMBHYV1P4Bqaxlta1_dsIH1cGdS_hwxOT-hq_ThSAyqosEHyZnkbKc"
+        refresh_token: "1//04qHOdBGI5GmOCgYIARAAGAQSNwF-L9Iraqaw55ZNoQ1_ATMBHYV1P4Bqaxlta1_dsIH1cGdS_hwxOT-hq_ThSAyqosEHyZnkbKc"
     });
 
     const accessToken = await new Promise((resolve, reject) => {
@@ -41,11 +41,11 @@ async function sendMail(emailASerEnviado) {
         secure: false,
         auth: {
             type: "OAuth2",
-            user: process.env."noreply.envioemail@gmail.com",
+            user: "noreply.envioemail@gmail.com",
             accessToken,
-            clientId: process.env."613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
-            clientSecret: process.env."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",
-            refreshToken: process.env."1//04qHOdBGI5GmOCgYIARAAGAQSNwF-L9Iraqaw55ZNoQ1_ATMBHYV1P4Bqaxlta1_dsIH1cGdS_hwxOT-hq_ThSAyqosEHyZnkbKc"
+            clientId: "613846042740-kesqojpdqnuubbvlalk0q03l5qvh9kim.apps.googleusercontent.com",
+            clientSecret: "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",
+            refreshToken: "1//04qHOdBGI5GmOCgYIARAAGAQSNwF-L9Iraqaw55ZNoQ1_ATMBHYV1P4Bqaxlta1_dsIH1cGdS_hwxOT-hq_ThSAyqosEHyZnkbKc"
         },
         tls: {
             rejectUnauthorized: false
