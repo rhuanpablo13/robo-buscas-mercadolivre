@@ -1,2 +1,264 @@
 21-11-2021 14:50	Executando roboCron ...
 22-11-2021 14:25	Executando roboCron ...
+22-11-2021 14:33	Executando roboCron ...
+22-11-2021 14:35	Executando roboCron ...
+22-11-2021 14:37	Executando roboCron ...
+22-11-2021 14:39	Executando roboCron ...
+22-11-2021 14:40	Iniciando o robô :)
+22-11-2021 14:40	Buscando todos os termos cadastrados => Encontrados: 18
+22-11-2021 14:40	termo = Lula cortes
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:40	Quantidade de páginas encontradas: 2
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:40	termo = Marconi Notaro
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:40	Quantidade de páginas encontradas: 2
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:40	termo = Tribo Massahi
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:40	Quantidade de páginas encontradas: 3
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:40	termo = Irmãs Ibejy
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:40	Quantidade de páginas encontradas: 3
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:40	termo = Piry
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:40	Quantidade de páginas encontradas: 1
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:40	termo = Spectrum Bendita
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:40	Quantidade de páginas encontradas: 3
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:40	termo = Brasil Copa Mundo 1958
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:40	Quantidade de páginas encontradas: 1
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:40	termo = Minas Num Dia Azul
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:40	Quantidade de páginas encontradas: 1
+22-11-2021 14:40	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:40	Iniciando a coleta de dados...
+22-11-2021 14:40	termo = Ton Sergio Cativeiro
+22-11-2021 14:41	Iniciando o robô :)
+22-11-2021 14:41	Buscando todos os termos cadastrados => Encontrados: 18
+22-11-2021 14:41	termo = Lula cortes
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:41	Quantidade de páginas encontradas: 2
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+22-11-2021 14:41	termo = Marconi Notaro
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	termo = Loyce Gnomos
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+22-11-2021 14:41	Quantidade de páginas encontradas: 2
+22-11-2021 14:41	Quantidade de páginas encontradas: 2
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	termo = Tribo Massahi
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+22-11-2021 14:41	termo = Carlos Lee Capoeira
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+22-11-2021 14:41	termo = Irmãs Ibejy
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	termo = Carlos Lee Pequeno
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+22-11-2021 14:41	Quantidade de páginas encontradas: 2
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:41	termo = Piry
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	termo = Carlos Lee Bossa Maximus
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:41	Quantidade de páginas encontradas: 1
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:41	termo = Spectrum Bendita
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+22-11-2021 14:41	termo = Rubinho Mauro Assumpção
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:41	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:41	Quantidade de páginas encontradas: 3
+22-11-2021 14:41	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:41	termo = Brasil Copa Mundo 1958
+22-11-2021 14:41	Iniciando a coleta de dados...
+22-11-2021 14:42	Iniciando o robô :)
+22-11-2021 14:42	Buscando todos os termos cadastrados => Encontrados: 18
+22-11-2021 14:42	termo = Lula cortes
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+22-11-2021 14:42	termo = Minas Num Dia Azul
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	termo = Flaviola
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:42	Quantidade de páginas encontradas: 2
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:42	termo = Ton Sergio Cativeiro
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Flaviola
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Flaviola
+22-11-2021 14:42	termo = Edison Machado
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:42	termo = Marconi Notaro
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Edison Machado
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:42	Quantidade de páginas encontradas: 2
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:42	termo = Tribo Massahi
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	termo = Loyce Gnomos
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Edison Machado
+22-11-2021 14:42	termo = Luli 1965
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+22-11-2021 14:42	Quantidade de páginas encontradas: 2
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luli 1965
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+22-11-2021 14:42	termo = Carlos Lee Capoeira
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luli 1965
+22-11-2021 14:42	termo = Brasil copa 1958
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	termo = Irmãs Ibejy
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil copa 1958
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil copa 1958
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+22-11-2021 14:42	termo = Carlos Lee Pequeno
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+22-11-2021 14:42	termo = Piry
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+22-11-2021 14:42	termo = Spectrum Bendita
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+22-11-2021 14:42	Quantidade de páginas encontradas: 2
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+22-11-2021 14:42	termo = Carlos Lee Bossa Maximus
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+22-11-2021 14:42	Quantidade de páginas encontradas: 3
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+22-11-2021 14:42	termo = Brasil Copa Mundo 1958
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	tratarRegistro
+22-11-2021 14:42	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:42	tratarRegistro
+22-11-2021 14:42	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+22-11-2021 14:42	termo = Rubinho Mauro Assumpção
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:42	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:42	Quantidade de páginas encontradas: 1
+22-11-2021 14:42	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+22-11-2021 14:42	termo = Minas Num Dia Azul
+22-11-2021 14:42	Iniciando a coleta de dados...
+22-11-2021 14:43	Iniciando o robô :)
+22-11-2021 14:43	Buscando todos os termos cadastrados => Encontrados: 18
+22-11-2021 14:43	termo = Lula cortes
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+22-11-2021 14:43	Quantidade de páginas encontradas: 3
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:43	Quantidade de páginas encontradas: 2
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:43	Quantidade de páginas encontradas: 1
+22-11-2021 14:43	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+22-11-2021 14:43	Nenhum disco novo encontrado para o termo: Irmãs Ibejy
+22-11-2021 14:43	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lula cortes
+22-11-2021 14:43	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+22-11-2021 14:43	termo = Ton Sergio Cativeiro
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	termo = Marconi Notaro
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	termo = Flaviola
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Flaviola
+22-11-2021 14:43	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:43	Quantidade de páginas encontradas: 3
+22-11-2021 14:43	Quantidade de páginas encontradas: 1
+22-11-2021 14:43	Quantidade de páginas encontradas: 2
+22-11-2021 14:43	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Flaviola
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	termo = Edison Machado
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	tratarRegistro
+22-11-2021 14:43	TypeError: Cannot read properties of undefined (reading 'length')
+22-11-2021 14:43	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+22-11-2021 14:43	termo = Tribo Massahi
+22-11-2021 14:43	Iniciando a coleta de dados...
+22-11-2021 14:43	Carregando arquivo url

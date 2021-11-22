@@ -49,6 +49,12 @@ async function executarRobo() {
     console.log("fim")
 }
 
+
+async function teste() {
+    console.log('teste')
+}
+
 module.exports = {
-    executarRobo
+    executarRobo,
+    teste
 }
