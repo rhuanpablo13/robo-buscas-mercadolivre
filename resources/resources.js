@@ -173,23 +173,23 @@ async function removerTermoDeBusca(id_termo) {
 }
 
 async function buscaEmail() {
-    var sql = "SELECT "noreply.envioemail@gmail.com" AS "noreply.envioemail@gmail.com" FROM "noreply.envioemail@gmail.com"";
+    var sql = "SELECT EMAIL AS EMAIL FROM EMAIL";
     let results = await con.awaitQuery(sql)
-    return (results == '' || results == 'undefined' ) ? null : results[0]."noreply.envioemail@gmail.com"
+    return (results == '' || results == 'undefined' ) ? null : results[0].EMAIL
 }
 
 async function salvarEmail(email) {
 
     await log.print('Salvando email: ' + email)
 
-    var sql = "SELECT COUNT(*) AS QTD FROM "noreply.envioemail@gmail.com"";
+    var sql = "SELECT COUNT(*) AS QTD FROM EMAIL";
     let results = await con.awaitQuery(sql, [])
         
     if (results[0] == '' || results[0].QTD == 0) {
-        await con.awaitQuery('INSERT INTO "noreply.envioemail@gmail.com"("noreply.envioemail@gmail.com") VALUES (?)', [email])
+        await con.awaitQuery('INSERT INTO EMAIL(EMAIL) VALUES (?)', [email])
         await log.print('Inserindo email: ' + email)
     } else {
-        await con.awaitQuery('UPDATE "noreply.envioemail@gmail.com" SET "noreply.envioemail@gmail.com" = ?', [email])
+        await con.awaitQuery('UPDATE EMAIL SET EMAIL = ?', [email])
         await log.print('Atualizando email para: ' + email)
     }
 }
