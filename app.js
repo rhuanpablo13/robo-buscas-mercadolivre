@@ -5,13 +5,12 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const passport = require('passport');
 const session = require('express-session');
-// const cron = require("node-cron");
-const cron = require("node-schedule");
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const loginRouter = require('./routes/login');
 const listaRouter = require('./routes/lista');
+const logRouter   = require('./routes/log');
 
 
 function authenticationMiddleware(req, res, next) {
@@ -46,6 +45,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
+app.use('/log', logRouter);
 app.use('/login', loginRouter);
 app.use('/users', authenticationMiddleware, usersRouter);
 app.use('/', authenticationMiddleware,  indexRouter);
@@ -61,13 +61,28 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
+  
   // render the error page
   res.status(err.status || 500);
   res.render('error');
 });
 
+const main = require('./resources/main');
+const cron = require('./resources/cron');
+const resources = require('./resources/resources');
+const servidorEmails = require('./resources/servidorEmails');
+const connection = require('./resources/connections');
 
 
+(async () => {
+  let con = connection.getConnection()
+  if (con != null) {
+    resources.setConnection(con)
+    await cron.roboCron()
+    // await resources.roboCron()
+    // await main.executarRobo()    
+    // await servidorEmails.enviarEmailTeste('rhuanpablo13@hotmail.com')
+  }
+})();
 
 module.exports = app;

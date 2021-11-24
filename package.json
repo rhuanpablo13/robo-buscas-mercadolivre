@@ -6,7 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async-line-reader": "^1.0.0",
     "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -16,16 +18,24 @@
     "express-load": "1.1.7",
     "express-session": "^1.17.1",
     "fs": "0.0.1-security",
+    "googleapis": "^91.0.0",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
+    "line-reader": "^0.4.0",
     "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "mysql-await": "^2.1.8",
     "mysql2": "^2.3.0",
     "node-cron": "^3.0.0",
     "node-schedule": "^2.0.0",
     "nodemailer": "^6.6.3",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2",
+    "postgresql": "0.0.1",
     "puppeteer": "^10.4.0",
-    "query-string": "^7.0.1"
+    "query-string": "^7.0.1",
+    "xoauth2": "^1.2.0"
   }
 }

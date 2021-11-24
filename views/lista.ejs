@@ -113,7 +113,6 @@ var email = $('#email').val();
 $.ajax({
     type: 'POST', url: '/lista/testeEmail', data: {'email': email},
     success: function(result) {
-      console.log(result)
       startSnackbar('snackbar-success', result.success)
     }, 
     error: function(result) {
