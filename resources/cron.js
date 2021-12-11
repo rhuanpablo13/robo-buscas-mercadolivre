@@ -12,8 +12,8 @@ const emailMaker = require('./email-maker');
 async function roboCron () {
     log.print('Executando roboCron ...')
     // cronn.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
-    cronn.scheduleJob('* */1 * * *', async () => { // a cada hora
-    // cronn.scheduleJob('*/1 * * * *', async () => { // a cada 1 minuto
+    // cronn.scheduleJob('* */1 * * *', async () => { // a cada hora
+    cronn.scheduleJob('*/30 * * * *', async () => { // a cada 1 minuto
         await executarRobo()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
