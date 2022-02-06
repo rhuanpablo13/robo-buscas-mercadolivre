@@ -1,6 +1,9 @@
 {
   "name": "nodejs-passport-login",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.13.0"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"

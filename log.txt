@@ -1,0 +1,1210 @@
+5-2-2022 2:3	Executando roboCron ...
+5-2-2022 2:4	Iniciando...
+5-2-2022 2:4	Buscando todos os termos cadastrados => Encontrados: 175
+5-2-2022 2:6	Salvando email: ailton.staniasky@gmail.com
+5-2-2022 2:6	Atualizando email para: ailton.staniasky@gmail.com
+5-2-2022 2:6	Salvando e saindo...
+5-2-2022 2:9	Executando roboCron ...
+5-2-2022 2:10	Executando roboCron ...
+5-2-2022 2:11	Executando roboCron ...
+5-2-2022 2:11	Iniciando o robô :)
+5-2-2022 2:11	Buscando todos os termos cadastrados => Encontrados: 175
+5-2-2022 2:11	termo = Marconi Notaro
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marconi Notaro
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marconi Notaro
+5-2-2022 2:11	termo = Tribo Massahi
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tribo Massahi
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tribo Massahi
+5-2-2022 2:11	termo = Irmãs Ibejy
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+5-2-2022 2:11	Quantidade de páginas encontradas: 3
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Irmãs Ibejy
+5-2-2022 2:11	termo = Piry
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Piry
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Piry
+5-2-2022 2:11	termo = Spectrum Bendita
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+5-2-2022 2:11	Quantidade de páginas encontradas: 3
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spectrum Bendita
+5-2-2022 2:11	termo = Brasil Copa Mundo 1958
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil Copa Mundo 1958
+5-2-2022 2:11	termo = Minas Num Dia Azul
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Minas Num Dia Azul
+5-2-2022 2:11	termo = Ton Sergio Cativeiro
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+5-2-2022 2:11	Quantidade de páginas encontradas: 3
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ton Sergio Cativeiro
+5-2-2022 2:11	termo = Loyce Gnomos
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+5-2-2022 2:11	Quantidade de páginas encontradas: 1
+5-2-2022 2:11	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Loyce Gnomos
+5-2-2022 2:11	termo = Carlos Lee Capoeira
+5-2-2022 2:11	Iniciando a coleta de dados...
+5-2-2022 2:11	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+5-2-2022 2:11	Quantidade de páginas encontradas: 3
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Capoeira
+5-2-2022 2:12	termo = Carlos Lee Pequeno
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+5-2-2022 2:12	Quantidade de páginas encontradas: 2
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Pequeno
+5-2-2022 2:12	termo = Carlos Lee Bossa Maximus
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+5-2-2022 2:12	Quantidade de páginas encontradas: 3
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lee Bossa Maximus
+5-2-2022 2:12	termo = Rubinho Mauro Assumpção
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+5-2-2022 2:12	Quantidade de páginas encontradas: 1
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rubinho Mauro Assumpção
+5-2-2022 2:12	termo = Flaviola
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Flaviola
+5-2-2022 2:12	Quantidade de páginas encontradas: 1
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Flaviola
+5-2-2022 2:12	termo = Edison Machado
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Edison Machado
+5-2-2022 2:12	Quantidade de páginas encontradas: 1
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Edison Machado
+5-2-2022 2:12	termo = Luli 1965
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luli 1965
+5-2-2022 2:12	Quantidade de páginas encontradas: 3
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luli 1965
+5-2-2022 2:12	termo = Brasil copa 1958
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brasil copa 1958
+5-2-2022 2:12	Quantidade de páginas encontradas: 3
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brasil copa 1958
+5-2-2022 2:12	termo = Joyce encontro marcado
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Joyce encontro marcado
+5-2-2022 2:12	Quantidade de páginas encontradas: 3
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Joyce encontro marcado
+5-2-2022 2:12	termo = Moacir santos coisas
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Moacir santos coisas
+5-2-2022 2:12	Quantidade de páginas encontradas: 2
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Moacir santos coisas
+5-2-2022 2:12	termo = Nelson Angelo joyce
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:12	Pesquisando em: https://lista.mercadolivre.com.br/musica/Nelson Angelo joyce
+5-2-2022 2:12	Quantidade de páginas encontradas: 2
+5-2-2022 2:12	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Nelson Angelo joyce
+5-2-2022 2:12	termo = Jose Mauro Viagem Horas
+5-2-2022 2:12	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Jose Mauro Viagem Horas
+5-2-2022 2:13	Quantidade de páginas encontradas: 1
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Jose Mauro Viagem Horas
+5-2-2022 2:13	termo = Jose Mauro Obnoxius
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Jose Mauro Obnoxius
+5-2-2022 2:13	Quantidade de páginas encontradas: 3
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Jose Mauro Obnoxius
+5-2-2022 2:13	termo = Vangelis Blade Runner
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Vangelis Blade Runner
+5-2-2022 2:13	Quantidade de páginas encontradas: 4
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Vangelis Blade Runner
+5-2-2022 2:13	termo = Som Imaginario
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Som Imaginario
+5-2-2022 2:13	Quantidade de páginas encontradas: 2
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Som Imaginario
+5-2-2022 2:13	termo = Tincoas
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tincoas
+5-2-2022 2:13	Quantidade de páginas encontradas: 1
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tincoas
+5-2-2022 2:13	termo = João Donato Quem
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/João Donato Quem
+5-2-2022 2:13	Quantidade de páginas encontradas: 11
+5-2-2022 2:13	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/João Donato Quem
+5-2-2022 2:13	termo = Walker Frauta
+5-2-2022 2:13	Iniciando a coleta de dados...
+5-2-2022 2:13	Pesquisando em: https://lista.mercadolivre.com.br/musica/Walker Frauta
+5-2-2022 2:13	Quantidade de páginas encontradas: 3
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Walker Frauta
+5-2-2022 2:14	termo = O Bando 1969
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/O Bando 1969
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/O Bando 1969
+5-2-2022 2:14	termo = LP Pão com manteiga
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/LP Pão com manteiga
+5-2-2022 2:14	Quantidade de páginas encontradas: 3
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/LP Pão com manteiga
+5-2-2022 2:14	termo = Edu canta zumbi
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Edu canta zumbi
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Edu canta zumbi
+5-2-2022 2:14	termo = Chico Feitosa fim noite
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Chico Feitosa fim noite
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Chico Feitosa fim noite
+5-2-2022 2:14	termo = Osmar milito
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Osmar milito
+5-2-2022 2:14	Quantidade de páginas encontradas: 2
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Osmar milito
+5-2-2022 2:14	termo = Rio 65 Trio
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rio 65 Trio
+5-2-2022 2:14	Quantidade de páginas encontradas: 2
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rio 65 Trio
+5-2-2022 2:14	termo = Salvador Trio 
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Salvador Trio 
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Salvador Trio 
+5-2-2022 2:14	termo = Dom Salvador
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Dom Salvador
+5-2-2022 2:14	Quantidade de páginas encontradas: 3
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Dom Salvador
+5-2-2022 2:14	termo = Macale 1970 LP
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Macale 1970 LP
+5-2-2022 2:14	Quantidade de páginas encontradas: 3
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Macale 1970 LP
+5-2-2022 2:14	termo = Conjunto Sérgio Carvalho Alta Tensão
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Conjunto Sérgio Carvalho Alta Tensão
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Conjunto Sérgio Carvalho Alta Tensão
+5-2-2022 2:14	termo = Quintal Clorofila Mistério
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/Quintal Clorofila Mistério
+5-2-2022 2:14	Quantidade de páginas encontradas: 1
+5-2-2022 2:14	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Quintal Clorofila Mistério
+5-2-2022 2:14	termo = LP Quarteto Novo
+5-2-2022 2:14	Iniciando a coleta de dados...
+5-2-2022 2:14	Pesquisando em: https://lista.mercadolivre.com.br/musica/LP Quarteto Novo
+5-2-2022 2:14	Quantidade de páginas encontradas: 31
+5-2-2022 2:15	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/LP Quarteto Novo
+5-2-2022 2:15	termo = João Negrão asfalto selvagem 
+5-2-2022 2:15	Iniciando a coleta de dados...
+5-2-2022 2:15	Pesquisando em: https://lista.mercadolivre.com.br/musica/João Negrão asfalto selvagem 
+5-2-2022 2:15	Quantidade de páginas encontradas: 1
+5-2-2022 2:15	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/João Negrão asfalto selvagem 
+5-2-2022 2:15	termo = João Negrão  Um Ramo
+5-2-2022 2:15	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/João Negrão  Um Ramo
+5-2-2022 2:16	Quantidade de páginas encontradas: 3
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/João Negrão  Um Ramo
+5-2-2022 2:16	termo = Antonio Adolfo Brazuca
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Antonio Adolfo Brazuca
+5-2-2022 2:16	Quantidade de páginas encontradas: 3
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Antonio Adolfo Brazuca
+5-2-2022 2:16	termo = Cleivan Paiva
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Cleivan Paiva
+5-2-2022 2:16	Quantidade de páginas encontradas: 3
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Cleivan Paiva
+5-2-2022 2:16	termo = Apresentando João Mello
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Apresentando João Mello
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Apresentando João Mello
+5-2-2022 2:16	termo = Guilherme Coutinho
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Guilherme Coutinho
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Guilherme Coutinho
+5-2-2022 2:16	termo = Guilherme Lamounier
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Guilherme Lamounier
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Guilherme Lamounier
+5-2-2022 2:16	termo = Luiz Carlos Vinhas
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luiz Carlos Vinhas
+5-2-2022 2:16	Quantidade de páginas encontradas: 2
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luiz Carlos Vinhas
+5-2-2022 2:16	termo = Hareton Salvanini
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Hareton Salvanini
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Hareton Salvanini
+5-2-2022 2:16	termo = Módulo 1000 Big
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Módulo 1000 Big
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Módulo 1000 Big
+5-2-2022 2:16	termo = Módulo 1000 Paredes
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Módulo 1000 Paredes
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Módulo 1000 Paredes
+5-2-2022 2:16	termo = Orquestra Afro-brasileira
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Orquestra Afro-brasileira
+5-2-2022 2:16	Quantidade de páginas encontradas: 3
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Orquestra Afro-brasileira
+5-2-2022 2:16	termo = Requiem para o circo ave viola
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Requiem para o circo ave viola
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Requiem para o circo ave viola
+5-2-2022 2:16	termo = Paebiru
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:16	Pesquisando em: https://lista.mercadolivre.com.br/musica/Paebiru
+5-2-2022 2:16	Quantidade de páginas encontradas: 1
+5-2-2022 2:16	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Paebiru
+5-2-2022 2:16	termo = Ave Sangria
+5-2-2022 2:16	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ave Sangria
+5-2-2022 2:17	Quantidade de páginas encontradas: 1
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ave Sangria
+5-2-2022 2:17	termo = Raulzinho Vontade Mesmo
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Raulzinho Vontade Mesmo
+5-2-2022 2:17	Quantidade de páginas encontradas: 1
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Raulzinho Vontade Mesmo
+5-2-2022 2:17	termo = Serguei compacto
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Serguei compacto
+5-2-2022 2:17	Quantidade de páginas encontradas: 1
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Serguei compacto
+5-2-2022 2:17	termo = Waltel Branco Mancini 
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Waltel Branco Mancini 
+5-2-2022 2:17	Quantidade de páginas encontradas: 2
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Waltel Branco Mancini 
+5-2-2022 2:17	termo = Cidinho Som Tropical
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Cidinho Som Tropical
+5-2-2022 2:17	Quantidade de páginas encontradas: 3
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Cidinho Som Tropical
+5-2-2022 2:17	termo = Paulo Moura Hepteto
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Paulo Moura Hepteto
+5-2-2022 2:17	Quantidade de páginas encontradas: 3
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Paulo Moura Hepteto
+5-2-2022 2:17	termo = Quarteto Cy 1972
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Quarteto Cy 1972
+5-2-2022 2:17	Quantidade de páginas encontradas: 3
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Quarteto Cy 1972
+5-2-2022 2:17	termo = Macale 1972 
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Macale 1972 
+5-2-2022 2:17	Quantidade de páginas encontradas: 1
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Macale 1972 
+5-2-2022 2:17	termo = Macale Morto
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Macale Morto
+5-2-2022 2:17	Quantidade de páginas encontradas: 3
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Macale Morto
+5-2-2022 2:17	termo = Mario Castro Neves Samba
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mario Castro Neves Samba
+5-2-2022 2:17	Quantidade de páginas encontradas: 1
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mario Castro Neves Samba
+5-2-2022 2:17	termo = Cassiano Som Imagem
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:17	Pesquisando em: https://lista.mercadolivre.com.br/musica/Cassiano Som Imagem
+5-2-2022 2:17	Quantidade de páginas encontradas: 3
+5-2-2022 2:17	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Cassiano Som Imagem
+5-2-2022 2:17	termo = Cassiano Apresentamos
+5-2-2022 2:17	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Cassiano Apresentamos
+5-2-2022 2:18	Quantidade de páginas encontradas: 1
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Cassiano Apresentamos
+5-2-2022 2:18	termo = Fabuloso Fittipaldi
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Fabuloso Fittipaldi
+5-2-2022 2:18	Quantidade de páginas encontradas: 1
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Fabuloso Fittipaldi
+5-2-2022 2:18	termo = Zil Rozendo Caso Bossas
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Zil Rozendo Caso Bossas
+5-2-2022 2:18	Quantidade de páginas encontradas: 1
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Zil Rozendo Caso Bossas
+5-2-2022 2:18	termo = Carlos Lacerda Piano Informal
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Lacerda Piano Informal
+5-2-2022 2:18	Quantidade de páginas encontradas: 3
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Lacerda Piano Informal
+5-2-2022 2:18	termo = Gal Caetano Domingo
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Gal Caetano Domingo
+5-2-2022 2:18	Quantidade de páginas encontradas: 2
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Gal Caetano Domingo
+5-2-2022 2:18	termo = Gal Costa Fa-tal
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Gal Costa Fa-tal
+5-2-2022 2:18	Quantidade de páginas encontradas: 1
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Gal Costa Fa-tal
+5-2-2022 2:18	termo = Gal Costa 1969
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Gal Costa 1969
+5-2-2022 2:18	Quantidade de páginas encontradas: 2
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Gal Costa 1969
+5-2-2022 2:18	termo = Rita Lee Build Up
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rita Lee Build Up
+5-2-2022 2:18	Quantidade de páginas encontradas: 2
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rita Lee Build Up
+5-2-2022 2:18	termo = Mita Bicho
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mita Bicho
+5-2-2022 2:18	Quantidade de páginas encontradas: 3
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mita Bicho
+5-2-2022 2:18	termo = Edison Machado Quarteto Obras
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Edison Machado Quarteto Obras
+5-2-2022 2:18	Quantidade de páginas encontradas: 1
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Edison Machado Quarteto Obras
+5-2-2022 2:18	termo = Werther 1970
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Werther 1970
+5-2-2022 2:18	Quantidade de páginas encontradas: 3
+5-2-2022 2:18	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Werther 1970
+5-2-2022 2:18	termo = Toni Tornado
+5-2-2022 2:18	Iniciando a coleta de dados...
+5-2-2022 2:18	Pesquisando em: https://lista.mercadolivre.com.br/musica/Toni Tornado
+5-2-2022 2:18	Quantidade de páginas encontradas: 2
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Toni Tornado
+5-2-2022 2:19	termo = Luiz Claudio Entre Nos
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luiz Claudio Entre Nos
+5-2-2022 2:19	Quantidade de páginas encontradas: 1
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luiz Claudio Entre Nos
+5-2-2022 2:19	termo = Meireles Copa
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Meireles Copa
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Meireles Copa
+5-2-2022 2:19	termo = Meirelles Copa
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Meirelles Copa
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Meirelles Copa
+5-2-2022 2:19	termo = Maria Creuza Apolo 11
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Maria Creuza Apolo 11
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Maria Creuza Apolo 11
+5-2-2022 2:19	termo = Erasmo Carlos 1971
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Erasmo Carlos 1971
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Erasmo Carlos 1971
+5-2-2022 2:19	termo = Tom Zé 1968
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tom Zé 1968
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tom Zé 1968
+5-2-2022 2:19	termo = Tom Zé 1970
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tom Zé 1970
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:19	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tom Zé 1970
+5-2-2022 2:19	termo = Tom Zé Olhos
+5-2-2022 2:19	Iniciando a coleta de dados...
+5-2-2022 2:19	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tom Zé Olhos
+5-2-2022 2:19	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tom Zé Olhos
+5-2-2022 2:20	termo = Tom Zé Estudando Samba
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tom Zé Estudando Samba
+5-2-2022 2:20	Quantidade de páginas encontradas: 2
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tom Zé Estudando Samba
+5-2-2022 2:20	termo = Marcos Valle Garra
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marcos Valle Garra
+5-2-2022 2:20	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marcos Valle Garra
+5-2-2022 2:20	termo = Marcos Valle Mustang
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marcos Valle Mustang
+5-2-2022 2:20	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marcos Valle Mustang
+5-2-2022 2:20	termo = Marcos Valle Vento Sul
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marcos Valle Vento Sul
+5-2-2022 2:20	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marcos Valle Vento Sul
+5-2-2022 2:20	termo = Marcos Valle Previsão Tempo
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marcos Valle Previsão Tempo
+5-2-2022 2:20	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marcos Valle Previsão Tempo
+5-2-2022 2:20	termo = Marcos Valle 1970
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marcos Valle 1970
+5-2-2022 2:20	Quantidade de páginas encontradas: 3
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marcos Valle 1970
+5-2-2022 2:20	termo = Matuskela
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Matuskela
+5-2-2022 2:20	Quantidade de páginas encontradas: 1
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Matuskela
+5-2-2022 2:20	termo = Matuskelos
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Matuskelos
+5-2-2022 2:20	Quantidade de páginas encontradas: 1
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Matuskelos
+5-2-2022 2:20	termo = Donato vontade
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Donato vontade
+5-2-2022 2:20	Quantidade de páginas encontradas: 1
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Donato vontade
+5-2-2022 2:20	termo = Tim Maia around
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:20	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tim Maia around
+5-2-2022 2:20	Quantidade de páginas encontradas: 1
+5-2-2022 2:20	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tim Maia around
+5-2-2022 2:20	termo = Tim Maia Racional
+5-2-2022 2:20	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tim Maia Racional
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tim Maia Racional
+5-2-2022 2:21	termo = Renato Teixeira Paisagem
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Renato Teixeira Paisagem
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Renato Teixeira Paisagem
+5-2-2022 2:21	termo = The Jones Juanito
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/The Jones Juanito
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/The Jones Juanito
+5-2-2022 2:21	termo = Tuca Meu Eu
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tuca Meu Eu
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tuca Meu Eu
+5-2-2022 2:21	termo = Tuca Drácula
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tuca Drácula
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tuca Drácula
+5-2-2022 2:21	termo = Georgete da Mocidade
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Georgete da Mocidade
+5-2-2022 2:21	Quantidade de páginas encontradas: 1
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Georgete da Mocidade
+5-2-2022 2:21	termo = Georgette da Mocidade
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Georgette da Mocidade
+5-2-2022 2:21	Quantidade de páginas encontradas: 1
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Georgette da Mocidade
+5-2-2022 2:21	termo = Brazilian Octopus
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Brazilian Octopus
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Brazilian Octopus
+5-2-2022 2:21	termo = Arnoldo Medeiros
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Arnoldo Medeiros
+5-2-2022 2:21	Quantidade de páginas encontradas: 1
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Arnoldo Medeiros
+5-2-2022 2:21	termo = Banda Black Rio
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:21	Pesquisando em: https://lista.mercadolivre.com.br/musica/Banda Black Rio
+5-2-2022 2:21	Quantidade de páginas encontradas: 3
+5-2-2022 2:21	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Banda Black Rio
+5-2-2022 2:21	termo = Lucinha Madana Mohana
+5-2-2022 2:21	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lucinha Madana Mohana
+5-2-2022 2:22	Quantidade de páginas encontradas: 3
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lucinha Madana Mohana
+5-2-2022 2:22	termo = Spassomanguim
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Spassomanguim
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Spassomanguim
+5-2-2022 2:22	termo = Sônia Rosa Bossa
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Sônia Rosa Bossa
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Sônia Rosa Bossa
+5-2-2022 2:22	termo = Verocai 1972
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Verocai 1972
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Verocai 1972
+5-2-2022 2:22	termo = LP Dila
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/LP Dila
+5-2-2022 2:22	Quantidade de páginas encontradas: 3
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/LP Dila
+5-2-2022 2:22	termo = Flora M.P.M
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Flora M.P.M
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Flora M.P.M
+5-2-2022 2:22	termo = Modern Sound Six
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Modern Sound Six
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Modern Sound Six
+5-2-2022 2:22	termo = Leny Andrade Alvoroço
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Leny Andrade Alvoroço
+5-2-2022 2:22	Quantidade de páginas encontradas: 3
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Leny Andrade Alvoroço
+5-2-2022 2:22	termo = Marisa Rossi
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Marisa Rossi
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Marisa Rossi
+5-2-2022 2:22	termo = Gay Vaquer Morning
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Gay Vaquer Morning
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Gay Vaquer Morning
+5-2-2022 2:22	termo = Liverpool Favor Sucesso
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Liverpool Favor Sucesso
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Liverpool Favor Sucesso
+5-2-2022 2:22	termo = Incrivel Manito
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Incrivel Manito
+5-2-2022 2:22	Quantidade de páginas encontradas: 2
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Incrivel Manito
+5-2-2022 2:22	termo = Jarbas Nariz Transas
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Jarbas Nariz Transas
+5-2-2022 2:22	Quantidade de páginas encontradas: 1
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Jarbas Nariz Transas
+5-2-2022 2:22	termo = Bossa Trio Tema
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:22	Pesquisando em: https://lista.mercadolivre.com.br/musica/Bossa Trio Tema
+5-2-2022 2:22	Quantidade de páginas encontradas: 3
+5-2-2022 2:22	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Bossa Trio Tema
+5-2-2022 2:22	termo = Moura Junior Embolabalanço
+5-2-2022 2:22	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Moura Junior Embolabalanço
+5-2-2022 2:23	Quantidade de páginas encontradas: 3
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Moura Junior Embolabalanço
+5-2-2022 2:23	termo = Antônio Adolfo 1972
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Antônio Adolfo 1972
+5-2-2022 2:23	Quantidade de páginas encontradas: 3
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Antônio Adolfo 1972
+5-2-2022 2:23	termo = Paulo Bagunça Tropa Maldita
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Paulo Bagunça Tropa Maldita
+5-2-2022 2:23	Quantidade de páginas encontradas: 1
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Paulo Bagunça Tropa Maldita
+5-2-2022 2:23	termo = Perfume Azul do Sol
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Perfume Azul do Sol
+5-2-2022 2:23	Quantidade de páginas encontradas: 1
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Perfume Azul do Sol
+5-2-2022 2:23	termo = Azimuth 1975
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Azimuth 1975
+5-2-2022 2:23	Quantidade de páginas encontradas: 1
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Azimuth 1975
+5-2-2022 2:23	termo = Mutantes Divina Comedia
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mutantes Divina Comedia
+5-2-2022 2:23	Quantidade de páginas encontradas: 2
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mutantes Divina Comedia
+5-2-2022 2:23	termo = Mutantes Jardim Eletrico
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mutantes Jardim Eletrico
+5-2-2022 2:23	Quantidade de páginas encontradas: 2
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mutantes Jardim Eletrico
+5-2-2022 2:23	termo = Mutantes 1968
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mutantes 1968
+5-2-2022 2:23	Quantidade de páginas encontradas: 2
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mutantes 1968
+5-2-2022 2:23	termo = Paulo Silvino Coco
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Paulo Silvino Coco
+5-2-2022 2:23	Quantidade de páginas encontradas: 2
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Paulo Silvino Coco
+5-2-2022 2:23	termo = Shirley Tuca Trio
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Shirley Tuca Trio
+5-2-2022 2:23	Quantidade de páginas encontradas: 1
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Shirley Tuca Trio
+5-2-2022 2:23	termo = Best Of Friends
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Best Of Friends
+5-2-2022 2:23	Quantidade de páginas encontradas: 3
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Best Of Friends
+5-2-2022 2:23	termo = Krishnanda
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:23	Pesquisando em: https://lista.mercadolivre.com.br/musica/Krishnanda
+5-2-2022 2:23	Quantidade de páginas encontradas: 1
+5-2-2022 2:23	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Krishnanda
+5-2-2022 2:23	termo = Amado Maita
+5-2-2022 2:23	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Amado Maita
+5-2-2022 2:24	Quantidade de páginas encontradas: 3
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Amado Maita
+5-2-2022 2:24	termo = Dom Um 1964
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Dom Um 1964
+5-2-2022 2:24	Quantidade de páginas encontradas: 3
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Dom Um 1964
+5-2-2022 2:24	termo = Clube Esquina Milton
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Clube Esquina Milton
+5-2-2022 2:24	Quantidade de páginas encontradas: 4
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Clube Esquina Milton
+5-2-2022 2:24	termo = Lo Borges 1972
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Lo Borges 1972
+5-2-2022 2:24	Quantidade de páginas encontradas: 4
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Lo Borges 1972
+5-2-2022 2:24	termo = Panteras Carne e Osso
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Panteras Carne e Osso
+5-2-2022 2:24	Quantidade de páginas encontradas: 3
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Panteras Carne e Osso
+5-2-2022 2:24	termo = Priscilla Ermel
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Priscilla Ermel
+5-2-2022 2:24	Quantidade de páginas encontradas: 1
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Priscilla Ermel
+5-2-2022 2:24	termo = Ely Turbinas Ligadas
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ely Turbinas Ligadas
+5-2-2022 2:24	Quantidade de páginas encontradas: 3
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ely Turbinas Ligadas
+5-2-2022 2:24	termo = Rodolfo Caesar
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Rodolfo Caesar
+5-2-2022 2:24	Quantidade de páginas encontradas: 3
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Rodolfo Caesar
+5-2-2022 2:24	termo = Arnaud Murituri
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Arnaud Murituri
+5-2-2022 2:24	Quantidade de páginas encontradas: 1
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Arnaud Murituri
+5-2-2022 2:24	termo = Arnaud Paulinho
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:24	Pesquisando em: https://lista.mercadolivre.com.br/musica/Arnaud Paulinho
+5-2-2022 2:24	Quantidade de páginas encontradas: 1
+5-2-2022 2:24	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Arnaud Paulinho
+5-2-2022 2:24	termo = Arnaud Sound Pyla
+5-2-2022 2:24	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Arnaud Sound Pyla
+5-2-2022 2:25	Quantidade de páginas encontradas: 1
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Arnaud Sound Pyla
+5-2-2022 2:25	termo = Roberto Carlos Diamante Rosa
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Roberto Carlos Diamante Rosa
+5-2-2022 2:25	Quantidade de páginas encontradas: 3
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Roberto Carlos Diamante Rosa
+5-2-2022 2:25	termo = Oriana Maria
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Oriana Maria
+5-2-2022 2:25	Quantidade de páginas encontradas: 1
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Oriana Maria
+5-2-2022 2:25	termo = Orianamaria
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Orianamaria
+5-2-2022 2:25	Quantidade de páginas encontradas: 1
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Orianamaria
+5-2-2022 2:25	termo = Conjunto Baluartes Congo
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Conjunto Baluartes Congo
+5-2-2022 2:25	Quantidade de páginas encontradas: 1
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Conjunto Baluartes Congo
+5-2-2022 2:25	termo = Os da Bahia Fobus
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Os da Bahia Fobus
+5-2-2022 2:25	Quantidade de páginas encontradas: 1
+5-2-2022 2:25	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Os da Bahia Fobus
+5-2-2022 2:25	termo = Orlandivo
+5-2-2022 2:25	Iniciando a coleta de dados...
+5-2-2022 2:25	Pesquisando em: https://lista.mercadolivre.com.br/musica/Orlandivo
+5-2-2022 2:25	Quantidade de páginas encontradas: 42
+5-2-2022 2:26	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Orlandivo
+5-2-2022 2:26	termo = Ronie Central Brasil
+5-2-2022 2:26	Iniciando a coleta de dados...
+5-2-2022 2:26	Pesquisando em: https://lista.mercadolivre.com.br/musica/Ronie Central Brasil
+5-2-2022 2:26	Quantidade de páginas encontradas: 3
+5-2-2022 2:26	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Ronie Central Brasil
+5-2-2022 2:26	termo = Cravo Canela Preço Cada
+5-2-2022 2:26	Iniciando a coleta de dados...
+5-2-2022 2:26	Pesquisando em: https://lista.mercadolivre.com.br/musica/Cravo Canela Preço Cada
+5-2-2022 2:26	Quantidade de páginas encontradas: 4
+5-2-2022 2:26	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Cravo Canela Preço Cada
+5-2-2022 2:26	termo = Sidney Miller Quatro Quartos
+5-2-2022 2:26	Iniciando a coleta de dados...
+5-2-2022 2:26	Pesquisando em: https://lista.mercadolivre.com.br/musica/Sidney Miller Quatro Quartos
+5-2-2022 2:26	Quantidade de páginas encontradas: 1
+5-2-2022 2:26	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Sidney Miller Quatro Quartos
+5-2-2022 2:26	termo = Banda Tropicalista Duprat
+5-2-2022 2:26	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Banda Tropicalista Duprat
+5-2-2022 2:27	Quantidade de páginas encontradas: 2
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Banda Tropicalista Duprat
+5-2-2022 2:27	termo = Pedrinho Sampaio Grito Guerra
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Pedrinho Sampaio Grito Guerra
+5-2-2022 2:27	Quantidade de páginas encontradas: 2
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Pedrinho Sampaio Grito Guerra
+5-2-2022 2:27	termo = Tom Dito Corcovado
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Tom Dito Corcovado
+5-2-2022 2:27	Quantidade de páginas encontradas: 3
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Tom Dito Corcovado
+5-2-2022 2:27	termo = Júnior Mendes Copacabana Sadia
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Júnior Mendes Copacabana Sadia
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Júnior Mendes Copacabana Sadia
+5-2-2022 2:27	termo = Conjunto Barulho de Trem
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Conjunto Barulho de Trem
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Conjunto Barulho de Trem
+5-2-2022 2:27	termo = Dora Lopes Norte
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Dora Lopes Norte
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Dora Lopes Norte
+5-2-2022 2:27	termo = Luli Lucinha Bando
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luli Lucinha Bando
+5-2-2022 2:27	Quantidade de páginas encontradas: 3
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luli Lucinha Bando
+5-2-2022 2:27	termo = Equipe Mercado
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Equipe Mercado
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Equipe Mercado
+5-2-2022 2:27	termo = Aratanha Azul
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Aratanha Azul
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Aratanha Azul
+5-2-2022 2:27	termo = Walter Franco Ou Não
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Walter Franco Ou Não
+5-2-2022 2:27	Quantidade de páginas encontradas: 4
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Walter Franco Ou Não
+5-2-2022 2:27	termo = Hareton Meta
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Hareton Meta
+5-2-2022 2:27	Quantidade de páginas encontradas: 1
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Hareton Meta
+5-2-2022 2:27	termo = Di Melo 1975
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:27	Pesquisando em: https://lista.mercadolivre.com.br/musica/Di Melo 1975
+5-2-2022 2:27	Quantidade de páginas encontradas: 3
+5-2-2022 2:27	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Di Melo 1975
+5-2-2022 2:27	termo = Terço 1970
+5-2-2022 2:27	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Terço 1970
+5-2-2022 2:28	Quantidade de páginas encontradas: 1
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Terço 1970
+5-2-2022 2:28	termo = Luli Baleiro
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Luli Baleiro
+5-2-2022 2:28	Quantidade de páginas encontradas: 3
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Luli Baleiro
+5-2-2022 2:28	termo = Paulo Claudio Mauricio
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Paulo Claudio Mauricio
+5-2-2022 2:28	Quantidade de páginas encontradas: 1
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Paulo Claudio Mauricio
+5-2-2022 2:28	termo = Quarteto Nova Era
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Quarteto Nova Era
+5-2-2022 2:28	Quantidade de páginas encontradas: 3
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Quarteto Nova Era
+5-2-2022 2:28	termo = Colado Meireles
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Colado Meireles
+5-2-2022 2:28	Quantidade de páginas encontradas: 3
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Colado Meireles
+5-2-2022 2:28	termo = Oswaldo Montenegro Trilhas
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Oswaldo Montenegro Trilhas
+5-2-2022 2:28	Quantidade de páginas encontradas: 3
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Oswaldo Montenegro Trilhas
+5-2-2022 2:28	termo = Carlos Pinto
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Carlos Pinto
+5-2-2022 2:28	Quantidade de páginas encontradas: 1
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Carlos Pinto
+5-2-2022 2:28	termo = Dora Walter
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Dora Walter
+5-2-2022 2:28	Quantidade de páginas encontradas: 3
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Dora Walter
+5-2-2022 2:28	termo = Walter Franco Não
+5-2-2022 2:28	Iniciando a coleta de dados...
+5-2-2022 2:28	Pesquisando em: https://lista.mercadolivre.com.br/musica/Walter Franco Não
+5-2-2022 2:28	Quantidade de páginas encontradas: 4
+5-2-2022 2:28	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Walter Franco Não
+5-2-2022 2:29	termo = Requiem Circo Ave Viola
+5-2-2022 2:29	Iniciando a coleta de dados...
+5-2-2022 2:29	Pesquisando em: https://lista.mercadolivre.com.br/musica/Requiem Circo Ave Viola
+5-2-2022 2:29	Quantidade de páginas encontradas: 1
+5-2-2022 2:29	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Requiem Circo Ave Viola
+5-2-2022 2:29	termo = Joyce 1968
+5-2-2022 2:29	Iniciando a coleta de dados...
+5-2-2022 2:29	Pesquisando em: https://lista.mercadolivre.com.br/musica/Joyce 1968
+5-2-2022 2:29	Quantidade de páginas encontradas: 1
+5-2-2022 2:29	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Joyce 1968
+5-2-2022 2:29	termo = Mutantes
+5-2-2022 2:29	Iniciando a coleta de dados...
+5-2-2022 2:29	Pesquisando em: https://lista.mercadolivre.com.br/musica/Mutantes
+5-2-2022 2:29	Quantidade de páginas encontradas: 28
+5-2-2022 2:29	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/Mutantes
+5-2-2022 2:30	termo = celular
+5-2-2022 2:30	Iniciando a coleta de dados...
+5-2-2022 2:30	Pesquisando em: https://lista.mercadolivre.com.br/musica/celular
+5-2-2022 2:30	Quantidade de páginas encontradas: 3
+5-2-2022 2:30	Encerrando a coleta de dados para https://lista.mercadolivre.com.br/musica/celular
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Ton Sergio Cativeiro
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Ton Sergio Cativeiro
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Flaviola
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Moacir santos coisas
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Moacir santos coisas
+5-2-2022 2:30	Nenhum disco novo encontrado para o termo: Moacir santos coisas
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:30	tratarRegistro
+5-2-2022 2:30	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:31	tratarRegistro
+5-2-2022 2:31	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:31	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:31	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Macale Morto
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Matuskelos
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Matuskelos
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Matuskelos
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Matuskelos
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Matuskelos
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Georgette da Mocidade
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Azimuth 1975
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Orianamaria
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Orianamaria
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Orianamaria
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Orianamaria
+5-2-2022 2:32	Nenhum disco novo encontrado para o termo: Orianamaria
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	tratarRegistro
+5-2-2022 2:32	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:33	tratarRegistro
+5-2-2022 2:33	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Quarteto Nova Era
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Quarteto Nova Era
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Quarteto Nova Era
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Quarteto Nova Era
+5-2-2022 2:33	tratarRegistro
+5-2-2022 2:33	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:33	tratarRegistro
+5-2-2022 2:33	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Dora Walter
+5-2-2022 2:33	tratarRegistro
+5-2-2022 2:33	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Requiem Circo Ave Viola
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Requiem Circo Ave Viola
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Requiem Circo Ave Viola
+5-2-2022 2:33	Nenhum disco novo encontrado para o termo: Requiem Circo Ave Viola
+5-2-2022 2:34	tratarRegistro
+5-2-2022 2:34	TypeError: Cannot read properties of undefined (reading 'length')
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Nenhum disco novo encontrado para o termo: celular
+5-2-2022 2:34	Carregando arquivo url
+5-2-2022 2:34	Executando roboCronEmail ...
+5-2-2022 2:34	Carregando arquivo email
+5-2-2022 2:34	Enviando email
+5-2-2022 2:34	
+------------------------------------------------------------------------------------------------------------------- 
+
+
+5-2-2022 2:34	Fim de execução do Robô
+
+5-2-2022 2:34	Erro ao enviar email
+5-2-2022 2:34	Email enviado com sucesso. 

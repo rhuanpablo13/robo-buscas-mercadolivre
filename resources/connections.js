@@ -1,5 +1,6 @@
 //const mysql = require("mysql");
 const mysql = require('mysql-await');
+const log = require('./log');
 
 function getConnection() {
     var con = mysql.createConnection({

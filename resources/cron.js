@@ -13,10 +13,11 @@ async function roboCron () {
     log.print('Executando roboCron ...')
     // cronn.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
     // cronn.scheduleJob('* */1 * * *', async () => { // a cada hora
-    cronn.scheduleJob('*/30 * * * *', async () => { // a cada 1 minuto
+    // cronn.scheduleJob('*/30 * * * *', async () => { // a cada 30 minutos
+    // cronn.scheduleJob('1 * * * *', async () => { // a cada 3 minutos
         await executarRobo()
         log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
-    });
+    // });
 }
 
 async function executarRobo() {
