@@ -8,7 +8,11 @@ async function collectData(url, headless = false, closeBrowser = true) {
     const page = await browser.newPage();
     url = 'https://lista.mercadolivre.com.br/musica/' + url;
     
-    await page.goto(url);
+    await page.goto(url, {
+        waitUntil: 'load',
+        // Remove the timeout
+        timeout: 0
+    });
     let registros = [];
     
     await log.print('Pesquisando em: ' + url)

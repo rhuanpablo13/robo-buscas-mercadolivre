@@ -29,30 +29,41 @@ async function executarRobo() {
         for (const termo of termos) {
             await log.print('termo = ' + termo.descricao)
             let teste = await mypuppeteer.collectData(termo.descricao, true, true)
-            let retorno = {
-                'id_termo': termo.id,
-                'termo': termo.descricao,
-                'data': teste
+            if (teste != null && teste.length > 0) {
+                let disco = {
+                    'id_termo': termo.id,
+                    'termo': termo.descricao,
+                    'data': teste
+                }
+                await resources.tratarRegistro(disco)
+
+                if (await resources.temDadosNoArquivoUrl()) {
+                    await resources.gravarNoArquivoEmail(emailMaker.getInicio())
+                    let urls = await resources.carregarArquivoUrls();
+                    await resources.gravarNoArquivoEmail(urls.data)
+                    await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
+                    await roboEmails()
+                }
             }
-            discos.push(retorno)
+            //discos.push(retorno)
         }
 
         
-        if (discos != null) {                
-            for (const disco of discos) {
-                await resources.tratarRegistro(disco)
-            }
+        // if (discos != null) {                
+        //     for (const disco of discos) {
+        //         await resources.tratarRegistro(disco)
+        //     }
 
-            if (await resources.temDadosNoArquivoUrl()) {
-                await resources.gravarNoArquivoEmail(emailMaker.getInicio())
-                let urls = await resources.carregarArquivoUrls();
-                await resources.gravarNoArquivoEmail(urls.data)
-                await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
-                await roboEmails()
-            }
-        } else {
-            console.log('não achou os discos')
-        }       
+        //     if (await resources.temDadosNoArquivoUrl()) {
+        //         await resources.gravarNoArquivoEmail(emailMaker.getInicio())
+        //         let urls = await resources.carregarArquivoUrls();
+        //         await resources.gravarNoArquivoEmail(urls.data)
+        //         await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
+        //         await roboEmails()
+        //     }
+        // } else {
+        //     console.log('não achou os discos')
+        // }       
 
     } else {
         console.log('não achou os dados')
