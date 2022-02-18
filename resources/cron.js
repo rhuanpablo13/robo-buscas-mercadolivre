@@ -10,13 +10,13 @@ const mypuppeteer = require('./puppeteer');
 const emailMaker = require('./email-maker');
 
 async function roboCron () {
-    log.print('Executando roboCron ...')
+    await log.print('Executando roboCron ...')
     // cronn.scheduleJob('*/59 * * * *', async () => { // a cada 5 minutos
-    cronn.scheduleJob('* */1 * * *', async () => { // a cada hora
+    cronn.scheduleJob('2 * * * *', async () => { // a cada hora
     // cronn.scheduleJob('*/30 * * * *', async () => { // a cada 30 minutos
     // cronn.scheduleJob('1 * * * *', async () => { // a cada 3 minutos
         await executarRobo()
-        log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
+        await log.print(data = "Fim de execução do Robô", time=true, quebraLinha=true);
     });
 }
 
@@ -26,44 +26,45 @@ async function executarRobo() {
     let discos = [];
 
     if (termos != null) {
+        var count = 0
         for (const termo of termos) {
-            await log.print('termo = ' + termo.descricao)
+            await log.print('\ntermo = ' + termo.descricao)
             let teste = await mypuppeteer.collectData(termo.descricao, true, true)
-            if (teste != null && teste.length > 0) {
-                let disco = {
-                    'id_termo': termo.id,
-                    'termo': termo.descricao,
-                    'data': teste
-                }
-                await resources.tratarRegistro(disco)
-
-                if (await resources.temDadosNoArquivoUrl()) {
-                    await resources.gravarNoArquivoEmail(emailMaker.getInicio())
-                    let urls = await resources.carregarArquivoUrls();
-                    await resources.gravarNoArquivoEmail(urls.data)
-                    await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
-                    await roboEmails()
-                }
+            let disco = {
+                'id_termo': termo.id,
+                'termo': termo.descricao,
+                'data': teste
             }
-            //discos.push(retorno)
+            discos.push(disco)
+            
+
+            if (discos.length == 10) {
+                count++
+
+                await log.print('Tratando ' + (count * 10) + ' discos de um total de: ' + termos.length)
+
+                for (const disco of discos) {
+                    await resources.tratarRegistro(disco)
+                }
+    
+                if (await resources.temAmostrasDiscosNoBanco()) {
+                    let contentEmail = emailMaker.getInicio()
+                    contentEmail += await resources.carregarAmostrasDiscosNoBanco()
+                    contentEmail += emailMaker.getFim()                    
+                    await roboEmails(contentEmail)
+                    await resources.apagarNoBancoAmostrasDiscos()
+                    
+                    // await resources.gravarNoArquivoEmail(emailMaker.getInicio())
+                    // let urls = await resources.carregarArquivoUrls();
+                    // await resources.gravarNoArquivoEmail(urls.data)
+                    // await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
+                    // await roboEmails()
+                }
+                discos = [];
+            }
         }
 
         
-        // if (discos != null) {                
-        //     for (const disco of discos) {
-        //         await resources.tratarRegistro(disco)
-        //     }
-
-        //     if (await resources.temDadosNoArquivoUrl()) {
-        //         await resources.gravarNoArquivoEmail(emailMaker.getInicio())
-        //         let urls = await resources.carregarArquivoUrls();
-        //         await resources.gravarNoArquivoEmail(urls.data)
-        //         await resources.gravarNoArquivoNovaUrl(emailMaker.getFim())
-        //         await roboEmails()
-        //     }
-        // } else {
-        //     console.log('não achou os discos')
-        // }       
 
     } else {
         console.log('não achou os dados')
@@ -73,6 +74,36 @@ async function executarRobo() {
     console.log("fim")
 }
 
+
+async function roboEmails2 (emails) {
+    await log.print('Executando roboCronEmail 2 ...')
+    
+    if (emails != null && typeof(emails) !== "undefined") {
+        let emailDest = await resources.buscaEmail();
+        if (emailDest) {
+            try {
+                await servidorEmails.enviarEmail(
+                    "noreply.envioemail@gmail.com", 
+                    // [emailDest, 'rhuanpablo13@hotmail.com'],
+                    ['rhuanpablo13@hotmail.com'],
+                    'Aqui estão novos discos que encontrei pra vc :)',
+                    emails
+                )
+                .then((res, rej) => {
+                    if (res) {}
+                    else log.print('Erro ao enviar email')
+                    resources.apagarNoBancoAmostrasDiscos()
+                });
+            } catch (error) {
+                await log.print(error)
+            }
+        } else {
+            await log.print('Nenhum email cadastrado')    
+        }
+    } else {
+        await log.print('Nenhum disco encontrado para enviar emails')
+    }
+}
 
 async function roboEmails () {
     await log.print('Executando roboCronEmail ...')
@@ -89,7 +120,8 @@ async function roboEmails () {
                   
                     await servidorEmails.enviarEmail(
                         "noreply.envioemail@gmail.com", 
-                        [emailDest, 'rhuanpablo13@hotmail.com'],
+                        // [emailDest, 'rhuanpablo13@hotmail.com'],
+                        ['rhuanpablo13@hotmail.com'],
                         'Aqui estão novos discos que encontrei pra vc :)',
                         content
                     )

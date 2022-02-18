@@ -48,7 +48,7 @@ async function carregarArquivoEmail() {
  * @returns Object
  */
 async function todosTermos() {
-    var sql = "SELECT ID, DESCRICAO FROM TERMO";
+    var sql = "SELECT ID, DESCRICAO FROM TERMO LIMIT 30";
     let results = await con.awaitQuery(sql)
     
     await log.print('Buscando todos os termos cadastrados => Encontrados: ' + results.length)
@@ -87,10 +87,10 @@ async function inserirNovoTermoDeBusca(termo) {
  * @param string codigo 
  * @returns bool
  */
- async function existeCodigo(codigo) {
+ async function existeCodigo(codigo, titulo, preco) {
     let url_produto = URL_PRODUTO + codigo.replace('MLB', 'MLB-')
-    var sql = "SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = ?";
-    let results = await con.awaitQuery(sql, [url_produto])
+    var sql = "SELECT COUNT(URL) AS QTD FROM DISCO WHERE URL = ? AND TITLE = ? AND PRICE = ?";
+    let results = await con.awaitQuery(sql, [url_produto, titulo, preco])
         
     if (results == '' || results[0].QTD == 0)
         return false
@@ -203,6 +203,33 @@ async function temDadosNoArquivoUrl() {
     } catch (err) {return false}
 }
 
+async function temAmostrasDiscosNoBanco() {
+    try {
+        var sql = "SELECT COUNT(*) AS QTD FROM URLS";
+        let results = await con.awaitQuery(sql, [])
+            
+        if (results[0] == '' || results[0].QTD == 0) {
+            return false
+        }
+        return true
+    } catch (err) {return false}
+}
+
+async function carregarAmostrasDiscosNoBanco() {
+    try {
+        var sql = "SELECT AMOSTRA_DISCO FROM URLS";
+        let results = await con.awaitQuery(sql, [])
+            
+        if (results[0] == '' || results[0].AMOSTRA_DISCO == '') {
+            return null
+        }
+        console.log(results)
+        console.log(results[0].AMOSTRA_DISCO)
+
+        return results[0].AMOSTRA_DISCO
+    } catch (err) {return false}
+}
+
 async function gravarNoArquivoEmail(data) {
     fs.appendFile('./email.txt', (data + "\n"), (err) => {
         if (err)  {log.print(err)};
@@ -213,6 +240,16 @@ async function gravarNoArquivoNovaUrl(data) {
     fs.appendFile('./urls.txt', (data + "\n"), (err) => {
         if (err)  {log.print(err)};
     });
+}
+
+async function gravarNoBancoAmostraDisco(amostraDisco) {
+    await con.awaitQuery('INSERT INTO URLS(AMOSTRA_DISCO) VALUES (?)', [amostraDisco])
+    await log.print('Inserindo nova amostra: ' + amostraDisco.length)
+}
+
+async function apagarNoBancoAmostrasDiscos() {
+    await con.awaitQuery('DELETE FROM URLS')
+    await log.print('Deletando registros na tabela URLS ')
 }
 
 function apagarArquivoUrl() {
@@ -234,16 +271,17 @@ async function tratarRegistro(disco) {
     try {
         if (typeof(disco) != "undefined" && typeof(disco.data.length) != "undefined") {
             let data = disco.data[0]
-            for (var i = 0; i < data.length; i++) {
-                let reg = data[i]
-                if (false === await existeCodigo(reg.id)) {
-                    let url = await inserirNovoDisco(reg.id, disco.id_termo, reg.thumb, reg.title, reg.price)
-                    await gravarNoArquivoNovaUrl(
-                        emailMaker.montarAmostraDisco (reg.id, reg.thumb, reg.title, reg.price, url)
-                    );
-                } else {
-                    await log.print("Nenhum disco novo encontrado para o termo: " + disco.termo)
-                }
+            if (typeof(data) != "undefined" && typeof(data.length) != "undefined") {
+                for (const reg of data) {
+                    if (false === await existeCodigo(reg.id, reg.title, reg.price)) {
+                        let url = await inserirNovoDisco(reg.id, disco.id_termo, reg.thumb, reg.title, reg.price)
+                        await gravarNoBancoAmostraDisco(
+                            emailMaker.montarAmostraDisco (reg.id, reg.thumb, reg.title, reg.price, url)
+                        );
+                    } else {
+                        await log.print("Nenhum disco novo encontrado para o termo: " + disco.termo)
+                    }
+                }                
             }
         }
     } catch (error) {
@@ -275,5 +313,8 @@ module.exports = {
     apagarArquivoUrl,
     apagarArquivoEmail,
     temDadosNoArquivoUrl,
-    gravarNoArquivoEmail
+    temAmostrasDiscosNoBanco,
+    gravarNoArquivoEmail,
+    apagarNoBancoAmostrasDiscos,
+    carregarAmostrasDiscosNoBanco
 }

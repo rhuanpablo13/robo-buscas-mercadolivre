@@ -29,11 +29,17 @@ async function collectData(url, headless = false, closeBrowser = true) {
     }
 
     if (pages > 1) {
-        while (await currentNumberPage(page) < pages) {                
-            registros.push(await scrap(page))
-            await next(page);
+        let arrayPages = [pages];
+        for (const p of arrayPages) {
+            if (await currentNumberPage(page) < pages) {
+                registros.push(await scrap(page))
+                await next(page);
+            }
         }
-        //registros.push(await scrap(page))
+        // while (await currentNumberPage(page) < pages) {
+            // registros.push(await scrap(page))
+            // await next(page);
+        // }
     }
     
     await log.print('Encerrando a coleta de dados para ' + url)
